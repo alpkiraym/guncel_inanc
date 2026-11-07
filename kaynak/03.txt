@@ -1,0 +1,37 @@
+# Evrimcilik ve Deizm
+> Türlerin ortak atadan doğal seçilimle değiştiğini iddia eden evrimcilik ve İslâm'daki tekâmül anlayışı; Tanrı'yı kabul edip vahyi reddeden deizm.
+
+## Evrimcilik
+: Evrimcilik = Bütün canlı türlerinin doğal seçilim yoluyla ortak ata sayesinde değişime uğradığını iddia eden akımdır.
+: Doğal seçilim = Canlıların dış yapı farklılıklarından ötürü hayatta kalma şansının ve üreme başarısının değişkenlik göstermesidir.
+: Ortak ata = Evrimsel süreçte, birden fazla canlı türünün ortak genetik öncülü olan ilk canlı, varlık.
+!! Bu ortak ata tesadüfen var olmuştur. Bu yönüyle evrimcilik materyalizmle aynıdır. Çünkü onlara göre de ezelî ve ebedî olan ilk varlık, tesadüfen ortaya çıkmıştır. Böylece her iki akımın tezleri de çürümüş oluyor.
+¶ Evrim teorisi, tüm yaşam türlerinin milyonlarca yılda meydana gelen kademeli değişimler sonucu ortaya çıktığını öne sürer. Buna göre insan, çeşitli aşamalardan geçerek insana dönüşmüştür.
+¶ **Darwin** tarafından 19. yy.'ın ortalarında geliştirilip sistemleştirilmiştir.
+### Kur'ân'a göre yaratılış ve tekâmül
+¶ Kur'ân-ı Kerîm'e göre canlı ve cansız bütün varlıklar, Allah'ın yoktan yaratmasıyla meydana gelmiştir ve Allah her varlığın yapısına mükemmele doğru bir eğilim yerleştirmiştir. Buna İslâm düşünürleri “tekâmül” adını vermişlerdir.
+: Tekâmül = Bir canlının kendi iç bünyesinde kemale doğru ilerlemesini ifade eder.
+¶ Ancak bu tekâmül düşüncesinde, her varlığın kendine özgü bir yaratılış biçimi ve sureti mevcut olup, türler arası geçiş asla söz konusu değildir. Zaten “tekâmül” kelimesi sözlük anlamı itibariyle türler arası geçişi mümkün kılacak bir evrimi asla ifade etmez.
+~ Bir incir çekirdeğinin, incir ağacına dönüşmesi ve bir kromozomun tekâmül ederek belli şartlar dahilinde insana dönüşmesi, birer tekâmül olup, asla evrim değildir.
+| | Evrim | Tekâmül
+| **Başlangıç** | Tesadüfen var olmuş ortak ata | Allah'ın yoktan yaratması
+| **Değişim** | Doğal seçilimle türler arası geçiş | Canlının kendi iç bünyesinde kemale doğru ilerlemesi
+| **Türler arası geçiş** | Var | Asla söz konusu değil
+| **Örnek** | İnsanın çeşitli aşamalardan geçerek insana dönüşmesi | İncir çekirdeğinin incir ağacına dönüşmesi
+!! Bir canlının diğer canlının evrimi sonucu meydana geldiğini iddia edebilmek için bu konuda somut bir misale ihtiyaç vardır. Oysaki yapılan hiçbir araştırmada böyle bir örneğe rastlanmamıştır.
+* Evrimcilik: bütün türler doğal seçilim yoluyla ortak atadan değişime uğramıştır. Darwin 19. yy ortasında sistemleştirdi.
+* Ortak ata tesadüfen var olmuştur; bu yönüyle evrimcilik materyalizmle aynıdır.
+* Tekâmül: canlının kendi iç bünyesinde kemale ilerlemesi (incir çekirdeği → incir ağacı); türler arası geçiş yoktur, evrim değildir.
+* Evrime cevap: türler arası geçişe dair somut bir örneğe hiçbir araştırmada rastlanmamıştır.
+
+## Deizm
+: Deizm = Din, peygamber veya vahiy aracı olmaksızın bireyin akıl, gözlem, sezgi gibi yollarla Tanrı'nın varlığına inanmasına dayalı bir felsefi görüştür.
+¶ Deizm (ilahiyye/ilahçılık), Latince Tanrı anlamındaki "deus" sözcüğünden türetilerek ateizme karşı tanrıcılık anlamında kullanılmıştır.
+¶ Bir başka ifadeyle Allah'ın âlemin mimarı olduğunu, âlemi düzenleyip tanzim ettiğini, ona şekil verdiğini, onu harekete geçirdiğini, fakat artık âleme karışmadığını tasavvur eden bir anlayıştır.
+| | Ateizm | Deizm
+| **Kökü** | "theos" + olumsuzluk eki "a" | Latince "deus"
+| **Tanrı** | İnkâr edilir | Akıl, gözlem, sezgiyle kabul edilir
+| **Din, peygamber, vahiy** | — | Aracı olarak kabul edilmez
+| **Âlemle ilişki** | — | Âlemi yaratıp düzenledi, artık karışmıyor
+* Deizm (ilahiyye / ilahçılık): "deus"tan; din, peygamber ve vahiy olmadan akıl, gözlem ve sezgiyle Tanrı'ya inanmak.
+* Deizme göre Allah âlemin mimarıdır, onu düzenleyip harekete geçirmiştir ama artık âleme karışmaz.

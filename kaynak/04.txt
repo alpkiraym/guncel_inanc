@@ -1,0 +1,43 @@
+# Kötülük Problemi
+> Kötülüğün tanımı ve ateizmin kötülük argümanı; doğal, ahlaki ve metafiziksel kötülük; kelam ekollerinin doğal ve ahlaki kötülüğe bakışı.
+
+## Kötülük ve kötülük problemi
+: Kötülük = İyinin karşıtı olan, beğenilmemeye ve kınanmaya konu olan; hür iradenin reddettiği ve kendisinden kurtulmaya çalıştığı her şeydir.
+¶ Kötülük Problemi, Ateizmin temel argümanlarından biridir. Ateist kötülük ile tanrının varlığı arasında bir çelişki görür.
+>> Ona göre merhametli ve her şeye gücü yeten bir tanrı kötülüğe izin vermez.
+>> Dolayısıyla böyle bir tanrının bulunması hâlinde kötülük olmamalıdır.
+>> Bu varsayımın kaçınılmaz sonucu “kötülük varsa o hâlde Tanrı yoktur” şeklinde olacaktır.
+* Kötülük: iyinin karşıtı; kınanan, hür iradenin reddettiği ve kurtulmaya çalıştığı her şey.
+* Kötülük problemi ateizmin temel argümanıdır: merhametli ve kadir bir tanrı kötülüğe izin vermez → kötülük varsa Tanrı yoktur.
+
+## Kötülüğün kısımları
+¶ Kötülük iki kısımdır:
+: Doğal / fiziksel kötülük = Hastalık yapan bakteriler, depremler, fırtınalar, kasırgalar, kuraklıklar ve benzeri durumlarda insan eylemlerinden bağımsız olarak meydana gelen kötülükler bu gruptan sayılır.
+: Ahlaki kötülük = Acımasızlık, adaletsizlik, aldatma, kıskançlık, savaş, soykırım, yalan, zulüm vb. insan kaynaklı kötülüklerdir.
+¶ Daha sonra **Leibniz**, bunlara **metafiziksel kötülüğü** yani: “Yaratılmış evrenin sonluluğu ve sınırlılığı” kısmını eklemiştir.
+: Metafiziksel kötülük = Yaratılmış evrenin sonluluğu ve sınırlılığı.
+| Kötülük | Kaynağı | Örnekler
+| **Doğal / fiziksel** | İnsan eylemlerinden bağımsız | Bakteriler, depremler, fırtınalar, kasırgalar, kuraklıklar
+| **Ahlaki** | İnsan kaynaklı | Acımasızlık, adaletsizlik, aldatma, kıskançlık, savaş, soykırım, yalan, zulüm
+| **Metafiziksel** (Leibniz ekledi) | Yaratılmış olmak | Evrenin sonluluğu ve sınırlılığı
+* Kötülük iki kısımdır: doğal/fiziksel (insandan bağımsız: deprem, kuraklık) ve ahlaki (insan kaynaklı: zulüm, savaş). Leibniz üçüncü olarak metafiziksel kötülüğü (evrenin sonluluğu ve sınırlılığı) ekledi.
+
+## Kelam ekollerinin görüşleri
+### Doğal kötülük
+¶ **Ehl-i Sünnet** kelamcıları doğal kötülük olgusuna hikmet ve imtihan çerçevesinden bakarlar. Onlara göre Allah isteseydi hiçbir kötülüğün bulunmadığı bir dünya yaratabilirdi. Nitekim Cennet böyle bir yerdir. Ama O hikmeti gereği bu dünyayı bir imtihan alanı kılmış, bunun doğal bir sonucu olarak da orada birtakım kötülüklerin bulunmasına izin vermiştir.
+¶ **Mutezile** ise bunu “salah” kavramıyla açıklarlar. Dolayısıyla bize kötü gibi görünen şeyler -her ne kadar farkında olmasak da- aslında iyidir.
+| | Ehl-i Sünnet | Mutezile
+| **Doğal kötülüğe bakış** | Hikmet ve imtihan | “Salah” kavramı
+| **Açıklama** | Allah kötülüksüz bir dünya (Cennet gibi) yaratabilirdi; dünyayı imtihan alanı kıldı | Bize kötü görünenler, farkında olmasak da aslında iyidir
+### Ahlaki kötülük
+¶ **Mutezile**'ye göre insan, hem iyi ve kötüyü, güzel ve çirkini, doğru ve yanlışı ayırt edebilecek bir temyiz melekesine sahiptir hem de o kendi fiillerinin yaratıcısı, yani doğrudan failidir. Bu yüzden tüm ahlaki kötülüklerin kaynağı, özgürce eyleme yönelen insanın kendisidir.
+¶ **Eşarîlere** göre iyi olsun kötü olsun tüm fiillerin yaratıcısı Allah'tır. Fakat kötü fiiller Allah'ın yaratması yönüyle değil, kulun kesbi nedeniyle kötülük vasfını kazanır. Yani halk-ı şer şer değil, kesb-i şer şerdir.
+¶ **Mâtürîdîlere** göre de iyi olsun kötü olsun tüm fiillerin yaratıcısı Allah'tır. Ancak onlar, Allah'ın fiilleri irade etmesini, sadece onları yaratmayı irade etmesi olarak anlarlar.
+! Her ikisinde de önce insan fiile yönelir, sonra Allah onun yöneldiği bu fiili irade eder ve yaratır.
+| Ekol | Fiillerin yaratıcısı | Ahlaki kötülüğün kaynağı
+| **Mutezile** | İnsan (fiillerinin doğrudan faili) | Özgürce eyleme yönelen insanın kendisi
+| **Eş'arîler** | Allah | Kulun kesbi (halk-ı şer şer değil, kesb-i şer şerdir)
+| **Mâtürîdîler** | Allah | Allah yalnızca yaratmayı irade eder; önce insan fiile yönelir
+* Doğal kötülük: Ehl-i Sünnet → hikmet ve imtihan (Allah kötülüksüz dünya yaratabilirdi, Cennet gibi). Mutezile → "salah": kötü görünen aslında iyidir.
+* Ahlaki kötülük: Mutezile → insan fiillerinin yaratıcısıdır, kötülüğün kaynağı insandır. Eş'arî → yaratan Allah, kötülük kulun kesbinden: "halk-ı şer şer değil, kesb-i şer şerdir."
+* Mâtürîdî → yaratan Allah; Allah'ın iradesi yaratmayı irade etmektir. Eş'arî ve Mâtürîdî'de önce insan fiile yönelir, sonra Allah irade edip yaratır.

@@ -1,0 +1,66 @@
+# Din–Bilim İlişkisi, Yapay Zekâ ve Transhümanizm
+> Din ile bilim çatışır mı, İslâm akıl dini mi, din sınırlıyor mu; yapay zekâ ve insan zekâsı, yapay zekâ ve din; transhümanizmin tanımı, amacı ve değerlendirmesi.
+
+## Din ile bilim çatışır mı?
+¶ Din ve bilim birbirine karşı değildir. Din ile bilim arasında çatışma olmadığı, çatışmanın bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler arasında olduğu ortaya çıkmıştır.
+¶ Hâlbuki her ikisinin de hedefinde hakikat vardır, fakat bu hakikate farklı yöntemlerle ulaşırlar. Ayrıca günümüz modern dünyasında birçok alanda ispatlanmış, din ve bilimin uyuştuğu birçok husus vardır.
+* Din ile bilim çatışmaz; çatışma, bilimden din üretmeye kalkışanlarla dini bilim gibi görenler arasındadır. İkisi de hakikati hedefler, farklı yöntemlerle ulaşır.
+
+## İslâm akıl dini mi?
+¶ Yüce Allah kurduğu sistemi ve yarattığı insanı çok iyi bildiği için peygamberlik görevini sisteme zarar vermeyecek ve insan aklını kısıtlamayacak şekilde belirlemiştir. İnsan dışarıdan bilgi almaya muhtaç olduğu için peygamber insanın bilmediği alanda birtakım bilgiler verir ve bu bilgileri nasıl kullanacağına dair fikir verir. İnsan bunun karşısında aklına müracaat eder ve kendine göre bir fayda-zarar envanteri çıkarır.
+!! Eğer bu envanterleri, peygambersiz, sadece zihinde olan bilgi ile yaparsa kendisini dar ve kısır bir alana hapsetmiş olur. Öyleyse insanın sadece akılla bir yere ulaşması ve bir sonuç elde etmesi mümkün değildir.
+¶ İslâm akla hitap eder ve aklın kavramasını önceler. İslâm'da aklın inkâr edilemez derecede önemi vardır.
+! “İslâm akıl dini” derken aklın ürettiği anlamında değil, aklın kavrayabileceği bir din demektir. Aklı tek yönlü bakışa ve sınırlı bir bilgiye mahkûm eden, aklı devre dışı bırakır.
+* İnsan dışarıdan bilgiye muhtaçtır; peygamber bilmediği alanda bilgi verir, insan aklıyla fayda-zarar envanteri çıkarır. Peygambersiz, yalnız akılla bir sonuca ulaşılamaz.
+* "İslâm akıl dini": aklın ürettiği değil, aklın kavrayabileceği din demektir.
+
+## Din sınırlıyor mu?
+¶ İnsanın hayatında sınırlayan olması gayet tabii ve gereklidir. Sınırsız bir hayatta olacaklar karmaşa ve çatışmadır. Çünkü sınırlar kurallardır, kuralsız bir hayat ve toplum olamaz.
+~ Örneğin trafik kurallarının olmadığını düşünelim, neler olur? Kuralsız hayat kısa, kuralsız toplum kaostur.
+¶ Fakat sınırlar makûl ve hareket alanını yok etmeyecek şekilde olmalı. Din de tam olarak bunu yapıyor: İnsanın ve tabiatın doğallığını koruyan birtakım kurallar getiriyor.
+* Sınırlar kurallardır; kuralsız hayat kısa, kuralsız toplum kaostur (trafik örneği). Din, makûl ve insanın ve tabiatın doğallığını koruyan kurallar getirir.
+
+## Yapay zekâ
+: Yapay zekâ = İnsan zekâsının karakteristik özelliklerini bilgisayara kazandıran algoritmalar geliştiren bir bilim dalıdır.
+### Yapay zekânın insan zekâsıyla karşılaştırılması
+| | İnsan zekâsı | Yapay zekâ
+| **Bilginin sürekliliği** | Bozulabilir (ölümcül) | Sürekli (ölümsüz)
+| **Bilginin transferi** | Zordur | Çok kolaydır
+| **Maliyet** | Pahalı | Ucuz
+| **Bilginin tutarlılığı** | Kararsız ve değişken | Kararlı ve tutarlı
+| **Yeniden kullanılabilirlik** | Dokümante edilmesi zor | Dokümante edilebilir
+| **Karar verme hızı** | Daha yavaş | Daha hızlı
+| **Yaratıcılık** | Bilinmeyeni ortaya çıkaran | İlham alamaz
+| **Kullanılan bilgi kaynağı** | Duyu organları | Sensörler
+| **Odaklanma** | Geniş içerik | Dar içerik
+### Yapay zekâ ve din
+¶ Yapay zekâ din biliminin değişik alanlarında da hizmet verecek sistemlerin geliştirilmesine imkân verecektir. Mesela dinî rehberlik, fetvalar, ayetleri tefsir etmek ve hadisleri anlamak gibi alanlarda kullanılacaktır.
+¶ Yapay zekâ sistemleri çok iyi tasarlanmış çıkarım mekanizmalarını kullanarak sahip oldukları dinî bilgileri kolaylıkla işleyebilirler, o bilgileri kullanarak muhakeme ve yorumlar yapabilirler.
+!! Ancak insanlarda olduğu gibi yapay zekânın da yorumlamalarında Kur'an ve sünnet çizgisinden çıkmaması esastır.
+* Yapay zekâ: insan zekâsının özelliklerini bilgisayara kazandıran algoritmalar geliştiren bilim dalı.
+* İnsan zekâsı: bozulabilir, transferi zor, pahalı, kararsız, yavaş ama yaratıcı; duyu organlarıyla, geniş içerikli. Yapay zekâ: sürekli, kolay transfer, ucuz, tutarlı, hızlı ama ilham alamaz; sensörlerle, dar içerikli.
+* Yapay zekâ dinî rehberlik, fetva, tefsir ve hadiste kullanılacak; yorumlarında Kur'an ve sünnet çizgisinden çıkmaması esastır.
+
+## Transhümanizm
+: Transhümanizm = Modern bilim ve teknolojik araçlar vasıtasıyla insanların evrimin getirdiği mevcut biyolojik durumlarından daha üstün olmalarına yardımcı olan, onların biyolojik, psikolojik ve bilişsel yeteneklerinin geliştirilmesi ve yetkinleştirilmesi amacını güden fikir ve uygulamalara inanan ve bunları hayata geçirmeye çalışan bir insan hareketi.
+### Amacı
+¶ Transhümanist akımın öne çıkan temsilcilerinden olan **Bostrom** ve **David Pearce**, Dünya Transhümanist Derneği'ni kurarken, derneğin amacının şunlar olduğunu açıklarlar:
+- İnsanoğlunun durumunu iyileştirmek,
+- Bilim ve teknoloji ile insanın tüm fiziksel ve zihinsel hastalıklarını ortadan kaldırmak,
+- İstem dışı acı çekmeyi sona erdirmek,
+- Yaşlanmayı gidermek,
+- Yaşam kalitesini arttırarak beden sağlığının en iyi duruma getirilmesini sağlamak,
+- İnsanın ölümsüz bir varlığa dönüştürülmesi veya ölümün zorunlu olmaktan çok isteğe bağlı bir hâle getirilmesini sağlamak.
+¶ Temel dayanakları teknolojidir. Önerilen teknoloji kümelerini, genel olarak nanoteknoloji, biyoteknoloji, bilgi teknolojisi ve bilişsel bilim anlamına gelen **NBIC** gibi harf kombinasyonlarıyla kabul ederler.
+| Harf | Teknoloji
+| **N** | Nanoteknoloji
+| **B** | Biyoteknoloji
+| **I** | Bilgi teknolojisi
+| **C** | Bilişsel bilim
+### Değerlendirme
+¶ Transhümanizm her ne kadar bir din olduğu iddiasında olsa da bunun bir karşılığı olmadığını görmekteyiz.
+!! Transhümanizmin kendine biçtiği rolde aslında tanrılık vardır. Çünkü yeni bir yaratmadan bahsetmektedir ve insana ölümsüzlük vaat etmektedir. Bu vesile ile Allah'ın yarattığı düzene müdahale etmek istemektedir.
+¶ Temel felsefesi ve hedeflerini göz önüne alarak düşündüğümüzde İslâm'ın temel prensiplerine aykırılıklar görmekteyiz. Sonuç olarak bu projede insanlığa faydalı bazı şeyler var gibi görünüyor olsa da insanlık için çok tehlikeli ve İslâm'ın temel ilkelerine de aykırıdır.
+* Transhümanizm: bilim ve teknolojiyle insanı mevcut biyolojik durumundan üstün kılmayı, yeteneklerini yetkinleştirmeyi amaçlayan hareket.
+* Dünya Transhümanist Derneği: Bostrom ve David Pearce. Amaç: hastalıkları kaldırmak, yaşlanmayı gidermek, ölümsüzlük ya da isteğe bağlı ölüm. Dayanak NBIC: nano, bio, bilgi, bilişsel.
+* Transhümanizmde tanrılık iddiası vardır (yeni yaratma, ölümsüzlük vaadi, Allah'ın düzenine müdahale); İslâm'ın temel ilkelerine aykırı ve insanlık için tehlikelidir.

@@ -1,0 +1,61 @@
+# Ateizm, Materyalizm ve Pozitivizm
+> Tanrı'yı inkâr eden ateizm ve çeşitleri; her şeyi maddeye indirgeyen materyalizm; bilgiyi deney ve tecrübeyle sınırlayan pozitivizm ve Comte'un 3 hal yasası.
+
+## Ateizm
+: Ateizm = Yunancada “Tanrı” anlamına gelen “theos” kelimesinin başına olumsuzluk eki olan “a” getirilerek oluşturulmuş bir terkip olup “Tanrı inancı olmayan veya herhangi bir tanrıya inanmayı reddeden kişi, tanrıtanımaz.” anlamına gelir.
+¶ Hristiyanlığın ve özellikle kilisenin bilime ve bilim adamına yönelik ortaya koyduğu baskıcı tutuma karşı tepkisel bir hareket olarak ortaya çıkmıştır. Kökeni antik çağa dayanır.
+### Ateizmin çeşitleri
+: Mutlak ateizm = İnsanda doğuştan Tanrı fikrinin olmadığını savunmaktır.
+!! Halbuki her insanın varlığının derinliklerinde bir yerde Tanrı fikri saklıdır. Mutlu ve sağlıklı günlerinde Tanrı'yı inkâr eden bir ateistin, dara düştüğünde Tanrı'ya sığınması bunun bir delilidir.
+: Teorik ateizm = Tanrı'nın varlığının bilinçli bir şekilde reddedilmesidir.
+¶ Ateizm denilince akla gelen türü de budur. Burada Tanrı'nın varlığının düşünerek, tartışarak, deliller üreterek inkâr edilmesi söz konusudur.
+: Pratik / fiilî ateizm = Teoride Tanrı'yı kabul etmediği gibi pratikte de Tanrı'yı hayatına sokmamaktır.
+: İlgisizlerin ateizmi = Tanrı'nın varlığı tartışmalarına ilgisiz kalmaktır.
+| Çeşit | Özü
+| **1. Mutlak ateizm** | İnsanda doğuştan Tanrı fikri yoktur.
+| **2. Teorik ateizm** | Tanrı'nın varlığı bilinçli olarak, düşünerek ve delil üreterek reddedilir.
+| **3. Pratik / fiilî ateizm** | Teoride de pratikte de Tanrı hayata sokulmaz.
+| **4. İlgisizlerin ateizmi** | Tanrı'nın varlığı tartışmalarına ilgisiz kalınır.
+* Ateizm: "theos" (Tanrı) + olumsuzluk eki "a" → tanrıtanımaz. Kilisenin bilime baskısına tepki olarak doğdu; kökeni antik çağa dayanır.
+* Ateizmin 4 çeşidi: mutlak, teorik (asıl akla gelen), pratik/fiilî, ilgisizlerin ateizmi.
+* Mutlak ateizme cevap: dara düşen ateistin Tanrı'ya sığınması, Tanrı fikrinin doğuştan olduğunun delilidir.
+
+## Materyalizm
+: Materyalizm = Maddeyi ezelî ve ebedî kabul edip var olan her şeyin maddeden ibaret olduğunu ileri süren ve doğa ötesi bir alanı (metafizik) kabul etmeyen; Allah'ı, âhiret gününü ve diğer inanç esaslarından pek çoğunu reddeden eğilimlerin genel adıdır.
+¶ Kökeni antik çağa dayanır.
+¶ Evrendeki düzen fikrini reddeden bu anlayış, tabiatta olup bitenleri tesadüflerle, kâinattaki değişimi ise evrim ile açıklayarak sonraları ortaya çıkacak evrimci anlayışlara ilham kaynağı olmuştur. Başlangıçtaki ilk ve yaratılmamış maddeyi, büyük patlama (big bang) ile izah etseler de bu patlamaya neyin yol açtığı sorusunu cevaplamakta bir hayli zorlanmışlardır.
+! Maddenin temel yapıtaşı olarak atom/cevherin merkeze alınması anlayışı İslâm düşünürlerinde de mevcutsa da buradaki cevher yaratılmamış ve değişmeyen bir asıl değil, aksine maddenin tamamı gibi değişken ve dolayısıyla yaratılmıştır.
+| | Materyalizm | İslâm düşünürleri
+| **Atom / cevher** | Yaratılmamış, ezelî ve değişmeyen asıl | Maddenin tamamı gibi değişken, dolayısıyla yaratılmış
+!! Materyalizmde ezelî bir maddenin varlığı -ki bu tesadüfidir- ve her çeşit canlı faaliyetin kaynağı olduğu tezi hiçbir bilimsel araştırma tarafından doğrulanabilmiş değildir. Tam tersine bilim dünyasının ortaya atıp tartıştığı büyük patlama, genişleyen evren görüşleri ve termodinamiğin yasaları, âlemin yaratılmış olduğu tezini destekler mahiyettedir. Çünkü eğer madde, büyük patlama sonucu ortaya çıktı ve ondan önce mevcut değil ise, bu durumda onun ezelî olabilmesi de mümkün değildir.
+* Materyalizm: madde ezelî ve ebedîdir, her şey maddeden ibarettir, metafizik yoktur. Düzeni tesadüfle, değişimi evrimle açıklar; evrimci anlayışlara ilham verdi.
+* Materyalizme cevap: büyük patlama, genişleyen evren ve termodinamik yasaları âlemin yaratıldığını destekler; madde patlamayla ortaya çıktıysa ezelî olamaz.
+* İslâm düşünürlerindeki cevher yaratılmış ve değişkendir.
+
+## Pozitivizm
+: Pozitivizm = Bilginin kaynağını yalnızca deney ve tecrübe ile sınırlayan, metafiziksel bilgiyi kabul etmeyen felsefî akımdır.
+! Bize göre bilginin kaynağı akıl, his ve haber-i sadıktır.
+¶ Bu terimi ilk kullanan **Saint Simon**, sistematik hâle getiren ise **August Comte**'tur. Olgu ve deneye dayanan pozitif felsefeyi, insanın ulaşabileceği son merhale olarak gören Comte, bunu 3 hal yasasıyla açıklar:
+### Comte'un 3 hal yasası
+>> **Mitolojik / Teolojik:** Bu aşamada insan bütün olguların doğaüstü güçlerin bir sonucu olduğunu düşünür. Bu aşamada insanlık çocukluk dönemindedir. Dünyanın 1300 yılına kadar olan dönemine hâkimdir.
+>> **Metafizik:** Bu aşamada insan olguların nedeninin doğa gibi soyut güçler olduğuna inanır. Bu aşamada insanlık gençlik/ergenlik dönemindedir. Dünyanın 1300-1800 yıllarını kapsar.
+>> **Pozitif / Bilimsel:** Bu aşamada olgular, deney ve tecrübeye dayandırılır. Bu aşamada insanlık olgunluk dönemindedir. Dünya 1800'den itibaren bu aşamaya girmiştir.
+~ Bu aşamaları şöyle örneklendirebiliriz: 1. Aşama: Yağmuru tanrı yağdırdı, 2. Aşama: Doğa yağdırdı, 3. Aşama: Su, buhar, bulut vs...
+| Aşama | Olguların nedeni | İnsanlığın dönemi | Tarih | Yağmur örneği
+| **1. Mitolojik / Teolojik** | Doğaüstü güçler | Çocukluk | 1300'e kadar | Tanrı yağdırdı
+| **2. Metafizik** | Doğa gibi soyut güçler | Gençlik / ergenlik | 1300-1800 | Doğa yağdırdı
+| **3. Pozitif / Bilimsel** | Deney ve tecrübe | Olgunluk | 1800'den itibaren | Su, buhar, bulut
+¶ İnsanlık bu 3. aşamaya ulaştığında artık dinlerin çağı kapanacak, Mitolojinin yerini Bilim / Vahyin yerini Akıl / Mucizenin yerini ilmî keşif / Mabedin yerini Üniversite alacaktır.
+| Pozitivizme göre kapanacak olan | Yerini alacak olan
+| **Mitoloji** | Bilim
+| **Vahiy** | Akıl
+| **Mucize** | İlmî keşif
+| **Mabed** | Üniversite
+### Pozitivizmin eleştirisi
+!! Günümüzde bilim ve teknoloji zirve yapmasına rağmen dinlerin varlığını sürdürdüğü reddedilemez bir gerçektir.
+!! Ayrıca bu düşüncenin bilgi tanımı efradını câmi değildir. Çünkü varlığından emin olduğumuz ancak tecrübe ile doğrulayamadığımız "akıl" gibi olgular vardır.
+!! Aynı şekilde bu düşünceye göre din ve bilim iki zıttır ve bir arada bulunamaz. Oysaki din ve bilim birbirine karşı değildir. Her ikisinin de hedefinde hakikat vardır, fakat bu hakikate farklı yöntemlerle ulaşırlar. Bunun yanında din ve bilimin uyuştuğu birçok husus vardır.
+* Pozitivizm: bilginin kaynağı yalnızca deney ve tecrübedir; metafizik bilgi yoktur. Bize göre bilginin kaynağı akıl, his ve haber-i sadıktır.
+* Terimi ilk kullanan Saint Simon; sistematik hâle getiren August Comte.
+* 3 hal yasası: mitolojik/teolojik (çocukluk, 1300'e kadar) → metafizik (gençlik, 1300-1800) → pozitif/bilimsel (olgunluk, 1800'den sonra).
+* Pozitivizme cevap: dinler bilim çağında da sürüyor; tanım efradını câmi değil (akıl tecrübeyle doğrulanamaz); din ve bilim zıt değil, ikisi de hakikati hedefler.

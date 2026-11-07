@@ -1,0 +1,20 @@
+# Kişi eşleştirme listesi (eşleştirme oyunu, "kimdir?" soruları ve sözlüğün Kişiler sekmesi).
+# Biçim: <ünite no> | <bölüm başlığı (ünite dosyasındaki ## başlıkla aynı)> | <ifade: "… kimdir?" diye sorulacak> | <kişi>
+# İfadelerde virgül kullanılmaz. Bütün bilgiler ünite metinlerinden alınmıştır.
+1 | Pozitivizm | Pozitivizm terimini ilk kullanan | Saint Simon
+1 | Pozitivizm | Pozitivizmi sistematik hâle getiren ve 3 hal yasasını ortaya koyan | August Comte
+2 | Septisizm | Septisizmin ilk temsilcileri | Pyrrhon ve Protagoras
+2 | Agnostisizm | Agnostisizm terimini ilk defa kullanan İngiliz filozof | Huxley
+2 | Nihilizm | Nihilizm kavramını ilk defa 19. yy başlarında kullanan | Friedrich Jacobi
+2 | Nihilizm | Nihilist karakter Bazarov'la nihilizmi popüler hâle getiren Rus yazar | Ivan Turgenev
+2 | Nihilizm | Nihilizmi mantık çerçevesine oturtup yerine “üstün insan”ı getiren | Nietzsche
+3 | Evrimcilik | Evrimciliği 19. yy ortasında geliştirip sistemleştiren | Darwin
+4 | Kötülüğün kısımları | Kötülüğe metafiziksel kötülüğü ekleyen | Leibniz
+6 | Mezheplerin görüşleri | Ehl-i fetretin âhirette imtihana tâbi tutulacağını söyleyen | İbn Teymiyye
+6 | Mezheplerin görüşleri | Ehl-i fetretin ehl-i necât (cennetlik) olduğunu söyleyen | Eş'arî
+6 | Mezheplerin görüşleri | Ehl-i fetret aklıyla tek yaratıcıyı bulursa cennetlik olur diyen | Mâtürîdî
+6 | Mezheplerin görüşleri | Ehl-i fetretin kul hakları ödendikten sonra toprak olacağını söyleyen | İmam Rabbânî
+6 | Gazzâlî'ye göre davetini duymayanlar | Peygamber'in davetini duymayanları üç sınıfta inceleyen | Gazzâlî
+8 | Yoga | Yoganın babası olarak zikredilen | Patanjali
+8 | Reiki, aura-çakra uygulamaları ve şifacılık | Reiki'yi 19. yüzyılda ortaya çıkaran Japon Budist | Dr. Mikao Usui
+10 | Transhümanizm | Dünya Transhümanist Derneği'ni kuran transhümanist temsilciler | Bostrom ve David Pearce

@@ -1,0 +1,688 @@
+# El ile hazırlanmış sorular. Biçim:
+# ? <ünite no> | soru
+# + doğru cevap
+# - çeldirici (3 adet)
+# = açıklama
+# Bütün bilgiler ünite metinlerinden (01–10.txt) alınmıştır.
+
+# ---------- 1. ünite ----------
+? 1 | Ateizm kelimesi hangi kelimenin başına olumsuzluk eki "a" getirilerek oluşturulmuştur?
++ theos
+- deus
+- gnostos
+- nihil
+= Ateizm, Yunancada "Tanrı" anlamına gelen "theos" kelimesinin başına olumsuzluk eki "a" getirilerek oluşturulmuştur. "Deus" deizmin, "gnostos" agnostisizmin, "nihil" nihilizmin köküdür.
+
+? 1 | Ateizm hangi tutuma karşı tepkisel bir hareket olarak ortaya çıkmıştır?
++ Kilisenin bilime ve bilim adamına yönelik baskıcı tutumuna
+- Pozitivizmin metafiziği reddetmesine
+- Satanist grupların Hristiyanlığa tepkisine
+- Reform hareketinin mezhepçiliğine
+= Ateizm, Hristiyanlığın ve özellikle kilisenin bilime ve bilim adamına yönelik baskıcı tutumuna karşı tepkisel bir hareket olarak ortaya çıkmıştır; kökeni antik çağa dayanır.
+
+? 1 | "Ateizm denilince akla gelen tür" olarak nitelenen ve Tanrı'nın varlığının düşünerek, tartışarak, deliller üreterek inkâr edildiği ateizm çeşidi hangisidir?
++ Teorik ateizm
+- Mutlak ateizm
+- Pratik / fiilî ateizm
+- İlgisizlerin ateizmi
+= Teorik ateizm, Tanrı'nın varlığının bilinçli bir şekilde reddedilmesidir; ateizm denilince akla gelen türü budur.
+
+? 1 | "Mutlu ve sağlıklı günlerinde Tanrı'yı inkâr eden bir ateistin dara düştüğünde Tanrı'ya sığınması" hangi ateizm çeşidine karşı delil olarak gösterilir?
++ Mutlak ateizm
+- Teorik ateizm
+- Pratik ateizm
+- İlgisizlerin ateizmi
+= Mutlak ateizm insanda doğuştan Tanrı fikrinin olmadığını savunur. Halbuki her insanın derinliklerinde Tanrı fikri saklıdır; dara düşen ateistin Tanrı'ya sığınması bunun delilidir.
+
+? 1 | Materyalizme göre aşağıdakilerden hangisi doğrudur?
++ Madde ezelî ve ebedîdir, var olan her şey maddeden ibarettir.
+- Madde yaratılmıştır ama âleme Tanrı karışmaz.
+- Tanrı'nın varlığı da yokluğu da bilinemez.
+- Bilginin kaynağı akıl, his ve haber-i sadıktır.
+= Materyalizm maddeyi ezelî ve ebedî kabul eder, her şeyin maddeden ibaret olduğunu ileri sürer ve metafiziği kabul etmez.
+
+? 1 | Materyalistlerin büyük patlama (big bang) konusunda cevaplamakta zorlandıkları soru hangisidir?
++ Bu patlamaya neyin yol açtığı
+- Patlamanın ne zaman olduğu
+- Evrenin genişleyip genişlemediği
+- Termodinamik yasalarının geçerliliği
+= Başlangıçtaki ilk ve yaratılmamış maddeyi büyük patlama ile izah etseler de bu patlamaya neyin yol açtığı sorusunu cevaplamakta bir hayli zorlanmışlardır.
+
+? 1 | İslâm düşünürlerindeki atom/cevher anlayışını materyalizmdekinden ayıran özellik nedir?
++ Cevherin değişken ve dolayısıyla yaratılmış olması
+- Cevherin ezelî ve değişmeyen bir asıl olması
+- Cevherin maddenin temel yapıtaşı sayılmaması
+- Cevherin tesadüfen ortaya çıkması
+= Atom/cevherin merkeze alınması İslâm düşünürlerinde de vardır; ancak buradaki cevher yaratılmamış ve değişmeyen bir asıl değil, maddenin tamamı gibi değişken ve dolayısıyla yaratılmıştır.
+
+? 1 | Pozitivizm terimini ilk kullanan ve onu sistematik hâle getiren kişiler sırasıyla kimlerdir?
++ Saint Simon – August Comte
+- August Comte – Saint Simon
+- Huxley – Saint Simon
+- Friedrich Jacobi – Nietzsche
+= Pozitivizm terimini ilk kullanan Saint Simon, sistematik hâle getiren ise August Comte'tur.
+
+? 1 | Comte'un 3 hal yasasına göre insanlığın gençlik/ergenlik dönemine denk gelen ve 1300-1800 yıllarını kapsayan aşama hangisidir?
++ Metafizik aşama
+- Mitolojik / teolojik aşama
+- Pozitif / bilimsel aşama
+- Olgunluk aşaması
+= Metafizik aşamada insan olguların nedeninin doğa gibi soyut güçler olduğuna inanır; insanlık gençlik/ergenlik dönemindedir; 1300-1800 yıllarını kapsar.
+
+? 1 | "Yağmuru doğa yağdırdı" ifadesi Comte'un hangi aşamasına örnektir?
++ Metafizik
+- Mitolojik / teolojik
+- Pozitif / bilimsel
+- Olgusal
+= 1. aşama: yağmuru tanrı yağdırdı; 2. (metafizik) aşama: doğa yağdırdı; 3. aşama: su, buhar, bulut.
+
+? 1 | Pozitivizme göre insanlık 3. aşamaya ulaştığında "vahyin" yerini ne alacaktır?
++ Akıl
+- Bilim
+- İlmî keşif
+- Üniversite
+= Pozitivizme göre mitolojinin yerini bilim, vahyin yerini akıl, mucizenin yerini ilmî keşif, mabedin yerini üniversite alacaktır.
+
+? 1 | Pozitivizmin bilgi tanımının "efradını câmi olmadığını" göstermek için verilen örnek hangisidir?
++ Varlığından emin olduğumuz hâlde tecrübe ile doğrulayamadığımız akıl
+- Bilim çağında dinlerin varlığını sürdürmesi
+- Din ile bilimin uyuştuğu hususlar
+- Büyük patlamanın sebebinin bilinmemesi
+= Varlığından emin olduğumuz ancak tecrübe ile doğrulayamadığımız "akıl" gibi olgular vardır; bu yüzden pozitivizmin bilgi tanımı efradını câmi değildir.
+
+# ---------- 2. ünite ----------
+? 2 | Septisizm hangi anlama gelir?
++ Kuşkuculuk
+- Bilinemezcilik
+- Hiççilik
+- Tanrıcılık
+= Septisizm "kuşkuculuk" anlamına gelir; agnostisizm "bilinemezci", nihilizm "hiççilik", deizm "tanrıcılık" anlamındadır.
+
+? 2 | Septikler Tanrı'yı açıkça inkâr etmedikleri hâlde niçin ateist olarak görülebilirler?
++ Kuşkudan kurtulamadıkları ve imanın netlik ve berraklığına erişemedikleri için
+- Kiliseye tepki olarak ortaya çıktıkları için
+- Maddeyi ezelî kabul ettikleri için
+- Şeytanı özgürlüğün sembolü saydıkları için
+= Septikler kendilerini kuşku durumundan kurtaramadıkları ve imanın netlik ve berraklığına erişemedikleri için ateist olarak görülebilirler.
+
+? 2 | Septisizmin hangi yönü "belli oranda olumlu" görülebilir?
++ İnce bir araştırma ve tahkike yol açması
+- Bütün bilgi kaynaklarından şüphe etmesi
+- Kuşkuyu sürekli kılması
+- Eşyanın hakikatini inkâr etmesi
+= Septisizm tahkike yol açması noktasında belli oranda olumlu görülebilir; fakat kuşkuyu sürekli ve köklü hâle getirmesi gerçekle bağdaşmaz.
+
+? 2 | İslâm kelamcılarına göre eşyanın hakikatinin ve bilgisinin inkârı neye yol açar?
++ Bütün yargı ve işlerimizden vazgeçmeye, dolayısıyla hayatın devamlılığını riske sokmaya
+- Daha derin bir araştırma ve tahkike
+- İmanın netlik ve berraklığına
+- Bilimin dinden ayrılmasına
+= Eşyanın hakikatinin ve bilgisinin inkârı bizi bütün yargılarımızdan ve işlerimizden vazgeçmeye götürür; bu, insan hayatının devamlılığını riske sokar.
+
+? 2 | Şeytanı gerçek bir varlık olarak değil, özgürlük ve bireysel gelişimin sembolü olarak gören satanist grup hangisidir?
++ Modern (LaVeyan) Satanistler
+- Geleneksel Satanistler
+- Eski Avrupa'daki marjinal gruplar
+- Kara büyü uygulayıcıları
+= Modern Satanistler (LaVeyan Satanizm) şeytanı özgürlük ve bireysel gelişimin sembolü olarak görür; bireycilik, ateizm, doğacılık ve hazzın kabulü prensiplerini benimser.
+
+? 2 | LaVeyan Satanizm sisteminde yer aldığı belirtilen unsurlar hangisidir?
++ 9 İlke ve 9 Günah
+- 7 İlke ve 7 Günah
+- 3 Hal Yasası
+- 9 Büyük Öğreti
+= Modern Satanizmin içinde 9 İlke ve 9 Günah yer alır.
+
+? 2 | Agnostisizm terimini ilk defa kullanan kimdir?
++ İngiliz filozof Huxley
+- August Comte
+- Friedrich Jacobi
+- Protagoras
+= Agnostisizm ("bilinemezci") ilk defa İngiliz filozof Huxley tarafından kendi öğretisini isimlendirmek için kullanılmıştır.
+
+? 2 | Agnostiklere göre aşağıdakilerden hangisi doğrudur?
++ Ne Tanrı'nın varlığını ne de yokluğunu bilmek mümkündür.
+- Tanrı vardır ama âleme karışmaz.
+- Tanrı'nın yokluğu bilimsel olarak kanıtlanmıştır.
+- Tanrı fikri insanda doğuştan yoktur.
+= Agnostiklere göre Tanrı ve metafizik dünya bilginin sınırları içinde değildir; bu yüzden Tanrı'nın ne varlığını ne de yokluğunu bilmek mümkündür.
+
+? 2 | İslâm düşünce tarihinde indiyye, inâdiyye ve lâ edriyye gibi akımların toplandığı genel başlık hangisidir?
++ Sûfestâiyye
+- Sümeniyye
+- Berâhime
+- Huddâmcılık
+= Agnostik türden akımlara indiyye, inâdiyye ve lâ edriyye denmiştir; bunların tamamı sûfestâiyye başlığı altında toplanır. Sümeniyye ve Berâhime uzak doğudaki akımlardır.
+
+? 2 | Nihilizm kavramını popüler hâle getiren roman karakteri ve yazarı hangisidir?
++ Bazarov – Ivan Turgenev
+- Zerdüşt – Nietzsche
+- Bazarov – Friedrich Jacobi
+- Üstün insan – Ivan Turgenev
+= Rus yazar Ivan Turgenev, romanında (1862) nihilist karakter Bazarov'u kullanmasıyla kavramı popüler hâle getirmiştir.
+
+? 2 | Pek çok dinî ve ahlaki değeri yok sayıp yerine "üstün insan"ı getiren düşünür kimdir?
++ Nietzsche
+- Friedrich Jacobi
+- Ivan Turgenev
+- Huxley
+= Nihilizmi anlaşılır ve belirli bir mantık çerçevesine oturtulabilir hâle getirmeye çalışan Nietzsche, dinî ve ahlaki değerleri yok sayıp yerine "üstün insan"ı getirmiştir.
+
+# ---------- 3. ünite ----------
+? 3 | Evrimcilik hangi yönüyle materyalizmle aynı kabul edilmiştir?
++ İlk varlığın tesadüfen ortaya çıktığını kabul etmesi
+- Tanrı'nın âleme karışmadığını söylemesi
+- Bilginin kaynağını deneyle sınırlaması
+- Türler arası geçişi reddetmesi
+= Evrimcilikteki ortak ata tesadüfen var olmuştur; materyalizme göre de ezelî ve ebedî ilk varlık tesadüfen ortaya çıkmıştır. Bu yönüyle iki akım aynıdır.
+
+? 3 | "Canlıların dış yapı farklılıklarından ötürü hayatta kalma şansının ve üreme başarısının değişkenlik göstermesi" neyin tanımıdır?
++ Doğal seçilim
+- Ortak ata
+- Tekâmül
+- Kademeli değişim
+= Bu ifade doğal seçilimin tanımıdır.
+
+? 3 | Evrim teorisini 19. yüzyılın ortalarında geliştirip sistemleştiren kimdir?
++ Darwin
+- Leibniz
+- Huxley
+- August Comte
+= Evrimcilik Darwin tarafından 19. yy.'ın ortalarında geliştirilip sistemleştirilmiştir.
+
+? 3 | İslâm düşünürlerinin "tekâmül" kavramı için aşağıdakilerden hangisi doğrudur?
++ Canlının kendi iç bünyesinde kemale ilerlemesidir; türler arası geçiş söz konusu değildir.
+- Türlerin doğal seçilimle birbirine dönüşmesidir.
+- Ortak atadan milyonlarca yılda kademeli değişimdir.
+- Maddenin tesadüfen canlılığa geçmesidir.
+= Tekâmül, bir canlının kendi iç bünyesinde kemale doğru ilerlemesidir; her varlığın kendine özgü yaratılış biçimi vardır ve türler arası geçiş asla söz konusu değildir.
+
+? 3 | Aşağıdakilerden hangisi tekâmüle örnek olarak verilmiştir?
++ İncir çekirdeğinin incir ağacına dönüşmesi
+- Bir türün başka bir türe dönüşmesi
+- İnsanın çeşitli aşamalardan geçerek insana dönüşmesi
+- Ortak atanın farklı türlere ayrılması
+= Bir incir çekirdeğinin incir ağacına dönüşmesi ve bir kromozomun belli şartlarda insana dönüşmesi tekâmüldür, asla evrim değildir.
+
+? 3 | Evrim iddiasına karşı "somut misal" itirazı neyi ifade eder?
++ Bir canlının diğerinin evrimiyle meydana geldiğine dair hiçbir araştırmada örneğe rastlanmamış olmasını
+- Fosillerin tarihlendirilemediğini
+- Doğal seçilimin hiç gözlenmediğini
+- Büyük patlamanın sebebinin bilinmediğini
+= Bir canlının diğer canlının evrimi sonucu meydana geldiğini iddia edebilmek için somut bir misal gerekir; yapılan hiçbir araştırmada böyle bir örneğe rastlanmamıştır.
+
+? 3 | Deizmin Türkçe karşılıkları hangileridir?
++ İlahiyye / ilahçılık
+- Lâ edriyye / bilinemezcilik
+- Tenâsüh / ruh göçü
+- Sûfestâiyye / kuşkuculuk
+= Deizm (ilahiyye/ilahçılık) Latince "deus"tan türetilmiş, ateizme karşı tanrıcılık anlamında kullanılmıştır.
+
+? 3 | Deizme göre aşağıdakilerden hangisi doğrudur?
++ Allah âlemi yaratıp düzenlemiş, harekete geçirmiş, fakat artık âleme karışmamaktadır.
+- Tanrı'nın varlığı da yokluğu da bilinemez.
+- Tanrı fikri insanda doğuştan yoktur.
+- Tanrı'ya ancak vahiy ve peygamber aracılığıyla inanılır.
+= Deizm, Allah'ın âlemin mimarı olduğunu, onu düzenleyip harekete geçirdiğini, fakat artık âleme karışmadığını tasavvur eder; Tanrı'ya din, peygamber veya vahiy aracı olmaksızın inanılır.
+
+? 3 | Deiste göre Tanrı'nın varlığına hangi yollarla inanılır?
++ Akıl, gözlem ve sezgi
+- Vahiy ve peygamber
+- Deney ve tecrübe
+- Keşif ve ilham
+= Deizm din, peygamber veya vahiy aracı olmaksızın bireyin akıl, gözlem, sezgi gibi yollarla Tanrı'nın varlığına inanmasına dayanır.
+
+# ---------- 4. ünite ----------
+? 4 | Kötülük problemi hangi akımın temel argümanlarından biridir?
++ Ateizm
+- Deizm
+- Pozitivizm
+- Septisizm
+= Kötülük problemi ateizmin temel argümanlarından biridir: kötülük varsa merhametli ve her şeye gücü yeten Tanrı yoktur.
+
+? 4 | Depremler, kuraklıklar ve hastalık yapan bakteriler hangi kötülük türüne girer?
++ Doğal / fiziksel kötülük
+- Ahlaki kötülük
+- Metafiziksel kötülük
+- İradî kötülük
+= İnsan eylemlerinden bağımsız olarak meydana gelen deprem, fırtına, kuraklık, bakteri gibi kötülükler doğal/fiziksel kötülüktür.
+
+? 4 | Leibniz'in eklediği metafiziksel kötülük neyi ifade eder?
++ Yaratılmış evrenin sonluluğu ve sınırlılığı
+- İnsan kaynaklı zulüm ve haksızlıklar
+- İnsandan bağımsız doğal felaketler
+- Kulun kesbiyle kazanılan kötülük
+= Leibniz doğal ve ahlaki kötülüğe "yaratılmış evrenin sonluluğu ve sınırlılığı" olan metafiziksel kötülüğü eklemiştir.
+
+? 4 | Ehl-i Sünnet kelamcıları doğal kötülüğe hangi çerçeveden bakarlar?
++ Hikmet ve imtihan
+- Salah
+- Kesb
+- Tesadüf ve zorunluluk
+= Ehl-i Sünnet'e göre Allah kötülüksüz bir dünya yaratabilirdi (Cennet gibi); ama hikmeti gereği dünyayı imtihan alanı kılmıştır.
+
+? 4 | Mutezile doğal kötülüğü hangi kavramla açıklar?
++ Salah
+- Kesb
+- Tekâmül
+- Fetret
+= Mutezile doğal kötülüğü "salah" kavramıyla açıklar: bize kötü görünen şeyler, farkında olmasak da aslında iyidir.
+
+? 4 | "Halk-ı şer şer değil, kesb-i şer şerdir" ilkesi hangi ekole aittir?
++ Eş'arîler
+- Mutezile
+- Mâtürîdîler
+- Selefiyye
+= Eş'arîlere göre bütün fiillerin yaratıcısı Allah'tır; kötü fiiller Allah'ın yaratması yönüyle değil, kulun kesbi nedeniyle kötülük vasfını kazanır.
+
+? 4 | Ahlaki kötülükte insanı kendi fiillerinin yaratıcısı (doğrudan faili) kabul eden ekol hangisidir?
++ Mutezile
+- Eş'arîler
+- Mâtürîdîler
+- Ehl-i Sünnet
+= Mutezile'ye göre insan temyiz melekesine sahiptir ve kendi fiillerinin yaratıcısıdır; ahlaki kötülüklerin kaynağı özgürce eyleme yönelen insanın kendisidir.
+
+? 4 | Mâtürîdîler Allah'ın fiilleri irade etmesini nasıl anlarlar?
++ Sadece onları yaratmayı irade etmesi olarak
+- Onlara rıza göstermesi olarak
+- Onları emretmesi olarak
+- Onlara kulun kesbini eklemesi olarak
+= Mâtürîdîlere göre de bütün fiillerin yaratıcısı Allah'tır; ancak Allah'ın fiilleri irade etmesi, sadece onları yaratmayı irade etmesidir.
+
+? 4 | Eş'arî ve Mâtürîdî anlayışında fiilin oluşum sırası nasıldır?
++ Önce insan fiile yönelir, sonra Allah o fiili irade eder ve yaratır.
+- Önce Allah fiili yaratır, sonra insan ona yönelir.
+- İnsan fiili yaratır, Allah ona izin verir.
+- Allah fiili irade eder, insan onu kendi gücüyle yaratır.
+= Her iki ekolde de önce insan fiile yönelir, sonra Allah onun yöneldiği bu fiili irade eder ve yaratır.
+
+# ---------- 5. ünite ----------
+? 5 | İnsanları intihara sürükleyen sebeplerin başında hangisi gelmektedir?
++ Depresyon / bunalım
+- Başarısızlık
+- Ekonomik sıkıntı
+- Kader inancı
+= İntihara sürükleyen sebeplerin başında depresyon/bunalım gelir; sosyal tecritten boşanma travmalarına kadar pek çok vaka bunalıma götüren süreçte yer alır.
+
+? 5 | Aşağıdakilerden hangisi "intiharı önlemede dinin rolü" başlığında sayılmamıştır?
++ İntihar edenin eceliyle ölmediğinin bildirilmesi
+- Hayatın kutsal ve intiharın büyük günah olması
+- Sıkıntıların günahlara kefaret ve ahirette karşılıklı olması
+- Kader inancının yaşama sevinci ve huzur vermesi
+= Dinin rolü dört maddede sayılır: hayatın kutsallığı, imtihan inancıyla Allah'a güven, sıkıntıların kefaret ve karşılığı, kader inancı. Eceliyle ölmediğini söylemek Mutezile'nin görüşüdür.
+
+? 5 | Ehl-i sünnete göre intihar eden kişi eceliyle mi ölmüştür?
++ Evet; ölen herkes kendi eceliyle ölür, ölüm şekli bunu değiştirmez.
+- Hayır; kendini öldürmeseydi ölmeyecekti.
+- Hayır; eceli intiharla öne alınmıştır.
+- Bu konuda görüş bildirmemişlerdir.
+= Ehl-i sünnet âlimlerine göre ölen herkes kendi eceliyle ölmüştür. Mutezile'ye göre ise intihar eden eceliyle ölmemiştir.
+
+? 5 | "Kendini öldürmeseydi ölmeyecekti" diyerek intihar edenin eceliyle ölmediğini savunan ekol hangisidir?
++ Mutezile
+- Eş'arîler
+- Mâtürîdîler
+- Ehl-i sünnet
+= Mutezile'ye göre intihar eden eceliyle ölmemiştir; kendini öldürmeseydi ölmeyecekti.
+
+? 5 | Hastanın hayatta kalmasını sağlayan müdahalelerin yapılmaması ötanazinin hangi türüdür?
++ Pasif ötanazi
+- Aktif ötanazi
+- Gönüllü ötanazi
+- Dolaylı ötanazi
+= Aktif ötanazi hastaya ölümcül doz enjekte edilmesi, pasif ötanazi ise hayatta kalmasını sağlayan müdahalelerin yapılmamasıdır.
+
+? 5 | Ötanazi hastanın rızasıyla yapılırsa hükmü nedir?
++ İntihar
+- Cinayet
+- Caiz
+- Mekruh
+= Ötanazi her iki türüyle de caiz değildir: hastanın rızasıyla olursa intihar, aksi hâlde cinayet olur.
+
+? 5 | İntihar kaderde varsa intihar eden niçin günahkâr olur?
++ Allah'ın yasakladığı bir biçimde kendi ölümüne yol açtığı, yani kendi tercihi için
+- Kaderindeki ölüm fiilini icra ettiği için
+- Ecelini değiştirdiği için
+- Kader inancını inkâr ettiği için
+= İntihar eden, kaderindeki ölüm fiilini icra ettiği için değil, Allah'ın yasakladığı bir biçimde kendi ölümüne yol açtığı için sorumludur; kul kendi tercihi nedeniyle günahkârdır.
+
+? 5 | İntihar saldırıları değerlendirilirken esas alınan ilke hangisidir?
++ Meşru bir hedefe ulaştıran yolların da meşru olması gerekir.
+- Hedef meşruysa her yol mubahtır.
+- Savaşta sivil-asker ayrımı yapılmaz.
+- Vatan savunmasında can feda etmek her şekilde övülür.
+= Mal, can, namus ve vatanı korumak meşrudur; ancak meşru hedefe ulaştıran yolların da meşru olması gerekir. Sivil-asker ayırmadan bomba patlatmak Müslüman şahsiyetine yakışmaz.
+
+# ---------- 6. ünite ----------
+? 6 | Fetret kavramı özellikle hangi zaman aralığı için kullanılır?
++ Hz. İsa ile Hz. Muhammed arası
+- Hz. Musa ile Hz. İsa arası
+- Hz. Âdem ile Hz. Nuh arası
+- Hz. Muhammed'den kıyamete kadar
+= Fetret özellikle Hz. İsa ile Hz. Muhammed arasında geçen zaman için kullanılır; ancak Hz. Muhammed'den sonra bu durumda olanları da kapsar.
+
+? 6 | "Ehl-i fetret ahirette imtihana tâbi tutulur, neticesine göre gidecekleri yer belli olur" görüşü kime aittir?
++ İbn Teymiyye
+- Eş'arî
+- Mâtürîdî
+- İmam Rabbânî
+= Bu görüş İbn Teymiyye'ye aittir.
+
+? 6 | Ehl-i fetretin ehl-i necât (cennetlik) olduğunu söyleyen kimdir?
++ Eş'arî
+- Mâtürîdî
+- İbn Teymiyye
+- İmam Rabbânî
+= Eş'arî'ye göre fetret ehli ehl-i necâttır, yani cennetliktir.
+
+? 6 | "Akıllarını kullanıp tek olan yaratıcıyı bulurlarsa cennetlik, aksi hâlde cehennemliktir" görüşü kime aittir?
++ Mâtürîdî
+- Eş'arî
+- Gazzâlî
+- İbn Teymiyye
+= Mâtürîdî'ye göre fetret ehli aklını kullanıp tek yaratıcıyı bulursa cennetlik, bulmazsa cehennemliktir.
+
+? 6 | İmam Rabbânî'ye göre ehl-i fetretin âkıbeti nedir?
++ Ne cennete ne cehenneme giderler; kul hakları ödendikten sonra toprak olurlar.
+- Ahirette imtihan edilirler.
+- Kesin olarak cennetliktirler.
+- Akıllarıyla Allah'ı bulamazlarsa cehennemliktirler.
+= İmam Rabbânî'ye göre ehl-i fetret ne cennete ne cehenneme gider; kul hakları ödendikten sonra toprak olurlar.
+
+? 6 | Gazzâlî'nin sınıflandırmasında kesin olarak azaba uğratılacak olanlar kimlerdir?
++ Peygamber'in davetini, mucizelerini ve güzel ahlâkını duyduğu hâlde iman etmeyenler
+- Peygamber'in davetini hiç duymayanlar
+- Yalnızca ismini ve aleyhindeki menfî propagandayı duyanlar
+- Fetret döneminde yaşayanlar
+= Gazzâlî'ye göre davetini, mucizelerini ve güzel ahlâkını duyup iman etmeyen sınıf kesin olarak azaba uğratılacaktır.
+
+? 6 | Gazzâlî, Peygamber'in yalnızca ismini ve aleyhindeki menfî propagandayı duyanlar hakkında ne der?
++ Ehl-i necat olacaklarını umarım.
+- Kesin olarak cennetliktirler.
+- Kesin olarak azaba uğratılacaklardır.
+- Ahirette imtihan edileceklerdir.
+= Gazzâlî üçüncü sınıf için "Bunların da ehl-i necat olacaklarını, yani Cennete gireceklerini umarım" der.
+
+# ---------- 7. ünite ----------
+? 7 | Ruh çağırma Osmanlı literatüründe hangi isimle anılmıştır?
++ Huddâmcılık
+- İlmü'l-azâim
+- Tayy-i mekân
+- Tenâsüh
+= İslâm dünyasında "ilmü istihzâri'l-ervâh" ve "ilmü'l-azâim" tabirleriyle dile getirilen ruh çağırma, Osmanlı literatüründe huddâmcılık olarak isimlendirilmiştir.
+
+? 7 | Ruh çağırma hakkında aşağıdakilerden hangisi doğrudur?
++ Ölen insanların ruhlarıyla temas kurulduğuna veya çağrıldığına dair bir rivayet yoktur.
+- Peygamberlerin ölülerin ruhlarıyla temas kurduğu rivayet edilmiştir.
+- Kâhinlerin ölülerin ruhlarını çağırdığı Kur'an'da bildirilmiştir.
+- Ruh çağırma tasavvufta keramet sayılmıştır.
+= Peygamberlerin meleklerle, bazı kâhinlerin cinlerle teması olduğundan söz edilse de ölen insanların ruhlarıyla temas kurulduğuna veya çağrıldığına ilişkin bir rivayet yoktur.
+
+? 7 | Tayy-i zaman ve tayy-i mekân için aşağıdakilerden hangisi doğrudur?
++ Allah'ın sevgili kullarına bahşettiği bir keramettir ve hem ruhen hem bedenen gerçekleşir.
+- Ruhun uykuda bedenden ayrılarak yolculuk etmesidir.
+- Teosofik/okültist bir inançtır.
+- Astral seyahatin tasavvuftaki adıdır.
+= Tayy-i zaman ve tayy-i mekân, Allah'ın sevgili kullarına bir anda uzun mesafeler kat ettirmesi kerametidir; hem ruhen hem bedenen gerçekleşir ve astral seyahatle ilgisi yoktur.
+
+? 7 | Tayy-i zaman ve tayy-i mekânın Kur'an'daki dinî mesnedi olarak hangi örnekler verilmiştir?
++ Ashâb-ı Kehf ve Hz. Süleyman'ın yanındaki kişi
+- Hz. Musa ve Hızır
+- Hz. Yunus ve balık
+- Hz. İbrahim ve ateş
+= Kur'an'da bu kavramlara dinî mesnet bulmak mümkündür: Ashâb-ı Kehf ve Hz. Süleyman'ın yanındaki kişi.
+
+? 7 | Telepati gibi önsezilere mutlak olarak güvenilmemesinin sebebi nedir?
++ Bu ilham meleklerden olabileceği gibi şeytanın telkinlerinden de kaynaklanabilir.
+- Kur'an'da telepati yasaklanmıştır.
+- Telepati yalnızca kâhinlerde görülür.
+- Telepati bilimsel olarak ispatlanmamıştır.
+= İnsandaki önsezi meleklerden de şeytanın telkinlerinden de kaynaklanabilir; her zaman doğru olacağının garantisi yoktur.
+
+? 7 | Hz. Peygamber'e (s.a.v.) özgü "resûlü's-sakaleyn" unvanı ne anlama gelir?
++ Cinlerin ve insanların peygamberi
+- İki âlemin efendisi
+- Son peygamber
+- Meleklerin ve insanların elçisi
+= Hz. Peygamber hem insanların hem cinlerin peygamberi olduğu için kendisine "resûlü's-sakaleyn" unvanı verilmiştir; bu ona özgüdür.
+
+? 7 | Ehl-i sünnete göre cinler görülebilir mi?
++ Evet; görülebilmenin yegâne şartı var olmaktır.
+- Hayır; latif varlıklar hiçbir şekilde görülemez.
+- Yalnızca peygamberler görebilir.
+- Yalnızca rüyada görülebilir.
+= Ehl-i sünnete göre görülebilmenin yegâne şartı "vücut" (var olmak)tır; cinler de var olduğuna göre görülebilmeleri mümkündür.
+
+? 7 | Cinlerin varlığı hangi delillerle sabittir?
++ Kur'an, Sünnet ve İcmâ
+- Yalnızca Kur'an
+- Kıyas ve akıl
+- Keşif ve ilham
+= Cinlerin varlığı Kur'an, Sünnet ve İcmâ ile sabittir; hiçbir Müslüman'ın cinlerin varlığını inkâr etmesi câiz olmaz.
+
+? 7 | Cinleri hizmetinde çalıştırdığı rivayet edilen tek peygamber kimdir?
++ Hz. Süleyman
+- Hz. Davud
+- Hz. Musa
+- Hz. Muhammed (s.a.v.)
+= Hz. Süleyman dışında diğer peygamberlerin cinleri hizmetinde çalıştırdığına dair bir rivayet yoktur.
+
+? 7 | Reenkarnasyon inancının kabulü niçin âhiret inancının inkârı anlamına gelir?
++ Mükâfat ve ceza bedenden bedene geçişte gerçekleştiği için âhirete gerek kalmaz.
+- Ruhun yaratılmadığını kabul ettiği için
+- Cinlerin varlığını reddettiği için
+- Hint dinlerinden geldiği için
+= Reenkarnasyonda süreç bedende başlar ve başka bir bedende biter; mükâfat ve ceza için bir âhirete gerek kalmaz.
+
+# ---------- 8. ünite ----------
+? 8 | Okültizm genel olarak ne anlama gelir?
++ Gizli saklı olanın bilgisi
+- Ruhun bedenden ayrılması
+- Gök cisimlerinin bilgisi
+- Enerji aktarımıyla şifa
+= Okültizm genel olarak "gizli saklı olanın bilgisi" anlamındadır.
+
+? 8 | Hadislerde fala inanıp hayatını ona göre şekillendirenler için ne vurgulanmıştır?
++ Hz. Peygamber'i inkâr etmiş sayılacakları ve namazlarının kabul edilmeyeceği
+- Fal bakmanın mekruh olduğu
+- Falın bazen doğru çıkabileceği
+- Kahve falının caiz olduğu
+= Fal vb. uygulamalara inanıp hayatını ona göre şekillendirenlerin Hz. Peygamber'i inkâr etmiş sayılacakları ve namazlarının kabul edilmeyeceği hadislerde vurgulanmıştır.
+
+? 8 | Kâhin ile medyum arasındaki fark hangisidir?
++ Kâhin gelecekten, medyum ise ölülerin ruhlarını kaynak göstererek geçmişten haber verir.
+- Kâhin geçmişten, medyum gelecekten haber verir.
+- Kâhin yıldızlara, medyum kahve telvesine bakar.
+- İkisi arasında fark yoktur.
+= Kâhin gaybı bildiğini iddia edip gelecekten haber verir; medyum ise ölülerin ruhlarını kaynak göstererek geçmişten haber verir. Günümüzde kâhinlerin yerini medyumlar almıştır.
+
+? 8 | Astroloji hangi fal türü olarak adlandırılır?
++ Yıldız falı
+- Kahve falı
+- Kâğıt falı
+- El falı
+= Astroloji fal türlerinden birisidir ve falın bu çeşidine "yıldız falı" denir; burç takibi de bir çeşit faldır ve yasaklanmıştır.
+
+? 8 | Sihir ve büyü kavramları arasındaki ilişki nasıldır?
++ Sihir büyüden daha genel bir kavramdır; büyü bir sihir türüdür.
+- Büyü sihirden daha genel bir kavramdır.
+- İkisi tamamen farklı şeylerdir.
+- Sihir helal, büyü haramdır.
+= Türkçede aynı anlamda kullanılsalar da aslında büyü bir sihir türüdür; dolayısıyla sihir büyüden daha geneldir.
+
+? 8 | Kelam âlimlerinin çoğunluğunun sihir hakkındaki görüşü nedir?
++ Yasaklanmış olsa da bir gerçekliği ve insanlar üzerinde etkisi olabilir.
+- Hiçbir gerçekliği yoktur, sadece göz boyamadır.
+- Gerçekliği vardır ve caizdir.
+- Yalnızca cinlerin yardımıyla yapılırsa gerçektir.
+= Kelam âlimlerinin çoğu sihrin yasak olmakla birlikte bir gerçekliği ve etkisi olabileceğini kabul eder; bazıları ise onu göz boyama, yalan ve hileden ibaret görür.
+
+? 8 | Yoganın babası olarak zikredilen kişi ve yoganın doğum yeri hangisidir?
++ Patanjali – Hindistan
+- Mikao Usui – Japonya
+- Patanjali – Tibet
+- Mikao Usui – Hindistan
+= Yoganın doğum yeri Hindistan, babası olarak Patanjali zikredilir; Hinduizm'in altı büyük öğretisinden biridir.
+
+? 8 | "Yoga" kelimesinin türediği Sanskrit kök hangisidir?
++ Yuj
+- Rei
+- Ki
+- Nihil
+= Yoga, "kontrol etmek", "boyunduruk altına almak" veya "birleştirmek" anlamına gelen Sanskrit "yuj" kelimesinden türemiştir.
+
+? 8 | Reiki kelimesindeki "Ki" ne anlama gelir?
++ Ruhsal yaşam enerjisi
+- Her yerde var olan
+- Enerji merkezi
+- Kurtuluş yolu
+= Rei "her yerde var olan", Ki "ruhsal yaşam enerjisi" anlamına gelir.
+
+? 8 | Reiki'yi 19. yüzyılda ortaya çıkaran kişi kimdir?
++ Japon Budist Dr. Mikao Usui
+- Patanjali
+- Huxley
+- Tibetli bir lama
+= Kaynağının Tibet olduğu sanılan Reiki, 19. yüzyılda Japon Budist Dr. Mikao Usui tarafından ortaya çıkarılmıştır.
+
+? 8 | Bedendeki 7 önemli enerji merkezine ne ad verilir?
++ Çakra
+- Aura
+- Reiki
+- Yogi
+= İnsan vücudunda enerjiye açık çakralar (bedendeki 7 önemli enerji merkezi) olduğuna inanılır; aura ise etraftaki enerji alanıdır.
+
+# ---------- 9. ünite ----------
+? 9 | Aşağıdakilerden hangisi küreselleşen dünyada İslâm'ın insanlığa sunacağı katkılar arasında sayılmamıştır?
++ Bilimin dinden üstün tutulması
+- İslâm'ın evrenselliği
+- Kâinattaki bütün varlıkların emanet olması
+- Mahlûkata şefkatle muamele
+= Sayılan katkılar: evrensellik, Allah'ın tüm kullara rızık vermesi, varlıkların emanet olması, her işte adalet ve mahlûkata şefkattir.
+
+? 9 | Deprem gibi doğal afetlerde insanın sorumlu tutulacağı nokta nedir?
++ Tedbir
+- Günah
+- Dua
+- Kader
+= Deprem insanı aşan ve sorumluluk gerektirmeyen bir olaydır; insanın sorumlu olduğu nokta tedbirdir. Tedbire rağmen musibet olursa sorumluluk kalkar, imtihan devreye girer.
+
+? 9 | Musibetleri günahların karşılığı sayan görüşün Kur'an'daki dayanağı nedir?
++ Günah işleyen kavimlerin bazı felaketlerle helak edilmesi
+- Allah'ın tüm kullara rızık vermesi
+- Ashâb-ı Kehf kıssası
+- Nâs suresi
+= Bu görüşün dayanağı Kur'an'da günah işleyen kavimlerin felaketlerle helak edilmesidir; ancak her musibeti Allah'ın cezası saymak Kur'an'ın mesajıyla tam bağdaşmaz.
+
+? 9 | Musibetlerin karşılığında ahirette sevap ve mükâfat verilmesini Allah için "vacip" gören ekol hangisidir?
++ Mutezile
+- Ehl-i Sünnet
+- Eş'arîler
+- Mâtürîdîler
+= Mutezile, musibetlerin karşılığında ahirette sevap ve mükâfat verilmesini vacip görür; Ehl-i Sünnet'e göre bu Allah için vacip değil, caizdir.
+
+? 9 | Ehl-i Sünnet kelamcılarına göre musibetlerdeki ilahi hikmetler arasında hangisi sayılmaz?
++ Allah'ın musibetin karşılığını vermek zorunda olması
+- Sabır karşılığında günahların affedilmesi
+- Manevi derecelerin yükselmesi
+- Nefsin temizlenip ahlakın olgunlaşması
+= Ehl-i Sünnet'e göre hikmetler günahların affı, derecelerin yükselmesi ve ahlakın olgunlaşmasıdır; bunlar Allah için vacip değil caizdir.
+
+? 9 | Kur'an'ın tebliğ ve davet metodu nedir?
++ Yumuşaklık, iyi öğüt ve güzel söz
+- Cebir ve zorlama
+- Tekfir ve dışlama
+- Yalnızca kılıçla cihad
+= İslâm'ın davet metodu yumuşaklık, iyi öğüt ve güzel sözdür; dinin asıl doğasında cebir ve şiddete yer yoktur.
+
+? 9 | Neoselefilik hangi akımın haricîliğe evrilmiş şekliyle özdeşleştirilmiştir?
++ Vahhabilik
+- Mutezile
+- Eş'arîlik
+- Satanizm
+= Neoselefilik daha çok Vahhabiliğin haricîliğe evrilmiş şekliyle özdeşleşen; mezhepleri reddeden, tekfirci ve şiddeti tecviz eden bir akımdır.
+
+? 9 | Diyanet'in afetler karşısındaki hizmetlerinden biri hangisidir?
++ Her konuda tedbirli olmanın dinin emri olduğunu bildirmek
+- Her afetin Allah'ın cezası olduğunu ilan etmek
+- Afetzedelere fetva vermemek
+- Afetleri yalnızca günahlarla açıklamak
+= Diyanet hizmetlerinden biri, doğal afetleri de içerecek biçimde her konuda tedbirli olmanın dinin emri olduğunu bildirmektir.
+
+# ---------- 10. ünite ----------
+? 10 | Din ile bilim arasındaki çatışmanın asıl tarafları kimlerdir?
++ Bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler
+- Kelamcılar ile filozoflar
+- Pozitivistler ile materyalistler
+- Din ile bilimin kendisi
+= Din ile bilim arasında çatışma yoktur; çatışma bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler arasındadır.
+
+? 10 | "İslâm akıl dinidir" ifadesi ne anlama gelir?
++ Aklın kavrayabileceği bir din
+- Aklın ürettiği bir din
+- Vahye ihtiyaç duymayan bir din
+- Yalnızca akılla ulaşılan bir din
+= "İslâm akıl dini" derken aklın ürettiği değil, aklın kavrayabileceği bir din kastedilir.
+
+? 10 | Peygambersiz, yalnız zihindeki bilgiyle fayda-zarar envanteri çıkaran insan için ne söylenmiştir?
++ Kendisini dar ve kısır bir alana hapsetmiş olur.
+- Hakikate daha hızlı ulaşır.
+- Dinin sınırlarından kurtulur.
+- Aklını tam olarak kullanmış olur.
+= Bu envanteri peygambersiz yapan kişi kendisini dar ve kısır bir alana hapseder; insanın sadece akılla bir sonuca ulaşması mümkün değildir.
+
+? 10 | "Din sınırlıyor mu?" sorusuna verilen cevapta kullanılan örnek hangisidir?
++ Trafik kuralları
+- Satranç kuralları
+- Futbol kuralları
+- Okul kuralları
+= Trafik kurallarının olmadığı düşünülürse kuralsız hayatın kısa, kuralsız toplumun kaos olacağı görülür; din de makûl sınırlar getirir.
+
+? 10 | İnsan zekâsı ile yapay zekâ karşılaştırmasında "yaratıcılık" satırına göre yapay zekâ için ne denmiştir?
++ İlham alamaz
+- Bilinmeyeni ortaya çıkarır
+- Daha yaratıcıdır
+- Dokümente edilebilir
+= Yaratıcılıkta insan zekâsı bilinmeyeni ortaya çıkarır; yapay zekâ ise ilham alamaz.
+
+? 10 | Karşılaştırma tablosuna göre aşağıdakilerden hangisi insan zekâsının özelliğidir?
++ Bilgisi bozulabilir (ölümcül), transferi zordur.
+- Bilgisi sürekli (ölümsüz), transferi kolaydır.
+- Ucuz ve daha hızlıdır.
+- Sensörleri kullanır ve dar içeriğe odaklanır.
+= İnsan zekâsında bilgi bozulabilir ve transferi zordur; yapay zekâda bilgi süreklidir ve transferi çok kolaydır.
+
+? 10 | Karşılaştırma tablosuna göre insan zekâsı ile yapay zekânın kullandığı bilgi kaynakları sırasıyla nelerdir?
++ Duyu organları – sensörler
+- Sensörler – duyu organları
+- Akıl – algoritmalar
+- Vahiy – veri tabanları
+= İnsan zekâsı duyu organlarını, yapay zekâ sensörleri kullanır.
+
+? 10 | Yapay zekânın dinî alanlarda kullanımında esas olan şart nedir?
++ Yorumlamalarında Kur'an ve sünnet çizgisinden çıkmaması
+- Fetva vermemesi
+- Yalnızca tefsirde kullanılması
+- İnsan denetimi olmadan çalışması
+= Yapay zekâ dinî rehberlik, fetva, tefsir ve hadis alanlarında kullanılacaktır; insanlarda olduğu gibi yorumlarında Kur'an ve sünnet çizgisinden çıkmaması esastır.
+
+? 10 | Dünya Transhümanist Derneği'ni kuran temsilciler kimlerdir?
++ Bostrom ve David Pearce
+- Darwin ve Huxley
+- Saint Simon ve Comte
+- Jacobi ve Nietzsche
+= Transhümanist akımın öne çıkan temsilcileri Bostrom ve David Pearce Dünya Transhümanist Derneği'ni kurmuştur.
+
+? 10 | Transhümanizmin dayandığı NBIC teknoloji kümesindeki "C" harfi neyi ifade eder?
++ Bilişsel bilim
+- Bilgi teknolojisi
+- Biyoteknoloji
+- Nanoteknoloji
+= NBIC: nanoteknoloji, biyoteknoloji, bilgi teknolojisi ve bilişsel bilim.
+
+? 10 | Transhümanizmin kendine biçtiği rolde "tanrılık" bulunduğunun gerekçesi nedir?
++ Yeni bir yaratmadan bahsetmesi ve insana ölümsüzlük vaat etmesi
+- Kendini bir din olarak ilan etmemesi
+- Hastalıkları tedavi etmeyi amaçlaması
+- Yapay zekâyı reddetmesi
+= Transhümanizm yeni bir yaratmadan bahseder ve insana ölümsüzlük vaat eder; böylece Allah'ın yarattığı düzene müdahale etmek ister.

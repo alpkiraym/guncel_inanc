@@ -1,0 +1,32 @@
+# Fetret Ehli
+> Fetret kavramı ve fetret ehli; ehl-i fetretin âhiretteki durumuna dair dört görüş; Gazzâlî'ye göre Peygamber'in davetini duymayanların üç sınıfı.
+
+## Fetret kavramı ve fetret ehli
+: Fetret = Geçerli herhangi bir dinî öğretinin veya davetin kendisine ulaşmadığı kimselerdir.
+¶ Özellikle Hz. İsa ve Hz. Muhammed arasında geçen zaman için kullanılır. Ancak Hz. Muhammed'den sonra bu durumda olan kimseleri de kapsamaktadır.
+* Fetret ehli: geçerli bir dinî öğreti veya davetin ulaşmadığı kimseler. Özellikle Hz. İsa ile Hz. Muhammed arası; Hz. Muhammed'den sonra bu durumda olanları da kapsar.
+
+## Mezheplerin görüşleri
+¶ Ehl-i fetretin durumu ile alakalı ulema genel olarak 4 görüşe gitmiştir:
+1. Ahirette imtihana tâbi tutulup neticesine göre gidecekleri yer belli olacaktır. (**İbn Teymiyye**)
+2. Onlar ehl-i necâttır (cennetliktir). (**Eş'arî**)
+3. Akıllarını kullanıp tek olan yaratıcıyı bulurlarsa cennetlik, aksi hâlde cehennemliktir. (**Mâtürîdî**)
+4. Ne cehenneme ne de cennete gideceklerdir. Kul hakları ödendikten sonra toprak olacaklardır. (**İmam Rabbânî**)
+| Görüş sahibi | Ehl-i fetretin durumu
+| **İbn Teymiyye** | Ahirette imtihan edilir, neticeye göre yeri belli olur.
+| **Eş'arî** | Ehl-i necâttır (cennetliktir).
+| **Mâtürîdî** | Aklıyla tek yaratıcıyı bulursa cennetlik, bulmazsa cehennemlik.
+| **İmam Rabbânî** | Ne cennet ne cehennem; kul hakları ödendikten sonra toprak olur.
+!! Eş'arî ile Mâtürîdî burada ayrılır: Eş'arî'ye göre fetret ehli doğrudan kurtuluşa erer; Mâtürîdî'ye göre aklını kullanıp tek yaratıcıyı bulmakla yükümlüdür.
+* Ehl-i fetret (4 görüş): İbn Teymiyye → ahirette imtihan; Eş'arî → ehl-i necât (cennetlik); Mâtürîdî → aklıyla yaratıcıyı bulursa cennetlik; İmam Rabbânî → kul hakları ödenip toprak olur.
+
+## Gazzâlî'ye göre davetini duymayanlar
+¶ Peygamberimizin (s.a.v.) gönderilmesinden sonra, davetini duymayanlarla ilgili olarak İmam **Gazzâlî**'nin insanları üç sınıfta incelediğini görmekteyiz:
+1. Peygamberin (a.s.m.) davetini duymamış, kendisinden haberdar da olmamıştır. Bu sınıfa giren insanlar kesin olarak ehl-i necat olup Cennetliktir.
+2. Peygamberin (a.s.m.) davetini, gösterdiği mucizeleri ve güzel ahlâkını duymuş olmakla beraber îman etmemiştir. Bu sınıf kesin olarak azaba uğratılacaktır.
+3. Peygamberin (a.s.m.) ismini duydukları hâlde, aleyhinde yapılan menfî propagandalardan başka bir şey duymadıklarından, kimse onlara doğruyu söyleyip onları teşvik etmediğinden alâka duymamaktadırlar. Bunların da ehl-i necat olacaklarını, yani Cennete gireceklerini umarım.
+| Sınıf | Durumu | Hükmü
+| **1** | Davetini duymamış, haberdar da olmamış | Kesin olarak ehl-i necat, cennetlik
+| **2** | Davetini, mucizelerini ve ahlâkını duymuş ama iman etmemiş | Kesin olarak azaba uğratılacak
+| **3** | Yalnızca ismini ve aleyhindeki menfî propagandayı duymuş | Ehl-i necat olmaları umulur
+* Gazzâlî'nin üç sınıfı: hiç duymayan → kesin cennetlik; davet, mucize ve ahlâkını duyup iman etmeyen → kesin azap; yalnız ismini ve menfî propagandayı duyan → kurtuluşları umulur.

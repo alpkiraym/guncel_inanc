@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Güncel İnanç Problemleri</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=1">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=1">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=1">
+<link rel="manifest" href="site.webmanifest?v=1">
+<meta name="theme-color" content="#1f5a45">
+<meta name="apple-mobile-web-app-title" content="Güncel İnanç">
+<meta name="application-name" content="Güncel İnanç">
+<meta name="description" content="Güncel inanç problemleri için ünite ünite konu anlatımı, karşılaştırma tabloları, kavram kartları, kişi eşleştirme ve açıklamalı testler.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Giray Akademi">
+<meta property="og:title" content="Güncel İnanç Problemleri">
+<meta property="og:description" content="Güncel inanç problemleri için ünite ünite konu anlatımı, karşılaştırma tabloları, kavram kartları, kişi eşleştirme ve açıklamalı testler.">
+<meta property="og:url" content="https://alpkiraym.github.io/guncel_inanc/">
+<meta property="og:image" content="https://alpkiraym.github.io/guncel_inanc/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Güncel İnanç Problemleri · Giray Akademi">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{
+  --paper:#f7f3ea; --card:#fffdf8; --ink:#1f2a24; --muted:#6b7068; --line:#e3dccb;
+  --green:#1f5a45; --green-2:#2f7a5f; --green-soft:#e4efe8; --gold:#b08a3e; --gold-soft:#f4ead3;
+  --red:#a8432f; --red-soft:#f6e1db; --radius:14px; --shadow:0 1px 2px rgba(40,30,10,.06),0 6px 20px rgba(40,30,10,.06);
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --ar:Amiri,"Traditional Arabic","Scheherazade New","Noto Naskh Arabic",serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-tap-highlight-color:transparent}
+body{padding-bottom:34px}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 64px}
+header.top{position:sticky;top:0;z-index:5;background:rgba(247,243,234,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+.brand{white-space:nowrap;display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--green);background:none;border:0;padding:0}
+.crumb{display:flex;align-items:center;gap:6px;min-width:0;flex:1 1 auto}
+.crumb .brand{min-width:0}.crumb .bt{overflow:hidden;text-overflow:ellipsis}
+.ga{display:grid;text-decoration:none;border-radius:8px}
+.ga .mark,.brand .pmark{width:30px;height:30px;border-radius:8px;background:var(--green);color:#f4c430;display:grid;place-items:center;flex:none}
+.ga:hover .mark{background:var(--green-2)}
+.csep{color:var(--line);font-size:1.3rem;line-height:1;margin:0 1px}
+.brand .pmark{background:var(--gold-soft);color:var(--green);border:1px solid #e6d6ae}
+.spacer{flex:1}
+.ghost{background:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.88rem;color:var(--muted)}
+.ghost:hover{border-color:var(--green-2);color:var(--green)}
+.iconbtn{padding:6px 10px;display:inline-grid;place-items:center}
+h1,h2,h3{font-family:var(--serif);line-height:1.25;margin:0}
+h1{font-size:1.7rem;color:var(--green)}
+h2{font-size:1.3rem}
+.lead{color:var(--muted);margin:6px 0 0}
+.hero{padding:28px 0 8px}
+.hero .arn{font-family:var(--ar);font-size:1.5rem;color:var(--gold);margin-top:2px;text-align:left}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 6px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;min-width:110px}
+.stat b{display:block;font-family:var(--serif);font-size:1.35rem;color:var(--green)}
+.stat span{font-size:.8rem;color:var(--muted)}
+.section-title{margin:26px 0 10px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.modes{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.mode{text-align:left;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);transition:transform .12s,border-color .12s}
+.mode:hover{transform:translateY(-2px);border-color:var(--green-2)}
+.mode .ico{font-size:1.4rem;width:40px;height:40px;border-radius:10px;background:var(--green-soft);display:grid;place-items:center;margin-bottom:10px}
+.mode h3{font-size:1.08rem;margin-bottom:4px}
+.mode p{margin:0;color:var(--muted);font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+.bar{display:flex;align-items:center;gap:10px;margin:18px 0 12px}
+.progress{flex:1;height:6px;background:var(--line);border-radius:6px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--green-2);transition:width .3s}
+.count{font-size:.85rem;color:var(--muted);white-space:nowrap}
+.tag{display:inline-block;font-size:.75rem;background:var(--gold-soft);color:#7a5c1e;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+.q{font-family:var(--serif);font-size:1.25rem;margin:4px 0 18px}
+.q.long{font-family:var(--sans);font-size:1.02rem;line-height:1.6;background:var(--paper);border-radius:12px;padding:12px 14px}
+.q em{font-style:normal;color:var(--green);font-weight:700}
+.q small{display:block;font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-bottom:6px}
+.opts{display:grid;gap:10px}
+.opt{text-align:left;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;font-size:1rem;display:flex;gap:10px;align-items:flex-start}
+.opt .k{flex:none;width:24px;height:24px;border-radius:6px;background:var(--paper);display:grid;place-items:center;font-size:.8rem;font-weight:700;color:var(--muted)}
+.opt:hover:not([disabled]){border-color:var(--green-2)}
+.opt.ok{border-color:var(--green-2);background:var(--green-soft)}
+.opt.bad{border-color:var(--red);background:var(--red-soft)}
+.opt[disabled]{cursor:default}
+.explain{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--paper);font-size:.93rem;display:none}
+.explain.show{display:block}
+.explain b{color:var(--green)}
+.explain .src{display:block;color:var(--muted);font-size:.82rem;margin-top:6px}
+.actions{display:flex;gap:10px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+.btn{border:0;border-radius:10px;padding:11px 18px;background:var(--green);color:#fff;font-weight:600}
+.btn:hover{background:var(--green-2)}
+.btn.sec{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.btn.red{background:var(--red)}
+.btn:disabled{opacity:.4;cursor:default}
+.result{text-align:center;padding:30px 20px}
+.big{font-family:var(--serif);font-size:3rem;color:var(--green);line-height:1}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.col{display:grid;gap:8px;align-content:start}
+.col h4{margin:0 0 2px;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tile{text-align:left;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;font-size:.93rem;min-height:52px;transition:all .15s}
+.tile.sel{border-color:var(--gold);background:var(--gold-soft)}
+.tile.done{border-color:var(--green-soft);background:var(--green-soft);color:var(--green);opacity:.75}
+.tile.wrong{animation:shake .3s;border-color:var(--red);background:var(--red-soft)}
+@keyframes shake{25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+.flash{perspective:1200px;min-height:280px;cursor:pointer;margin-top:4px}
+.flash-in{position:relative;min-height:280px;transition:transform .45s;transform-style:preserve-3d}
+.flash.flip .flash-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);overflow:auto}
+.face.back{transform:rotateY(180deg);background:#fbf7ec}
+.face .t{font-family:var(--serif);font-size:1.5rem;color:var(--green)}
+.face .s{color:var(--ink);font-size:.98rem;margin-top:10px;max-width:560px;line-height:1.6}
+.face .hint{position:absolute;bottom:12px;font-size:.78rem;color:var(--muted)}
+.answer{display:none;margin-top:6px;border-top:1px dashed var(--line);padding-top:14px}
+.answer.show{display:block}
+.search{width:100%;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font-size:1rem}
+.search:focus{outline:none;border-color:var(--green-2)}
+.list{margin-top:12px;display:grid;gap:8px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-align:left;width:100%;display:block}
+button.row:hover{border-color:var(--green-2)}
+.row .e{font-family:var(--serif);font-weight:700;font-size:1.05rem;color:var(--green)}
+.row .n{font-size:.93rem;margin-top:3px;line-height:1.55}
+.row .w{font-size:.76rem;color:var(--muted);margin-top:4px}
+.empty{color:var(--muted);text-align:center;padding:30px}
+.meter{display:grid;grid-template-columns:minmax(120px,240px) 1fr 54px;gap:10px;align-items:center;margin:8px 0;font-size:.9rem}
+.meter span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meter .progress{height:10px}
+.select{padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:.9rem;max-width:100%}
+.rowctl{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.kaynak{margin:28px auto 8px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:.78rem;text-align:center}
+.foot{margin-top:40px;color:var(--muted);font-size:.8rem;text-align:center}
+.sig{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;padding:5px 12px calc(5px + env(safe-area-inset-bottom));background:var(--card);border-top:1px solid var(--line);font-family:var(--sans);font-size:.7rem;letter-spacing:.02em;color:var(--muted)}
+.sig b{color:var(--green);font-weight:600}
+.sig i{font-style:normal;opacity:.5}
+.study-cta{display:flex;gap:14px;align-items:center;background:var(--green);color:#fff;border:0;border-radius:var(--radius);padding:18px;text-align:left;width:100%;box-shadow:var(--shadow);margin-bottom:12px}
+.study-cta:hover{background:var(--green-2)}
+.study-cta .ico{font-size:1.5rem;width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.14);display:grid;place-items:center;flex:none}
+.study-cta h3{font-size:1.15rem;margin-bottom:2px;color:#fff}
+.study-cta p{margin:0;opacity:.85;font-size:.9rem}
+.ulist{display:grid;gap:8px}
+.unit{display:flex;gap:12px;align-items:center;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.unit:hover{border-color:var(--green-2)}
+.unit .st{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:.8rem;color:var(--muted);font-weight:700}
+.unit.done .st{background:var(--green-2);border-color:var(--green-2);color:#fff}
+.unit.next .st{border-color:var(--gold);color:var(--gold)}
+.unit .ut{flex:1}.unit .ut b{display:block;font-weight:600}.unit .ut small{color:var(--muted)}
+.intro{font-size:1.02rem;margin:10px 0 14px}
+.tipbox{background:var(--gold-soft);border-left:4px solid var(--gold);border-radius:10px;padding:12px 14px;margin:10px 0;font-size:.95rem}
+.tipbox b.lb{color:#7a5c1e;display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+details.oq{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-top:8px}
+details.oq summary{cursor:pointer;font-weight:600}
+.sticky-go{position:sticky;bottom:40px;display:flex;justify-content:center;margin-top:20px}
+.sticky-go .btn{box-shadow:0 6px 20px rgba(31,90,69,.3);padding:11px 20px;font-size:.95rem}
+.backlink{background:none;border:0;color:var(--green);font-weight:600;padding:14px 0 0;font-size:.95rem}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 6px}
+.toc button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 10px;font-size:.8rem;color:var(--muted)}
+.toc button:hover{border-color:var(--green-2);color:var(--green)}
+.lesson section.ls{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:12px 0;scroll-margin-top:70px}
+.lesson h3{font-family:var(--serif);font-size:1.12rem;color:var(--ink);display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;line-height:1.35}
+.lesson h3 .no{flex:none;width:26px;height:26px;border-radius:8px;background:var(--green-soft);color:var(--green);font-family:var(--sans);font-size:.8rem;font-weight:700;display:grid;place-items:center;margin-top:1px}
+.lesson h4{font-family:var(--sans);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);margin:14px 0 6px}
+.lesson p{margin:0 0 8px;font-size:.98rem;line-height:1.65}
+.lesson p.li{padding-left:16px;position:relative}.lesson p.li:before{content:"•";position:absolute;left:3px;color:var(--gold);font-weight:700}
+.lesson p.num{padding-left:24px;position:relative}.lesson p.num .nn{position:absolute;left:0;color:var(--green);font-weight:700}
+.lesson b{color:var(--green)}
+.def{display:grid;grid-template-columns:minmax(110px,30%) 1fr;gap:4px 14px;padding:10px 12px;border-radius:10px;background:var(--green-soft);margin:8px 0}
+.def dt{font-family:var(--serif);font-weight:700;color:var(--green)}
+.def dd{margin:0;line-height:1.6}
+.ar{font-family:var(--ar);font-size:1.18em;line-height:1.9;direction:rtl;unicode-bidi:isolate;color:#5b3f86}
+.ar.blk{display:block;text-align:right;margin:4px 0}
+.ayet{display:block;font-family:var(--ar);font-size:1.3rem;line-height:2.1;direction:rtl;text-align:right;color:#5b3f86;margin:4px 0 2px}
+.sov{position:fixed;inset:0;z-index:90;background:rgba(20,25,20,.35);display:none}
+.sov.open{display:block}
+.sbox{background:var(--paper);max-width:860px;margin:0 auto;height:100%;display:flex;flex-direction:column;box-shadow:0 10px 40px rgba(0,0,0,.2)}
+.sbar{display:flex;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--card);color:var(--muted)}
+.sbar input{flex:1;border:0;background:transparent;font-size:1.05rem;padding:8px 2px;color:var(--ink);outline:none;min-width:0}
+.sres{overflow:auto;padding:4px 14px 80px;flex:1}
+.sgrp{margin:16px 0 6px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.sitem{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:6px 0}
+.sitem:hover{border-color:var(--green-2)}
+.sitem .t{font-weight:600}.sitem .w{font-size:.78rem;color:var(--green);font-weight:600;margin-bottom:2px}
+.sitem .x{font-size:.88rem;color:var(--muted);margin-top:3px}
+mark{background:#f6df9b;color:inherit;border-radius:3px;padding:0 1px}
+.flash-target{animation:ft 2.2s ease}
+@keyframes ft{0%,40%{box-shadow:0 0 0 3px var(--gold)}100%{box-shadow:none}}
+.how{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px;margin:8px 0 14px}
+.how summary{cursor:pointer;font-weight:700;color:var(--green);font-family:var(--serif);font-size:1.05rem}
+.how .steps{margin:10px 0 6px;padding-left:22px;display:grid;gap:8px;font-size:.94rem}
+.how .steps li::marker{color:var(--gold);font-weight:700}
+.hownote{margin:6px 0 2px;color:var(--muted);font-size:.86rem}
+.exq{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.exq .qq{font-family:var(--serif);font-size:1.05rem;font-weight:700;display:flex;gap:10px}
+.exq .qq .no{flex:none;width:26px;height:26px;border-radius:8px;background:var(--gold-soft);color:#7a5c1e;font-family:var(--sans);font-size:.8rem;display:grid;place-items:center}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.links button{border:1px solid var(--line);background:var(--green-soft);color:var(--green);border-radius:999px;padding:4px 10px;font-size:.8rem;font-weight:600}
+.oralbody{max-height:none}
+.snote{font-size:.86rem;color:var(--muted);margin-top:8px;font-family:var(--sans)}
+.lesson h3 .rep{margin-left:auto;flex:none;margin-top:2px}
+.cardhead{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.exq .qq .rep{margin-left:auto;flex:none}
+.hide{display:none!important}
+
+/* ---------- Güncel İnanç Problemleri: öğretici görünüm ---------- */
+.lesson h5{font-family:var(--sans);font-size:.92rem;color:var(--green);margin:12px 0 6px}
+.box{border-radius:10px;padding:11px 14px;margin:10px 0;font-size:.95rem;line-height:1.6;border-left:4px solid}
+.box b.lb{display:block;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;margin-bottom:3px}
+.box.bn{background:var(--gold-soft);border-color:var(--gold)}.box.bn b.lb{color:#7a5c1e}
+.box.bk{background:var(--red-soft);border-color:var(--red)}.box.bk b.lb{color:var(--red)}
+.box.bo{background:#fff;border:1px dashed var(--green-2);border-left:4px solid var(--green-2)}.box.bo b.lb{color:var(--green-2)}
+.box.bs{background:#eef1f6;border-color:#4a6283}.box.bs b.lb{color:#4a6283}
+.box.bs .sq{font-weight:600;margin:0 0 6px!important}.box.bs .sa{margin:0!important}.box.bs .sa b{color:#4a6283}
+.arb{background:#f8f5fb;border-radius:10px;padding:8px 14px;margin:8px 0}
+.arb .ayet{margin:2px 0}
+.arb .meal{display:block;font-size:.88rem;color:var(--muted);margin-top:2px;line-height:1.5}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.tbl{border-collapse:collapse;width:100%;font-size:.9rem;line-height:1.5}
+.tbl th,.tbl td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.tbl thead th{background:var(--green);color:#fff;font-weight:600;font-size:.82rem;letter-spacing:.02em;white-space:nowrap}
+.tbl thead th b{color:#fff}
+.tbl tbody th{font-weight:600;color:var(--green);background:#fbf8f1;min-width:110px}
+.tbl tbody tr:last-child th,.tbl tbody tr:last-child td{border-bottom:0}
+.tbl tbody tr:nth-child(even) td{background:#fcfaf5}
+.tbl .ar{font-size:1.05em;line-height:1.8}
+.tbl.cmp thead th:first-child{background:var(--green-2)}
+.stp{list-style:none;counter-reset:st;margin:10px 0;padding:0 0 0 4px}
+.stp li{counter-increment:st;position:relative;padding:0 0 12px 36px;font-size:.95rem;line-height:1.6}
+.stp li:before{content:counter(st);position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;background:var(--gold);color:#fff;font-size:.78rem;font-weight:700;display:grid;place-items:center}
+.stp li:after{content:"";position:absolute;left:11px;top:26px;bottom:2px;border-left:2px solid var(--gold-soft)}
+.stp li:last-child{padding-bottom:2px}.stp li:last-child:after{display:none}
+details.ht{background:var(--green-soft);border:1px solid #cfe0d6;border-radius:var(--radius);margin:16px 0 10px;padding:0}
+details.ht summary{cursor:pointer;padding:13px 16px;font-family:var(--serif);font-weight:700;color:var(--green);font-size:1.08rem;list-style:none;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+details.ht summary::-webkit-details-marker{display:none}
+details.ht summary small{font-family:var(--sans);font-weight:400;color:var(--muted);font-size:.82rem;width:100%;margin-left:36px;margin-top:-6px}
+details.ht .hti{width:26px;height:26px;border-radius:8px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:.85rem;flex:none}
+details.ht ul{margin:0;padding:0 16px 14px 16px;list-style:none}
+details.ht li{position:relative;padding:7px 0 7px 22px;border-top:1px dashed #cfe0d6;font-size:.94rem;line-height:1.55}
+details.ht li:before{content:"✓";position:absolute;left:2px;top:7px;color:var(--green-2);font-weight:700}
+.htl{border:1px solid #cfe0d6;background:#fff;color:var(--green);border-radius:999px;width:22px;height:22px;padding:0;font-size:.9rem;line-height:1;vertical-align:middle;margin-left:4px}
+.htu{margin-top:14px}.htt{font-family:var(--serif);font-weight:700;font-size:1.05rem;display:flex;gap:8px;align-items:center}
+.htt .no{width:26px;height:26px;border-radius:8px;background:var(--green-soft);color:var(--green);font-family:var(--sans);font-size:.8rem;display:grid;place-items:center}
+.exa{margin-top:10px;border-top:1px dashed var(--line);padding-top:10px}
+.exa p{margin:4px 0;font-size:.95rem;line-height:1.6}
+.exl{font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--green);font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 6px}
+.legend .lgt{border:0;padding:2px 0;color:var(--muted)}
+.legend span{font-size:.76rem;padding:2px 9px;border-radius:999px;border-left:3px solid}
+.lg-d{background:var(--green-soft);border-color:var(--green)!important}.lg-n{background:var(--gold-soft);border-color:var(--gold)!important}
+.lg-k{background:var(--red-soft);border-color:var(--red)!important}.lg-o{background:#fff;border:1px dashed var(--green-2);border-left:3px solid var(--green-2)!important}
+.lg-s{background:#eef1f6;border-color:#4a6283!important}
+.def{border-left:4px solid var(--green)}
+.ek{background:#efe9fb;border-bottom:2px dashed #7a5bb5;border-radius:3px;padding:0 2px}
+.box.bek{background:#f5f1fc;border-color:#7a5bb5;border-style:dashed}.box.bek b.lb{color:#6a4ca5}
+.lg-e{background:#f5f1fc;border:1px dashed #7a5bb5;border-left:3px solid #7a5bb5!important}
+@media (max-width:560px){
+  .brand{font-size:1.02rem}.lg{display:none}
+  h1{font-size:1.4rem}.q{font-size:1.12rem}.card{padding:16px}
+  .meter{grid-template-columns:110px 1fr 44px}
+  .tile{font-size:.86rem;padding:9px 10px}
+  .def{grid-template-columns:1fr}
+  .tbl{font-size:.84rem}.tbl th,.tbl td{padding:7px 8px}.tbl tbody th{min-width:90px}
+  .tbl thead th{white-space:normal}
+  .tws{overflow:visible;background:transparent;border:0}
+  .tbl.st,.tbl.st tbody,.tbl.st tr,.tbl.st th,.tbl.st td{display:block;width:auto}
+  .tbl.st thead{display:none}
+  .tbl.st tr{background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0 0 8px}
+  .tbl.st tbody th{background:none;padding:0 0 4px;min-width:0;border:0;font-size:.95rem}
+  .tbl.st tbody th:empty{display:none}
+  .tbl.st td{border:0;padding:3px 0;background:none!important}
+  .tbl.st td.bos{display:none}
+  .tbl.st td[data-l]::before{content:attr(data-l);display:block;font-size:.72rem;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:var(--gold)}
+  .arb{padding:6px 10px}
+  .lesson section.ls{padding:14px}
+  .toc{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  .toc button{flex:none}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <nav class="crumb" aria-label="Gezinme"><a class="ga" href="https://alpkiraym.github.io/" title="Giray Akademi ana sayfası" aria-label="Giray Akademi ana sayfası"><span class="mark"><svg viewBox="24 22 152 96" width="22" height="14" aria-hidden="true" fill="currentColor"><rect x="45" y="33" width="112" height="12"/><rect x="45" y="33" width="12" height="62"/><rect x="28" y="80" width="29" height="15"/><rect x="145" y="33" width="12" height="62"/><rect x="145" y="80" width="27" height="15"/><rect x="97" y="33" width="13" height="70"/><rect x="77" y="97" width="53" height="15"/></svg></span></a><span class="csep" aria-hidden="true">›</span><button class="brand" onclick="go('home')" title="Güncel İnanç Problemleri ana sayfası"><span class="pmark"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M15.6 8.4l-2 5.2-5.2 2 2-5.2z"/><path d="M12 2.5v1.8M12 19.7v1.8M2.5 12h1.8M19.7 12h1.8"/></svg></span><span class="bt">Güncel İnanç Problemleri</span></button></nav>
+  <div class="spacer"></div>
+  <span id="bldSlot"></span>
+  <button class="ghost iconbtn" title="Ara" aria-label="Ara" onclick="openSearch()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button>
+</div></header>
+
+<main class="wrap" id="app"></main>
+<div class="sov" id="sov" role="dialog" aria-label="Arama"><div class="sbox"><div class="sbar"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg><input id="sq" type="search" placeholder="Kavram, kişi ya da konu ara…" autocomplete="off" oninput="doGlobalSearch()"><button class="ghost" onclick="closeSearch()">Kapat</button></div><div class="sres" id="sres"></div></div></div>
+<div class="sig"><span>© 2026 Her hakkı saklıdır</span><i>·</i><span>Designed by: <b>M.ALPKİRAY</b></span></div>
+<script>window.BLD_APP = 'Güncel İnanç Problemleri'; window.BLD_PREFIX = 'gi_'; window.BLD_SLOT = '#bldSlot';</script>
+<!-- ===== BİLDİR (hata bildirimi) · Giray Akademi ortak parçası ===== -->
+<style>
+.rep{border:1px solid transparent;background:transparent;color:#6b7068;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:.72rem;font-weight:500;padding:2px 8px;border-radius:999px;cursor:pointer;opacity:.75;white-space:nowrap;line-height:1.6;vertical-align:middle}
+.rep:hover,.rep:focus{opacity:1;border-color:#e3dccb}
+.rep.on{opacity:1;color:#a8432f;border-color:#a8432f}
+.bld-lbtn{display:none!important}
+.bld-lbtn.has{display:inline-flex!important;align-items:center;gap:4px;color:#a8432f!important;border:1px solid #a8432f!important;background:transparent;border-radius:999px;padding:5px 11px;font:500 .84rem system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;cursor:pointer;white-space:nowrap}
+.bld-lbtn .bld-lg{display:inline}
+@media (max-width:560px){.bld-lbtn .bld-lg{display:none}}
+.bld-modal{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;padding:16px}
+.bld-modal.open{display:flex}
+.bld-box{background:#fffdf8;color:#1f2a24;border:1px solid #e3dccb;border-radius:14px;max-width:520px;width:100%;max-height:90vh;overflow:auto;padding:18px;font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.25);text-align:left}
+.bld-box h3{margin:0 0 4px;font:700 1.08rem "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;color:#1f5a45}
+.bld-loc{color:#6b7068;font-size:.8rem;margin-bottom:8px}
+.bld-q{background:#f7f3ea;border-radius:8px;padding:8px 10px;margin:6px 0 10px;font-size:.9rem;max-height:9em;overflow:auto}
+.bld-box label{display:flex;gap:8px;align-items:center;padding:4px 0;cursor:pointer;font-size:.9rem}
+.bld-box textarea{width:100%;min-height:70px;margin-top:8px;border:1px solid #e3dccb;border-radius:8px;padding:8px;background:#f7f3ea;color:#1f2a24;font:inherit;font-size:.9rem;box-sizing:border-box}
+.bld-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.bld-btns button,.bld-btns a{border:1px solid #e3dccb;background:#f7f3ea;color:#1f2a24;border-radius:8px;padding:7px 11px;font:inherit;font-size:.84rem;cursor:pointer;text-decoration:none}
+.bld-btns .pri{background:#1f5a45;color:#fff;border-color:#1f5a45}
+.bld-hint{color:#6b7068;font-size:.76rem;margin-top:10px}
+.bld-msg{color:#2f7a5f;font-size:.82rem;margin-top:8px;min-height:1em}
+.bld-list{margin:8px 0;padding:0;list-style:none}
+.bld-list li{border:1px solid #e3dccb;border-radius:8px;padding:6px 9px;margin:6px 0;display:flex;gap:8px;justify-content:space-between;align-items:flex-start;font-size:.88rem}
+.bld-list li small{color:#6b7068}
+.bld-list li button{border:0;background:none;color:#6b7068;cursor:pointer}
+</style>
+<div class="bld-modal" id="bldModal" role="dialog" aria-modal="true" aria-labelledby="bldTitle"><div class="bld-box" id="bldBox"></div></div>
+<script>
+/* Kullanım: düğme → <button class="rep" data-k="benzersiz-anahtar" data-yer="Ünite 3 · Bölüm" data-bas="Kayıt başlığı">⚑ Bildir</button>
+   Programda önceden tanımlanır: window.BLD_APP = 'Program adı'; window.BLD_PREFIX = 'kayıt ön eki';
+   İsteğe bağlı: "Bildirimlerim" düğmesinin konacağı yer → window.BLD_SLOT = 'css seçici' */
+(function () {
+  const APP = window.BLD_APP || 'Program', MAIL = 'alpkiraymehmet@gmail.com';
+  const KEY = (window.BLD_PREFIX || 'bld_') + 'reports';
+  const TYPES = ['Bilgi yanlış', 'Eksik ya da karışık anlatım', 'Soru, şık veya cevap hatalı', 'Arapça metin bozuk', 'Yazım hatası', 'Diğer'];
+  const E = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const getL = () => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { return []; } };
+  const setL = l => { try { localStorage.setItem(KEY, JSON.stringify(l)); } catch (e) {} sync(); };
+  const modal = document.getElementById('bldModal'), box = document.getElementById('bldBox');
+  let lbtn = null;
+  function slot() {
+    if (lbtn || !window.BLD_SLOT) return;
+    const s = document.querySelector(window.BLD_SLOT); if (!s) return;
+    lbtn = document.createElement('button'); lbtn.type = 'button'; lbtn.className = 'bld-lbtn'; lbtn.title = 'Listeye eklediğin hata bildirimleri';
+    lbtn.onclick = openList; s.appendChild(lbtn);
+  }
+  function sync() { slot(); if (lbtn) { const n = getL().length; lbtn.classList.toggle('has', n > 0); lbtn.innerHTML = `⚑<span class="bld-lg"> Bildirimlerim</span> (${n})`; } mark(); }
+  function mark() { const l = getL(); document.querySelectorAll('.rep[data-k]').forEach(b => b.classList.toggle('on', l.some(x => x.k === b.dataset.k))); }
+  const TR = {'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u', 'Ç': 'C', 'Ğ': 'G', 'İ': 'I', 'Ö': 'O', 'Ş': 'S', 'Ü': 'U', 'Â': 'A', 'Î': 'I', 'Û': 'U'};
+  const ascii = t => String(t).normalize('NFC').replace(/[çğıöşüâîûÇĞİÖŞÜÂÎÛ]/g, c => TR[c]).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^\x20-\x7E\n]/g, '');
+  const plain = t => String(t).replace(/[“”«»]/g, '"').replace(/[‘’ʿʾ]/g, "'").replace(/[·—–…]/g, '-').replace(/\s{2,}/g, ' ').trim();
+  const body1 = r => `Program: ${APP}\nYer: ${r.yer}\nKayit: ${r.bas}\nKayit no: ${r.k}\nHata turu: ${r.type}\nNot: ${r.note || '-'}\nSayfa: ${r.url}`;
+  const subj = r => `[${APP} Hata] ${r.k}`;
+  const mailto = (su, bo) => `mailto:${MAIL}?subject=${encodeURIComponent(ascii(plain(su)))}&body=${encodeURIComponent(ascii(bo.split('\n').map(plain).join('\n'))).replace(/%0A/g, '%0D%0A')}`;
+  const gmail = (su, bo) => `https://mail.google.com/mail/?view=cm&fs=1&to=${MAIL}&su=${encodeURIComponent(su)}&body=${encodeURIComponent(bo)}`;
+  function copy(t, msg) {
+    const done = () => { msg.textContent = `Kopyalandı. Yeni bir e-posta aç, alıcıya ${MAIL} yaz ve metni mesajın içine yapıştır.`; };
+    const fb = () => { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); done(); } catch (e) { msg.textContent = 'Kopyalanamadı; metni elle seçip kopyalayabilirsin.'; } ta.remove(); };
+    try { if (navigator.clipboard && window.isSecureContext !== false) navigator.clipboard.writeText(t).then(done, fb); else fb(); } catch (e) { fb(); }
+  }
+  let pushed = false;
+  function open(html) {
+    box.innerHTML = html;
+    if (!modal.classList.contains('open')) { try { history.pushState(Object.assign({}, history.state, {bld: 1}), ''); pushed = true; } catch (e) { pushed = false; } }
+    modal.classList.add('open'); const f = box.querySelector('textarea,input,button'); f && f.focus();
+  }
+  let closing = false;
+  function close() { if (!modal.classList.contains('open')) return; modal.classList.remove('open'); if (pushed) { pushed = false; closing = true; try { history.back(); } catch (e) { closing = false; } } }
+  // Telefonda geri hareketi önce pencereyi kapatsın, programın kendi gezinmesine geçmesin
+  window.addEventListener('popstate', e => {
+    if (closing) { closing = false; e.stopImmediatePropagation(); return; }
+    if (modal.classList.contains('open') || pushed || (history.state && history.state.bld)) {
+      const wasOpen = modal.classList.contains('open');
+      modal.classList.remove('open'); pushed = false; e.stopImmediatePropagation();
+      if (!wasOpen && history.state && history.state.bld) { try { history.back(); } catch (er) {} }
+    }
+  }, true);
+  modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('[data-x=close]')) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.classList.contains('open')) close(); });
+  function report(b) {
+    const r = {k: b.dataset.k, yer: b.dataset.yer || '', bas: b.dataset.bas || '', url: location.href};
+    open(`<h3 id="bldTitle">Hata bildir</h3><div class="bld-loc">${E(r.yer)}</div><div class="bld-q">${E(r.bas)}</div>
+      ${TYPES.map((t, i) => `<label><input type="radio" name="bldt" value="${i}" ${i === 0 ? 'checked' : ''}> ${E(t)}</label>`).join('')}
+      <textarea id="bldNote" placeholder="Not (isteğe bağlı): doğrusu ne olmalı, kaynağı nedir…"></textarea>
+      <div class="bld-btns"><button class="pri" data-a="mail">E-posta ile gönder</button><a data-a="gmail" href="#" target="_blank" rel="noopener">Gmail'de aç</a><button data-a="copy">Metni kopyala</button><button data-a="add">Listeye ekle</button><button data-x="close">Kapat</button></div>
+      <div class="bld-msg" id="bldMsg" aria-live="polite"></div>
+      <div class="bld-hint">“E-posta ile gönder” bilgisayarındaki/telefonundaki e-posta uygulamasını açar. Açılmazsa “Gmail'de aç”ı ya da “Metni kopyala”yı kullan. Adres: ${MAIL}. Birden çok hata bulacaksan “Listeye ekle” deyip sonra üstteki “Bildirimlerim” ile hepsini tek e-postada gönderebilirsin.</div>`);
+    const get = () => Object.assign({}, r, {type: TYPES[+box.querySelector('input[name=bldt]:checked').value], note: box.querySelector('#bldNote').value.trim()});
+    const msg = box.querySelector('#bldMsg'), q = a => box.querySelector(`[data-a=${a}]`);
+    q('mail').onclick = () => { const x = get(); try { navigator.clipboard && navigator.clipboard.writeText(body1(x)).catch(() => {}); } catch (e) {} location.href = mailto(subj(x), body1(x)); msg.textContent = 'E-posta uygulaman açılıyor… Metin ayrıca panoya kopyalandı: mesaj boş ya da bozuk görünürse içini silip yapıştırabilirsin.'; };
+    q('gmail').onclick = function () { const x = get(); this.href = gmail(subj(x), body1(x)); };
+    q('copy').onclick = () => copy(body1(get()), msg);
+    q('add').onclick = () => { const l = getL(); l.push(get()); setL(l); msg.textContent = `Listeye eklendi (${l.length}). Üstteki “Bildirimlerim” ile topluca gönderebilirsin.`; };
+  }
+  function openList() {
+    const l = getL(), su = `[${APP} Hata] Toplu bildirim (${l.length} hata)`, bo = l.map((r, i) => `--- ${i + 1} ---\n${body1(r)}`).join('\n\n');
+    open(`<h3 id="bldTitle">Bildirimlerim (${l.length})</h3>
+      ${l.length ? `<ul class="bld-list">${l.map((r, i) => `<li><div><b>${E(r.bas.slice(0, 90))}</b><br><small>${E(r.yer)} · ${E(r.type)}${r.note ? ' — ' + E(r.note) : ''}</small></div><button data-del="${i}" title="Listeden çıkar">✕</button></li>`).join('')}</ul>` : '<p>Liste boş.</p>'}
+      <div class="bld-btns">${l.length ? `<button class="pri" data-a="mail">Hepsini e-postayla gönder</button><a data-a="gmail" href="#" target="_blank" rel="noopener">Gmail'de aç</a><button data-a="copy">Metni kopyala</button><button data-a="clear">Listeyi temizle</button>` : ''}<button data-x="close">Kapat</button></div>
+      <div class="bld-msg" id="bldMsg" aria-live="polite"></div><div class="bld-hint">Gönderdikten sonra “Listeyi temizle” diyebilirsin. Liste yalnızca bu tarayıcıda saklanır.</div>`);
+    const msg = box.querySelector('#bldMsg'), q = a => box.querySelector(`[data-a=${a}]`);
+    box.querySelectorAll('[data-del]').forEach(x => x.onclick = () => { const L = getL(); L.splice(+x.dataset.del, 1); setL(L); openList(); });
+    if (!l.length) return;
+    q('mail').onclick = () => { const u = mailto(su, bo); if (u.length > 1900) msg.textContent = `Liste uzun; e-posta uygulaması metni kesebilir. Kesilirse “Gmail'de aç” veya “Metni kopyala”yı kullan.`; location.href = u; };
+    q('gmail').href = gmail(su, bo);
+    q('copy').onclick = () => copy(bo, msg);
+    q('clear').onclick = () => { setL([]); openList(); };
+  }
+  document.addEventListener('click', e => { const b = e.target.closest('.rep[data-k]'); if (!b) return; e.preventDefault(); e.stopPropagation(); report(b); }, true);
+  new MutationObserver(() => { if (!lbtn) slot(); mark(); }).observe(document.body, {childList: true, subtree: true});
+  window.bldButton = (k, yer, bas, txt) => `<button type="button" class="rep" data-k="${E(k)}" data-yer="${E(yer)}" data-bas="${E(String(bas).slice(0, 400))}" title="Bu kayıttaki bir hatayı bildir">${txt || '⚑ Bildir'}</button>`;
+  window.bldOpenList = openList;
+  sync();
+})();
+</script>
+<!-- ===== /BİLDİR ===== -->
+
+<script>window.GA_APP = 'inanc';</script>
+<!-- ===== ALT ÇUBUK · Giray Akademi ortak parçası (bütün programlarda aynen) =====
+  Kullanım: </body>'den önce, imza şeridinden (.sig) sonra ve programın kendi <script>'inden ÖNCE yapıştırılır.
+  Önceden tek ayar:  <script>window.GA_APP = 'mecelle';</script>   (ana sayfada 'ana')
+  Program ilerleme değiştikçe:  gaOzet({bitti:0..1, etiket:'40/99 kâide', d:doğru, y:yanlış, kart:bilinen, yer:{ad:'Kâideler', url:'/mecelle/#kaideler'}, aktif:true})
+  Test çözülürken:  gaAltGizle(true) · bitince gaAltGizle(false)
+  Yeni ders hazır olunca yalnızca aşağıdaki GA_PROGS listesine bir satır eklenir.
+-->
+<style>
+.gab,.gab-sheet,.gab-dim{display:none}
+@media (max-width:760px){
+  .sig{display:none!important}
+  .gab-off .sig{display:flex!important}
+  body{padding-bottom:calc(var(--gab-h,84px) + 10px)!important}
+  .gab-off body{padding-bottom:40px!important}
+  .sticky-go{bottom:calc(var(--gab-h,84px) + 10px)!important} /* programların alta yapışan düğmeleri çubuğun üstünde kalsın */
+  .gab-off .sticky-go{bottom:40px!important}
+  .gab{display:block;position:fixed;left:0;right:0;bottom:0;z-index:58;background:#fffdf8;border-top:1px solid #e3dccb;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding-bottom:env(safe-area-inset-bottom)}
+  .gab-off .gab{display:none}
+  .gab-row{display:flex;justify-content:space-around;align-items:stretch;padding:5px 4px 0;max-width:520px;margin:0 auto}
+  .gab-b{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:1px;background:none;border:0;margin:0 2px;padding:5px 2px 4px;border-radius:12px;color:#6b7068;font:500 11.5px/1.2 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;cursor:pointer;-webkit-tap-highlight-color:transparent;text-decoration:none}
+  .gab-b svg{width:23px;height:23px}
+  .gab-b.on{color:#1f5a45;background:#e4efe8}
+  .gab-b:active{transform:scale(.96)}
+  .gab-sig{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;padding:2px 10px 5px;font-size:.68rem;letter-spacing:.02em;color:#6b7068}
+  .gab-sig b{color:#1f5a45;font-weight:600}
+  .gab-sig i{font-style:normal;opacity:.5}
+  .gab-dim{position:fixed;inset:0;z-index:56;background:rgba(20,28,22,.38)}
+  .gab-dim.open{display:block}
+  html.gab-lock,html.gab-lock body{overflow:hidden!important}
+  .gab-dim{touch-action:none}
+  .gab-sheet{overscroll-behavior:contain;position:fixed;left:0;right:0;bottom:0;z-index:57;max-height:78vh;overflow:auto;-webkit-overflow-scrolling:touch;background:#f7f3ea;border-radius:18px 18px 0 0;box-shadow:0 -8px 30px rgba(40,30,10,.18);padding:8px 14px calc(var(--gab-h,84px) + 12px);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1f2a24;font-size:15px;line-height:1.45}
+  .gab-sheet.open{display:block;animation:gabUp .2s ease-out}
+  .gab-sheet.full{max-height:calc(100% - 44px - env(safe-area-inset-top))}
+  .gab-sheet.gab-anim{transition:transform .2s ease-out,max-height .2s ease-out}
+  @keyframes gabUp{from{transform:translateY(30px);opacity:.4}to{transform:none;opacity:1}}
+}
+.gab-grab{position:relative;width:38px;height:5px;border-radius:3px;background:#d9cfb9;margin:2px auto 8px;cursor:grab}
+.gab-grab::before{content:'';position:absolute;left:-90px;right:-90px;top:-14px;bottom:-12px}
+.gab-grab,.gab-hd{touch-action:none}
+.gab-hd{display:flex;align-items:center;justify-content:space-between;margin:0 0 10px}
+.gab-hd b{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-size:1.25rem;color:#1f5a45;font-weight:700}
+.gab-x{width:34px;height:34px;border-radius:50%;border:1px solid #e3dccb;background:#fffdf8;color:#6b7068;font-size:20px;line-height:1;cursor:pointer}
+.gab-li{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#fffdf8;border:1px solid #e3dccb;border-radius:12px;padding:10px 12px;margin:0 0 8px;color:inherit;font:inherit;cursor:pointer;text-decoration:none}
+.gab-li.cur{border-color:#2f7a5f;box-shadow:inset 0 0 0 1px #2f7a5f}
+.gab-pm{width:34px;height:34px;border-radius:9px;flex:none;display:grid;place-items:center;background:#1f5a45;color:#d9b45a}
+.gab-pm svg{width:19px;height:19px}
+.gab-tx{flex:1 1 auto;min-width:0}
+.gab-tx b{display:block;font-weight:600;font-size:.98rem}
+.gab-tx small{display:block;color:#6b7068;font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gab-tag{flex:none;font-size:.72rem;font-weight:600;color:#1f5a45;background:#e4efe8;border-radius:999px;padding:2px 9px}
+.gab-st{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 10px}
+.gab-st div{background:#fffdf8;border:1px solid #e3dccb;border-radius:12px;padding:9px 6px;text-align:center}
+.gab-st b{display:block;font-size:1.3rem;color:#1f5a45;font-weight:700;line-height:1.1}
+.gab-st span{font-size:.76rem;color:#6b7068}
+.gab-streak{display:flex;gap:8px;align-items:center;background:#f4ead3;border:1px solid #e6d6ae;border-radius:12px;padding:8px 12px;margin:0 0 10px;font-size:.86rem;color:#6b4f17}
+.gab-k{background:#fffdf8;border:1px solid #e3dccb;border-radius:12px;overflow:hidden;margin:0 0 10px}
+.gab-kr{display:grid;grid-template-columns:1fr 58px 62px;gap:6px;align-items:center;padding:9px 12px;border-top:1px solid #f0eadb;width:100%;background:none;border-left:0;border-right:0;border-bottom:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.gab-kr:first-child{border-top:0}
+.gab-kh{background:#e4efe8;color:#1f5a45;font-weight:600;font-size:.78rem;cursor:default}
+.gab-kr .n{text-align:right;font-variant-numeric:tabular-nums}
+.gab-kr .nm b{display:block;font-weight:600;font-size:.92rem}
+.gab-kr .nm small{display:block;color:#6b7068;font-size:.76rem}
+.gab-bar{grid-column:1/-1;height:5px;border-radius:3px;background:#e4efe8;margin-top:-2px}
+.gab-bar i{display:block;height:5px;border-radius:3px;background:#2f7a5f}
+.gab-g{font-weight:700;color:#1f5a45}.gab-g.o{color:#9a7428}.gab-g.z{color:#a8432f}.gab-g.e{color:#b9b3a6;font-weight:400}
+.gab-kr.bos .nm b{color:#8b8f86}
+.gab-note{font-size:.78rem;color:#6b7068;margin:4px 2px 12px}
+.gab-mail{display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;border:1px solid #e3dccb;border-radius:12px;background:#fffdf8;color:#1f5a45;font-weight:600;font-size:.9rem;text-decoration:none}
+.gab-toast{position:fixed;left:50%;bottom:calc(var(--gab-h,84px) + 14px);transform:translateX(-50%);z-index:59;background:#1f2a24;color:#fff;font:500 .85rem/1.35 system-ui,-apple-system,sans-serif;padding:8px 14px;border-radius:999px;max-width:88vw;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+</style>
+<div class="gab-dim" id="gabDim"></div>
+<div class="gab-sheet" id="gabSheet" role="dialog" aria-modal="true" aria-labelledby="gabT"><div class="gab-grab"></div><div class="gab-hd"><b id="gabT"></b><button class="gab-x" type="button" id="gabX" aria-label="Kapat">×</button></div><div id="gabB"></div></div>
+<nav class="gab" id="gab" aria-label="Giray Akademi gezinme">
+  <div class="gab-row">
+    <a class="gab-b" data-k="ana" href="/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V20h14V9.5"/><path d="M10 20v-6h4v6"/></svg>Ana sayfa</a>
+    <button class="gab-b" type="button" data-k="dersler"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="4.5" height="16" rx="1"/><rect x="9.5" y="4" width="4.5" height="16" rx="1"/><path d="M16 5.2l3.6-.9 3 15.3-3.6.9z"/></svg>Dersler</button>
+    <button class="gab-b" type="button" data-k="devam"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.3l5.8 3.7-5.8 3.7z"/></svg>Devam et</button>
+    <button class="gab-b" type="button" data-k="karne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.8h6V4"/><path d="M8.5 10h7M8.5 13.5h7M8.5 17h4"/></svg>Karnem</button>
+  </div>
+  <div class="gab-sig"><span>© 2026 Her hakkı saklıdır</span><i>·</i><span>Designed by: <b>M.ALPKİRAY</b></span></div>
+</nav>
+<script>
+(function(){
+  var APP = window.GA_APP || 'ana';
+  var I = {
+    kitap:'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/><path d="M6.5 17A2.5 2.5 0 0 0 4 19.5 2.5 2.5 0 0 0 6.5 22H20v-5"/>',
+    terazi:'<path d="M12 3v18"/><path d="M5 7h14"/><path d="M5 7l-3 7a4 4 0 0 0 6 0z"/><path d="M19 7l-3 7a4 4 0 0 0 6 0z"/><path d="M8 21h8"/>',
+    bina:'<path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M10 21v-6a2 2 0 0 1 4 0v6"/>',
+    zincir:'<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
+    kalem:'<path d="M3 21.5h11"/><path d="M4.5 21.5v-3.5a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v3.5"/><path d="M7.5 15v-2h3v2"/><path d="M9 13l12.5-10.5"/><path d="M21.5 2.5C16 2.5 12.5 5 11 9.5"/><path d="M21.5 2.5C21.5 8 19 11.5 14.5 13"/>',
+    kandil:'<path d="M2 19c3-1.2 6.5-1.2 10 0c3.5-1.2 7-1.2 10 0V10c-3-1.2-6.5-1.2-10 0C8.5 8.8 5 8.8 2 10z"/><path d="M12 10v9"/><path d="M12 1.8c1.5 1.5 2 2.7 2 3.6a2 2 0 0 1-4 0c0-.9.5-2.1 2-3.6z"/>',
+    agac:'<path d="M12 2a4.5 4.5 0 0 0-4.4 3.6A4 4 0 0 0 5 13h14a4 4 0 0 0-2.6-7.4A4.5 4.5 0 0 0 12 2z"/><path d="M12 8.5v8"/><path d="M4.5 16.5h15"/><path d="M12 16.5c0 2.2-2.2 3.5-5 4.5M12 16.5c0 2.2 2.2 3.5 5 4.5M12 16.5v5"/>',
+    pusula:'<circle cx="12" cy="12" r="9.5"/><path d="M15.6 8.4l-2 5.2-5.2 2 2-5.2z"/><path d="M12 2.5v1.8M12 19.7v1.8M2.5 12h1.8M19.7 12h1.8"/>'
+  };
+  // Yeni ders hazır olunca buraya bir satır eklenir (ana sayfadaki "Programlar" sırasıyla aynı).
+  var GA_PROGS = [
+    {k:'atlas',  ad:'Eser–Müellif Atlası',   url:'/eser_muellif_atlasi/', i:'kitap'},
+    {k:'mecelle',ad:'Mecelle Küllî Kâideler', url:'/mecelle/',             i:'terazi'},
+    {k:'medhal', ad:'Medhal',                 url:'/madhal/',              i:'bina'},
+    {k:'hadis',  ad:'Hadis Usulü',            url:'/hadis_usulu/',         i:'zincir'},
+    {k:'muhtar', ad:"Muhtâr li'l-Fetvâ",      url:'/muhtar_lil_fetva/',    i:'kalem'},
+    {k:'tefsir', ad:'Tefsir Usulü',           url:'/tefsir_usulu/',        i:'kandil'},
+    {k:'fikih',  ad:'Fıkıh Usulü',            url:'/fikih_usulu/',         i:'agac'},
+    {k:'inanc',  ad:'Güncel İnanç Problemleri', url:'/guncel_inanc/',      i:'pusula'}
+  ];
+  var MAIL = 'alpkiraymehmet@gmail.com';
+  function rd(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}
+  function wr(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function svg(n){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(I[n]||'')+'</svg>'}
+  function gun(t){var d=new Date(t);return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2)}
+
+  /* ---- programların kullandığı işlevler ---- */
+  window.gaOzet = function(o){
+    if(!o||APP==='ana')return;
+    var all = rd('ga_ozet',{}), cur = all[APP]||{};
+    ['bitti','etiket','d','y','kart'].forEach(function(f){ if(o[f]!==undefined) cur[f]=o[f]; });
+    if(o.yer){ cur.yer = o.yer; cur.t = Date.now(); }
+    all[APP] = cur; wr('ga_ozet', all);
+    if(o.aktif){ var g = rd('ga_gunler',[]), b = gun(Date.now()); if(g[g.length-1]!==b){ g.push(b); wr('ga_gunler', g.slice(-120)); } }
+  };
+  window.gaAltGizle = function(b){ try{ document.documentElement.classList.toggle('gab-off', !!b); }catch(e){} if(b) close(); };
+
+  /* ---- çubuk ---- */
+  var bar=document.getElementById('gab'), sh=document.getElementById('gabSheet'), dim=document.getElementById('gabDim'),
+      T=document.getElementById('gabT'), B=document.getElementById('gabB');
+  function setH(){ try{ document.documentElement.style.setProperty('--gab-h', (bar.offsetHeight||84)+'px'); }catch(e){} }
+  setH(); addEventListener('resize', setH);
+  var base = APP==='ana' ? 'ana' : 'dersler', openK = null;
+  function mark(){ [].forEach.call(bar.querySelectorAll('.gab-b'), function(b){ b.classList.toggle('on', b.dataset.k === (openK||base)); }); }
+  mark();
+
+  var pushed=false, closing=false;
+  function open(k){
+    openK = k; mark();
+    if(k==='dersler'){ T.textContent='Dersler'; B.innerHTML=dersler(); }
+    else { T.textContent='Karnem'; B.innerHTML=karne(); }
+    sh.scrollTop=0; sh.classList.add('open'); dim.classList.add('open'); setH(); kilit(true);
+    if(!pushed){ try{ history.pushState(Object.assign({}, history.state, {gab:1}), ''); pushed=true; }catch(e){ pushed=false; } }
+  }
+  function close(){
+    if(!sh.classList.contains('open')) return;
+    sh.classList.remove('open','full','gab-anim'); sh.style.transform=''; dim.classList.remove('open'); openK=null; mark(); kilit(false);
+    if(pushed){ pushed=false; closing=true; try{ history.back(); }catch(e){ closing=false; } }
+  }
+  // Geri hareketi önce pencereyi kapatsın; programın kendi gezinmesine geçmesin
+  addEventListener('popstate', function(e){
+    if(closing){ closing=false; e.stopImmediatePropagation(); return; }
+    if(sh.classList.contains('open')||pushed){ sh.classList.remove('open','full','gab-anim'); sh.style.transform=''; dim.classList.remove('open'); openK=null; mark(); kilit(false); pushed=false; e.stopImmediatePropagation(); }
+  }, true);
+  // Pencere açıkken arkadaki sayfa kaymasın (iPhone kaydırmayı arkaya geçiriyordu)
+  var kY=0;
+  function kilit(on){ try{ document.documentElement.classList.toggle('gab-lock', !!on); }catch(e){} }
+  // Üstteki çizgiden (ya da başlıktan) tutup sürükleme: aşağı çekince kapanır, yukarı çekince büyür.
+  // Pencere en baştayken içerikten aşağı çekmek de pencereyi sürükler (iPhone'daki gibi).
+  var drag=null;
+  sh.addEventListener('touchstart', function(e){
+    kY=e.touches[0].clientY;
+    drag={y:kY, t:Date.now(), tut:!!(e.target.closest('.gab-grab,.gab-hd') && !e.target.closest('.gab-x')), on:false, dy:0};
+  }, {passive:true});
+  document.addEventListener('touchmove', function(e){
+    if(!sh.classList.contains('open')) return;
+    if(!sh.contains(e.target)){ e.preventDefault(); return; }
+    var dy=e.touches[0].clientY-kY;
+    if(drag && (drag.on || drag.tut || (sh.scrollTop<=0 && dy>0))){
+      e.preventDefault(); drag.on=true; drag.dy=dy;
+      sh.classList.remove('gab-anim');
+      sh.style.transform='translateY('+(dy>0 ? dy : dy/4)+'px)';
+      return;
+    }
+    var ust=sh.scrollTop<=0, alt_=sh.scrollTop+sh.clientHeight>=sh.scrollHeight-1;
+    if(sh.scrollHeight<=sh.clientHeight || (ust&&dy>0) || (alt_&&dy<0)) e.preventDefault();
+  }, {passive:false});
+  function birak(){
+    if(!drag||!drag.on){ drag=null; return; }
+    var d=drag.dy, hiz=d/Math.max(1,Date.now()-drag.t); drag=null;
+    sh.classList.add('gab-anim');
+    if(d>120 || (d>40 && hiz>0.6)){ sh.style.transform='translateY(100%)'; setTimeout(close,180); return; }
+    if(d<-40) sh.classList.add('full');
+    else if(d>40) sh.classList.remove('full');
+    sh.style.transform='';
+  }
+  sh.addEventListener('touchend', birak); sh.addEventListener('touchcancel', birak);
+  dim.onclick=close; document.getElementById('gabX').onclick=close;
+  addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
+  function gitUrl(u){ close(); setTimeout(function(){ location.href=u; }, 30); }
+
+  bar.addEventListener('click', function(e){
+    var b=e.target.closest('.gab-b'); if(!b) return;
+    var k=b.dataset.k;
+    if(k==='ana'){ if(APP==='ana'){ e.preventDefault(); if(openK) close(); scrollTo({top:0,behavior:'smooth'}); } return; }
+    e.preventDefault();
+    if(k==='devam'){ devam(); return; }
+    if(openK===k) close(); else open(k);
+  });
+  B.addEventListener('click', function(e){
+    if(e.target.closest('[data-cur]')){ e.preventDefault(); close(); return; }
+    var a=e.target.closest('[data-u]'); if(a){ e.preventDefault(); gitUrl(a.dataset.u); }
+  });
+
+  function sonYer(){ // en son çalışılan yer; bulunduğunuz programın dışındakiler önce
+    var all=rd('ga_ozet',{}), L=[];
+    GA_PROGS.forEach(function(p){ var o=all[p.k]; if(o&&o.yer&&o.t) L.push({p:p,o:o}); });
+    L.sort(function(a,b){ return b.o.t-a.o.t; });
+    return L.filter(function(x){ return x.p.k!==APP; })[0] || null;
+  }
+  function devam(){
+    var s=sonYer();
+    if(s){ gitUrl(s.o.yer.url); return; }
+    toast(APP==='ana' ? 'Henüz bir programda çalışmadınız. Bir ders seçin.' : 'Başka bir programda kaldığınız yer yok.');
+    open('dersler');
+  }
+  var tt;
+  function toast(m){ var d=document.createElement('div'); d.className='gab-toast'; d.textContent=m; document.body.appendChild(d); clearTimeout(tt); tt=setTimeout(function(){ d.remove(); }, 2600); }
+
+  function dersler(){
+    var all=rd('ga_ozet',{});
+    return GA_PROGS.map(function(p){
+      var o=all[p.k], cur=p.k===APP, u=(o&&o.yer&&o.yer.url)||p.url;
+      var alt = cur ? '' : (o&&o.yer ? 'Kaldığınız yer: '+esc(o.yer.ad) : '');
+      return '<a class="gab-li'+(cur?' cur':'')+'" href="'+esc(p.url)+'" '+(cur?'data-cur="1"':'data-u="'+esc(u)+'"')+'><span class="gab-pm">'+svg(p.i)+'</span><span class="gab-tx"><b>'+esc(p.ad)+'</b>'+(alt?'<small>'+alt+'</small>':'')+'</span>'+(cur?'<span class="gab-tag">buradasınız</span>':'')+'</a>';
+    }).join('') + '<p class="gab-note">Diğer dersler hazırlanıyor; hazır oldukça bu listeye eklenecek.</p>';
+  }
+  function seri(){
+    var g=rd('ga_gunler',[]); if(!g.length) return 0;
+    var set={}; g.forEach(function(x){ set[x]=1; });
+    var d=new Date(), n=0; if(!set[gun(d)]) d.setDate(d.getDate()-1);
+    while(set[gun(d)]){ n++; d.setDate(d.getDate()-1); }
+    return n;
+  }
+  function karne(){
+    var all=rd('ga_ozet',{}), D=0, Y=0, K=0, var_=false;
+    var rows = GA_PROGS.map(function(p){
+      var o=all[p.k];
+      if(!o) return '<button class="gab-kr bos" type="button" data-u="'+esc(p.url)+'"><span class="nm"><b>'+esc(p.ad)+'</b><small>Henüz başlanmadı</small></span><span class="n gab-g e">—</span><span class="n gab-g e">—</span></button>';
+      var_=true; var d=o.d||0, y=o.y||0; D+=d; Y+=y; K+=o.kart||0;
+      var b=Math.round((o.bitti||0)*100), q=d+y?Math.round(d/(d+y)*100):null;
+      var c=q===null?'e':(q>=75?'':(q>=50?'o':'z'));
+      return '<button class="gab-kr" type="button" data-u="'+esc((o.yer&&o.yer.url)||p.url)+'"><span class="nm"><b>'+esc(p.ad)+'</b><small>'+esc(o.etiket||'')+'</small></span><span class="n">%'+b+'</span><span class="n gab-g '+c+'">'+(q===null?'—':'%'+q)+'</span><span class="gab-bar"><i style="width:'+b+'%"></i></span></button>';
+    }).join('');
+    var S=D+Y, P=S?Math.round(D/S*100):null, sr=seri();
+    return '<div class="gab-st"><div><b>'+S+'</b><span>soru çözüldü</span></div><div><b>'+(P===null?'—':'%'+P)+'</b><span>doğru</span></div><div><b>'+K+'</b><span>kart biliniyor</span></div></div>'
+      + (sr>1 ? '<div class="gab-streak">🔥 '+sr+' gündür aralıksız çalışıyorsunuz</div>' : (sr===1 ? '<div class="gab-streak">🔥 Bugün çalıştınız. Yarın da gelirseniz seri başlar.</div>' : ''))
+      + '<div class="gab-k"><div class="gab-kr gab-kh"><span>Ders</span><span class="n">Bitti</span><span class="n">Doğru</span></div>'+rows+'</div>'
+      + '<p class="gab-note">'+(var_?'Bir derse dokunursanız kaldığınız yere gidersiniz. ':'')+'İlerlemeniz yalnızca bu cihazda, bu tarayıcıda saklanır.</p>'
+      + '<a class="gab-mail" href="mailto:'+MAIL+'?subject='+encodeURIComponent('[Giray Akademi] Öneri / soru')+'"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>İletişim · öneri ve soru gönderin</a>';
+  }
+})();
+</script>
+<!-- ===== /ALT ÇUBUK ===== -->
+
+
+<script>
+const UNITELER = [{"t":"Ateizm, Materyalizm ve Pozitivizm","intro":"Tanrı'yı inkâr eden ateizm ve çeşitleri; her şeyi maddeye indirgeyen materyalizm; bilgiyi deney ve tecrübeyle sınırlayan pozitivizm ve Comte'un 3 hal yasası.","s":[{"h":"Ateizm","b":[{"k":"d","t":"Ateizm","x":"Yunancada “Tanrı” anlamına gelen “theos” kelimesinin başına olumsuzluk eki olan “a” getirilerek oluşturulmuş bir terkip olup “Tanrı inancı olmayan veya herhangi bir tanrıya inanmayı reddeden kişi, tanrıtanımaz.” anlamına gelir."},{"k":"p","x":"Hristiyanlığın ve özellikle kilisenin bilime ve bilim adamına yönelik ortaya koyduğu baskıcı tutuma karşı tepkisel bir hareket olarak ortaya çıkmıştır. Kökeni antik çağa dayanır."},{"k":"h","x":"Ateizmin çeşitleri"},{"k":"d","t":"Mutlak ateizm","x":"İnsanda doğuştan Tanrı fikrinin olmadığını savunmaktır."},{"k":"dikkat","x":"Halbuki her insanın varlığının derinliklerinde bir yerde Tanrı fikri saklıdır. Mutlu ve sağlıklı günlerinde Tanrı'yı inkâr eden bir ateistin, dara düştüğünde Tanrı'ya sığınması bunun bir delilidir."},{"k":"d","t":"Teorik ateizm","x":"Tanrı'nın varlığının bilinçli bir şekilde reddedilmesidir."},{"k":"p","x":"Ateizm denilince akla gelen türü de budur. Burada Tanrı'nın varlığının düşünerek, tartışarak, deliller üreterek inkâr edilmesi söz konusudur."},{"k":"d","t":"Pratik / fiilî ateizm","x":"Teoride Tanrı'yı kabul etmediği gibi pratikte de Tanrı'yı hayatına sokmamaktır."},{"k":"d","t":"İlgisizlerin ateizmi","x":"Tanrı'nın varlığı tartışmalarına ilgisiz kalmaktır."},{"k":"tbl","r":[["Çeşit","Özü"],["**1. Mutlak ateizm**","İnsanda doğuştan Tanrı fikri yoktur."],["**2. Teorik ateizm**","Tanrı'nın varlığı bilinçli olarak, düşünerek ve delil üreterek reddedilir."],["**3. Pratik / fiilî ateizm**","Teoride de pratikte de Tanrı hayata sokulmaz."],["**4. İlgisizlerin ateizmi**","Tanrı'nın varlığı tartışmalarına ilgisiz kalınır."]]}]},{"h":"Materyalizm","b":[{"k":"d","t":"Materyalizm","x":"Maddeyi ezelî ve ebedî kabul edip var olan her şeyin maddeden ibaret olduğunu ileri süren ve doğa ötesi bir alanı (metafizik) kabul etmeyen; Allah'ı, âhiret gününü ve diğer inanç esaslarından pek çoğunu reddeden eğilimlerin genel adıdır."},{"k":"p","x":"Kökeni antik çağa dayanır."},{"k":"p","x":"Evrendeki düzen fikrini reddeden bu anlayış, tabiatta olup bitenleri tesadüflerle, kâinattaki değişimi ise evrim ile açıklayarak sonraları ortaya çıkacak evrimci anlayışlara ilham kaynağı olmuştur. Başlangıçtaki ilk ve yaratılmamış maddeyi, büyük patlama (big bang) ile izah etseler de bu patlamaya neyin yol açtığı sorusunu cevaplamakta bir hayli zorlanmışlardır."},{"k":"not","x":"Maddenin temel yapıtaşı olarak atom/cevherin merkeze alınması anlayışı İslâm düşünürlerinde de mevcutsa da buradaki cevher yaratılmamış ve değişmeyen bir asıl değil, aksine maddenin tamamı gibi değişken ve dolayısıyla yaratılmıştır."},{"k":"tbl","r":[["","Materyalizm","İslâm düşünürleri"],["**Atom / cevher**","Yaratılmamış, ezelî ve değişmeyen asıl","Maddenin tamamı gibi değişken, dolayısıyla yaratılmış"]]},{"k":"dikkat","x":"Materyalizmde ezelî bir maddenin varlığı -ki bu tesadüfidir- ve her çeşit canlı faaliyetin kaynağı olduğu tezi hiçbir bilimsel araştırma tarafından doğrulanabilmiş değildir. Tam tersine bilim dünyasının ortaya atıp tartıştığı büyük patlama, genişleyen evren görüşleri ve termodinamiğin yasaları, âlemin yaratılmış olduğu tezini destekler mahiyettedir. Çünkü eğer madde, büyük patlama sonucu ortaya çıktı ve ondan önce mevcut değil ise, bu durumda onun ezelî olabilmesi de mümkün değildir."}]},{"h":"Pozitivizm","b":[{"k":"d","t":"Pozitivizm","x":"Bilginin kaynağını yalnızca deney ve tecrübe ile sınırlayan, metafiziksel bilgiyi kabul etmeyen felsefî akımdır."},{"k":"not","x":"Bize göre bilginin kaynağı akıl, his ve haber-i sadıktır."},{"k":"p","x":"Bu terimi ilk kullanan **Saint Simon**, sistematik hâle getiren ise **August Comte**'tur. Olgu ve deneye dayanan pozitif felsefeyi, insanın ulaşabileceği son merhale olarak gören Comte, bunu 3 hal yasasıyla açıklar:"},{"k":"h","x":"Comte'un 3 hal yasası"},{"k":"steps","x":["**Mitolojik / Teolojik:** Bu aşamada insan bütün olguların doğaüstü güçlerin bir sonucu olduğunu düşünür. Bu aşamada insanlık çocukluk dönemindedir. Dünyanın 1300 yılına kadar olan dönemine hâkimdir.","**Metafizik:** Bu aşamada insan olguların nedeninin doğa gibi soyut güçler olduğuna inanır. Bu aşamada insanlık gençlik/ergenlik dönemindedir. Dünyanın 1300-1800 yıllarını kapsar.","**Pozitif / Bilimsel:** Bu aşamada olgular, deney ve tecrübeye dayandırılır. Bu aşamada insanlık olgunluk dönemindedir. Dünya 1800'den itibaren bu aşamaya girmiştir."]},{"k":"ornek","x":"Bu aşamaları şöyle örneklendirebiliriz: 1. Aşama: Yağmuru tanrı yağdırdı, 2. Aşama: Doğa yağdırdı, 3. Aşama: Su, buhar, bulut vs..."},{"k":"tbl","r":[["Aşama","Olguların nedeni","İnsanlığın dönemi","Tarih","Yağmur örneği"],["**1. Mitolojik / Teolojik**","Doğaüstü güçler","Çocukluk","1300'e kadar","Tanrı yağdırdı"],["**2. Metafizik**","Doğa gibi soyut güçler","Gençlik / ergenlik","1300-1800","Doğa yağdırdı"],["**3. Pozitif / Bilimsel**","Deney ve tecrübe","Olgunluk","1800'den itibaren","Su, buhar, bulut"]]},{"k":"p","x":"İnsanlık bu 3. aşamaya ulaştığında artık dinlerin çağı kapanacak, Mitolojinin yerini Bilim / Vahyin yerini Akıl / Mucizenin yerini ilmî keşif / Mabedin yerini Üniversite alacaktır."},{"k":"tbl","r":[["Pozitivizme göre kapanacak olan","Yerini alacak olan"],["**Mitoloji**","Bilim"],["**Vahiy**","Akıl"],["**Mucize**","İlmî keşif"],["**Mabed**","Üniversite"]]},{"k":"h","x":"Pozitivizmin eleştirisi"},{"k":"dikkat","x":"Günümüzde bilim ve teknoloji zirve yapmasına rağmen dinlerin varlığını sürdürdüğü reddedilemez bir gerçektir."},{"k":"dikkat","x":"Ayrıca bu düşüncenin bilgi tanımı efradını câmi değildir. Çünkü varlığından emin olduğumuz ancak tecrübe ile doğrulayamadığımız \"akıl\" gibi olgular vardır."},{"k":"dikkat","x":"Aynı şekilde bu düşünceye göre din ve bilim iki zıttır ve bir arada bulunamaz. Oysaki din ve bilim birbirine karşı değildir. Her ikisinin de hedefinde hakikat vardır, fakat bu hakikate farklı yöntemlerle ulaşırlar. Bunun yanında din ve bilimin uyuştuğu birçok husus vardır."}]}],"ht":[{"s":0,"x":"Ateizm: \"theos\" (Tanrı) + olumsuzluk eki \"a\" → tanrıtanımaz. Kilisenin bilime baskısına tepki olarak doğdu; kökeni antik çağa dayanır."},{"s":0,"x":"Ateizmin 4 çeşidi: mutlak, teorik (asıl akla gelen), pratik/fiilî, ilgisizlerin ateizmi."},{"s":0,"x":"Mutlak ateizme cevap: dara düşen ateistin Tanrı'ya sığınması, Tanrı fikrinin doğuştan olduğunun delilidir."},{"s":1,"x":"Materyalizm: madde ezelî ve ebedîdir, her şey maddeden ibarettir, metafizik yoktur. Düzeni tesadüfle, değişimi evrimle açıklar; evrimci anlayışlara ilham verdi."},{"s":1,"x":"Materyalizme cevap: büyük patlama, genişleyen evren ve termodinamik yasaları âlemin yaratıldığını destekler; madde patlamayla ortaya çıktıysa ezelî olamaz."},{"s":1,"x":"İslâm düşünürlerindeki cevher yaratılmış ve değişkendir."},{"s":2,"x":"Pozitivizm: bilginin kaynağı yalnızca deney ve tecrübedir; metafizik bilgi yoktur. Bize göre bilginin kaynağı akıl, his ve haber-i sadıktır."},{"s":2,"x":"Terimi ilk kullanan Saint Simon; sistematik hâle getiren August Comte."},{"s":2,"x":"3 hal yasası: mitolojik/teolojik (çocukluk, 1300'e kadar) → metafizik (gençlik, 1300-1800) → pozitif/bilimsel (olgunluk, 1800'den sonra)."},{"s":2,"x":"Pozitivizme cevap: dinler bilim çağında da sürüyor; tanım efradını câmi değil (akıl tecrübeyle doğrulanamaz); din ve bilim zıt değil, ikisi de hakikati hedefler."}]},{"t":"Septisizm, Satanizm, Agnostisizm ve Nihilizm","intro":"Her bilgiden kuşku duyan septisizm; şeytana tapan ya da onu sembol edinen satanizm; Tanrı'nın bilinemeyeceğini söyleyen agnostisizm; her şeyi anlamsız sayan nihilizm.","s":[{"h":"Septisizm","b":[{"k":"d","t":"Septisizm","x":"Dolaylı olarak ateizm ile ilişkilendirilen kavramlardan biri olan ve “kuşkuculuk” anlamına gelen septisizm: Varlık ve olayların gerçekliği ve niteliğiyle ilgili bilgilerin her zaman kuşkulu olacağını ileri süren akım; her türlü bilgiden şüphe edip onu eleştirmeyi ilke edinen felsefî tutumdur."},{"k":"p","x":"Septikler, açık biçimde Tanrı'nın varlığını inkâr etmeseler de kendilerini kuşku durumundan kurtaramadıkları ve imanın netlik ve berraklığına erişemedikleri için ateist olarak görülebilirler."},{"k":"p","x":"İlk temsilcileri **Pyrrhon** ve **Protagoras**'tır. Bunlar, bilgiye şüpheyle yaklaşır, hiçbir şeyin kesin olarak bilinemeyeceği düşüncesini savunurlar."},{"k":"dikkat","x":"Bu yaklaşım, ince bir araştırma ve tahkike yol açması noktasında belli oranda olumlu görülebilse de bu kuşkuyu sürekli kılmaları ve bütün bilgi kaynaklarından şüphe duyacak kadar köklü hâle getirmeleri gerçekle bağdaşmayan bir durumdur."},{"k":"h","x":"İslâm kelamcılarına göre"},{"k":"p","x":"İslâm kelamcılarına göre, dışarıda bizden bağımsız bir gerçeklik dünyası mevcuttur ve ona ilişkin bilginin imkânından söz etmek de mümkündür."},{"k":"p","x":"Diğer taraftan, eşyanın hakikatinin ve ona ilişkin bilginin inkârı, bizi bütün yargılarımızdan ve işlerimizden vazgeçmeye götürür ki, bu insan hayatının devamlılığını riske sokan bir durumdur. Çünkü yaşamak için hareket etmek, çalışmak, gayret etmek zorunda olduğumuza göre, yaptığımız işleri bilmek, onlar arasından daha iyi olanı seçmek ve o konuda bir karara varabilmemiz zorunludur."}]},{"h":"Satanizm","b":[{"k":"d","t":"Satanizm","x":"Şeytana tapan ya da onunla ilişkilendirilen bir düşünce sistemini ifade etmek için kullanılır."},{"k":"p","x":"Bu düşünceyi benimseyenlere **Satanist** denir."},{"k":"h","x":"Satanist gruplar"},{"k":"p","x":"Satanist gruplar genel olarak ikiye ayrılır:"},{"k":"d","t":"Geleneksel Satanistler","x":"Şeytana gerçek anlamda tapan, büyü ve ritüellerle ibadet eden gruplardır."},{"k":"p","x":"Bu tür Satanizm, genellikle kara büyü uygulamaları, kurban ritüelleri ve şeytani figürlere tapınmayı içerir. Eski Avrupa'da ve günümüzde bazı marjinal gruplar tarafından uygulanmaktadır."},{"k":"d","t":"Modern Satanistler","x":"Bu grup, şeytanı gerçek bir varlık olarak kabul etmek yerine, onu özgürlük ve bireysel gelişimin bir sembolü olarak görür."},{"k":"p","x":"**LaVeyan Satanizm** olarak da bilinen bu akım, bireycilik ve özgürlük, ateizm ve doğacılık, haz ve iç güdülerin kabulü prensiplerini benimser. Bu sistemin içinde 9 İlke ve 9 Günah yer alır…"},{"k":"tbl","r":[["","Geleneksel Satanistler","Modern Satanistler"],["**Şeytan**","Gerçek anlamda tapılan varlık","Gerçek varlık değil; özgürlük ve bireysel gelişimin sembolü"],["**Uygulama**","Büyü, ritüel, kara büyü, kurban, şeytani figürlere tapınma","Bireycilik ve özgürlük, ateizm ve doğacılık, haz ve iç güdülerin kabulü"],["**Diğer adı / yeri**","Eski Avrupa ve günümüzde bazı marjinal gruplar","LaVeyan Satanizm; 9 İlke ve 9 Günah"]]},{"k":"h","x":"Satanizmin dinlerle ilişkisi"},{"k":"p","x":"Satanizm, İslam, Hristiyanlık ve Yahudilik gibi tek tanrılı dinlerle keskin bir zıtlık içindedir. Bu dinlerde şeytan, insanın en büyük düşmanı olarak görülmekte ve ona tapmanın sapkınlık olduğu vurgulanmaktadır."},{"k":"p","x":"İslam'a göre şeytan, insanları doğru yoldan saptıran bir varlıktır ve Allah tarafından lanetlenmiştir. Hristiyanlık'ta da şeytan, kötülüğün temsilcisi olarak görülmüş ve ona tapanlar aforoz edilmiştir."},{"k":"p","x":"Ancak bazı Satanist gruplar, kendilerini Hristiyan öğretilerine bir tepki olarak konumlandırarak, şeytanı özgürlüğün ve bağımsızlığın simgesi olarak kabul etmiştir."}]},{"h":"Agnostisizm","b":[{"k":"d","t":"Agnostisizm","x":"İnsan aklının Tanrı ve evren hakkındaki mutlak gerçeği bilemeyeceğini ileri süren felsefe akımıdır."},{"k":"p","x":"Yunanca “bilgi ve mârifet” anlamına gelen gnostos sözcüğünün başına olumsuzluk eki olan “a” ekinin gelmesiyle oluşan bir kelime olup “bilinemezci” anlamına gelir ve ilk defa İngiliz filozof **Huxley** tarafından bu yöndeki öğretisini isimlendirmek için kullanılmıştır. Mahiyet itibariyle kuşkuculuğun bir uzantısı olarak da görülebilir."},{"k":"p","x":"Agnostiklere göre Tanrı ve metafizik dünya, bilginin sınırları içinde yer almamaktadır. Bu sebeple inananların savundukları şekilde Tanrı'nın varlığını bilmek de veya ateistlerin benimsedikleri şekliyle O'nun yokluğunu bilmek veya reddetmek de mümkün değildir."},{"k":"h","x":"İslâm düşünce tarihinde"},{"k":"p","x":"İslâm düşünce tarihinde bu türden akımları ifade etmek için **indiyye**, **inâdiyye** ve **lâ edriyye** gibi isimler verilmiştir. Bunların tamamını **sûfestâiyye** başlığı altında toplamak mümkündür."},{"k":"p","x":"Bu düşüncenin izlerine uzak doğunun **Sümeniyye** ve **Berâhime** gibi akımlarında da rastlamak mümkündür."},{"k":"tbl","r":[["","İnanan","Ateist","Agnostik"],["**Tanrı hakkında**","Tanrı'nın varlığını bilir","Tanrı'nın yokluğunu bilir / reddeder","Ne varlığı ne yokluğu bilinebilir"]]}]},{"h":"Nihilizm","b":[{"k":"d","t":"Nihilizm","x":"İnsan varoluşunun nesnel bir anlam veya amacının olmadığını, bir yaratıcının veya yöneticinin bulunmadığını, bilginin imkânsızlığını ve gerçek bir ahlakın olmadığını savunan bir düşünce sistemidir."},{"k":"p","x":"Latince “hiç” anlamına gelen “nihil”den türemiştir. Kelime olarak “hiççilik” manasındadır."},{"k":"p","x":"Nihilistlere göre yaşam hiçbir gerçekliğe sahip değildir ve var olan her şey temelsiz olduğu için belirli bir değere sahip değildir. Gerçek de dahil olmak üzere her şey yararsızdır. Kendi iyiliği uğruna veya bir başkasının iyiliği maksadıyla ahlaki ilkeleri savunmak için hiçbir neden yoktur. Nihilistlere göre her şey anlamsızdır, buna üretilen nesneler, yaratılan doğa ve insanlar da dahildir."},{"k":"h","x":"Nihilizmin tarihçesi"},{"k":"steps","x":["Bu kavram, ilk defa 19. yy'ın başlarında **Friedrich Jacobi** tarafından kullanılmıştır.","Rus yazar **Ivan Turgenev**, romanında (1862) nihilist karakter Bazarov'u kullanmasıyla popüler hâle gelmiştir.","Nihilizmi geniş anlamda anlaşılır ve belirli bir mantık çerçevesine oturtulabilir hâle getirmeye çalışan kişi **Nietzsche**'dir. Kendisi pek çok dini ve ahlaki değerleri yok sayıp yerine “üstün insan”ı getirmiştir."]}]}],"ht":[{"s":0,"x":"Septisizm: kuşkuculuk; her bilgiden şüphe edip eleştirmeyi ilke edinir. Tanrı'yı açıkça inkâr etmese de imanın berraklığına erişemediği için ateist görülebilir."},{"s":0,"x":"Septisizmin ilk temsilcileri: Pyrrhon ve Protagoras."},{"s":0,"x":"Kuşku tahkike yol açtığı ölçüde olumlu; sürekli ve köklü hâle gelince gerçekle bağdaşmaz."},{"s":0,"x":"Kelamcılara göre bizden bağımsız bir gerçeklik vardır ve bilgisi mümkündür; bilgiyi inkâr hayatın devamlılığını riske sokar."},{"s":1,"x":"Satanizm ikiye ayrılır: geleneksel (şeytana gerçekten tapar; büyü, ritüel, kurban) ve modern / LaVeyan (şeytan özgürlük sembolü; 9 İlke ve 9 Günah)."},{"s":1,"x":"Satanizm tek tanrılı dinlerle keskin zıtlık içindedir; İslam'da şeytan lanetlenmiş, Hristiyanlıkta kötülüğün temsilcisidir."},{"s":2,"x":"Agnostisizm: \"gnostos\" (bilgi) + \"a\" → bilinemezci. Terimi ilk kullanan İngiliz filozof Huxley; kuşkuculuğun bir uzantısıdır."},{"s":2,"x":"Agnostiklere göre Tanrı'nın ne varlığı ne yokluğu bilinebilir."},{"s":2,"x":"İslâm düşüncesinde karşılıkları: indiyye, inâdiyye, lâ edriyye → hepsi sûfestâiyye başlığı altında. Uzak doğuda izleri: Sümeniyye ve Berâhime."},{"s":3,"x":"Nihilizm: \"nihil\" (hiç) → hiççilik. Varoluşun anlamı, yaratıcı, bilgi ve gerçek ahlak yoktur; her şey anlamsızdır."},{"s":3,"x":"Nihilizm: ilk kullanan Friedrich Jacobi (19. yy başı) → Turgenev'in romanıyla (1862, Bazarov) popüler → Nietzsche mantık çerçevesine oturttu, yerine \"üstün insan\"ı koydu."}]},{"t":"Evrimcilik ve Deizm","intro":"Türlerin ortak atadan doğal seçilimle değiştiğini iddia eden evrimcilik ve İslâm'daki tekâmül anlayışı; Tanrı'yı kabul edip vahyi reddeden deizm.","s":[{"h":"Evrimcilik","b":[{"k":"d","t":"Evrimcilik","x":"Bütün canlı türlerinin doğal seçilim yoluyla ortak ata sayesinde değişime uğradığını iddia eden akımdır."},{"k":"d","t":"Doğal seçilim","x":"Canlıların dış yapı farklılıklarından ötürü hayatta kalma şansının ve üreme başarısının değişkenlik göstermesidir."},{"k":"d","t":"Ortak ata","x":"Evrimsel süreçte, birden fazla canlı türünün ortak genetik öncülü olan ilk canlı, varlık."},{"k":"dikkat","x":"Bu ortak ata tesadüfen var olmuştur. Bu yönüyle evrimcilik materyalizmle aynıdır. Çünkü onlara göre de ezelî ve ebedî olan ilk varlık, tesadüfen ortaya çıkmıştır. Böylece her iki akımın tezleri de çürümüş oluyor."},{"k":"p","x":"Evrim teorisi, tüm yaşam türlerinin milyonlarca yılda meydana gelen kademeli değişimler sonucu ortaya çıktığını öne sürer. Buna göre insan, çeşitli aşamalardan geçerek insana dönüşmüştür."},{"k":"p","x":"**Darwin** tarafından 19. yy.'ın ortalarında geliştirilip sistemleştirilmiştir."},{"k":"h","x":"Kur'ân'a göre yaratılış ve tekâmül"},{"k":"p","x":"Kur'ân-ı Kerîm'e göre canlı ve cansız bütün varlıklar, Allah'ın yoktan yaratmasıyla meydana gelmiştir ve Allah her varlığın yapısına mükemmele doğru bir eğilim yerleştirmiştir. Buna İslâm düşünürleri “tekâmül” adını vermişlerdir."},{"k":"d","t":"Tekâmül","x":"Bir canlının kendi iç bünyesinde kemale doğru ilerlemesini ifade eder."},{"k":"p","x":"Ancak bu tekâmül düşüncesinde, her varlığın kendine özgü bir yaratılış biçimi ve sureti mevcut olup, türler arası geçiş asla söz konusu değildir. Zaten “tekâmül” kelimesi sözlük anlamı itibariyle türler arası geçişi mümkün kılacak bir evrimi asla ifade etmez."},{"k":"ornek","x":"Bir incir çekirdeğinin, incir ağacına dönüşmesi ve bir kromozomun tekâmül ederek belli şartlar dahilinde insana dönüşmesi, birer tekâmül olup, asla evrim değildir."},{"k":"tbl","r":[["","Evrim","Tekâmül"],["**Başlangıç**","Tesadüfen var olmuş ortak ata","Allah'ın yoktan yaratması"],["**Değişim**","Doğal seçilimle türler arası geçiş","Canlının kendi iç bünyesinde kemale doğru ilerlemesi"],["**Türler arası geçiş**","Var","Asla söz konusu değil"],["**Örnek**","İnsanın çeşitli aşamalardan geçerek insana dönüşmesi","İncir çekirdeğinin incir ağacına dönüşmesi"]]},{"k":"dikkat","x":"Bir canlının diğer canlının evrimi sonucu meydana geldiğini iddia edebilmek için bu konuda somut bir misale ihtiyaç vardır. Oysaki yapılan hiçbir araştırmada böyle bir örneğe rastlanmamıştır."}]},{"h":"Deizm","b":[{"k":"d","t":"Deizm","x":"Din, peygamber veya vahiy aracı olmaksızın bireyin akıl, gözlem, sezgi gibi yollarla Tanrı'nın varlığına inanmasına dayalı bir felsefi görüştür."},{"k":"p","x":"Deizm (ilahiyye/ilahçılık), Latince Tanrı anlamındaki \"deus\" sözcüğünden türetilerek ateizme karşı tanrıcılık anlamında kullanılmıştır."},{"k":"p","x":"Bir başka ifadeyle Allah'ın âlemin mimarı olduğunu, âlemi düzenleyip tanzim ettiğini, ona şekil verdiğini, onu harekete geçirdiğini, fakat artık âleme karışmadığını tasavvur eden bir anlayıştır."},{"k":"tbl","r":[["","Ateizm","Deizm"],["**Kökü**","\"theos\" + olumsuzluk eki \"a\"","Latince \"deus\""],["**Tanrı**","İnkâr edilir","Akıl, gözlem, sezgiyle kabul edilir"],["**Din, peygamber, vahiy**","—","Aracı olarak kabul edilmez"],["**Âlemle ilişki**","—","Âlemi yaratıp düzenledi, artık karışmıyor"]]}]}],"ht":[{"s":0,"x":"Evrimcilik: bütün türler doğal seçilim yoluyla ortak atadan değişime uğramıştır. Darwin 19. yy ortasında sistemleştirdi."},{"s":0,"x":"Ortak ata tesadüfen var olmuştur; bu yönüyle evrimcilik materyalizmle aynıdır."},{"s":0,"x":"Tekâmül: canlının kendi iç bünyesinde kemale ilerlemesi (incir çekirdeği → incir ağacı); türler arası geçiş yoktur, evrim değildir."},{"s":0,"x":"Evrime cevap: türler arası geçişe dair somut bir örneğe hiçbir araştırmada rastlanmamıştır."},{"s":1,"x":"Deizm (ilahiyye / ilahçılık): \"deus\"tan; din, peygamber ve vahiy olmadan akıl, gözlem ve sezgiyle Tanrı'ya inanmak."},{"s":1,"x":"Deizme göre Allah âlemin mimarıdır, onu düzenleyip harekete geçirmiştir ama artık âleme karışmaz."}]},{"t":"Kötülük Problemi","intro":"Kötülüğün tanımı ve ateizmin kötülük argümanı; doğal, ahlaki ve metafiziksel kötülük; kelam ekollerinin doğal ve ahlaki kötülüğe bakışı.","s":[{"h":"Kötülük ve kötülük problemi","b":[{"k":"d","t":"Kötülük","x":"İyinin karşıtı olan, beğenilmemeye ve kınanmaya konu olan; hür iradenin reddettiği ve kendisinden kurtulmaya çalıştığı her şeydir."},{"k":"p","x":"Kötülük Problemi, Ateizmin temel argümanlarından biridir. Ateist kötülük ile tanrının varlığı arasında bir çelişki görür."},{"k":"steps","x":["Ona göre merhametli ve her şeye gücü yeten bir tanrı kötülüğe izin vermez.","Dolayısıyla böyle bir tanrının bulunması hâlinde kötülük olmamalıdır.","Bu varsayımın kaçınılmaz sonucu “kötülük varsa o hâlde Tanrı yoktur” şeklinde olacaktır."]}]},{"h":"Kötülüğün kısımları","b":[{"k":"p","x":"Kötülük iki kısımdır:"},{"k":"d","t":"Doğal / fiziksel kötülük","x":"Hastalık yapan bakteriler, depremler, fırtınalar, kasırgalar, kuraklıklar ve benzeri durumlarda insan eylemlerinden bağımsız olarak meydana gelen kötülükler bu gruptan sayılır."},{"k":"d","t":"Ahlaki kötülük","x":"Acımasızlık, adaletsizlik, aldatma, kıskançlık, savaş, soykırım, yalan, zulüm vb. insan kaynaklı kötülüklerdir."},{"k":"p","x":"Daha sonra **Leibniz**, bunlara **metafiziksel kötülüğü** yani: “Yaratılmış evrenin sonluluğu ve sınırlılığı” kısmını eklemiştir."},{"k":"d","t":"Metafiziksel kötülük","x":"Yaratılmış evrenin sonluluğu ve sınırlılığı."},{"k":"tbl","r":[["Kötülük","Kaynağı","Örnekler"],["**Doğal / fiziksel**","İnsan eylemlerinden bağımsız","Bakteriler, depremler, fırtınalar, kasırgalar, kuraklıklar"],["**Ahlaki**","İnsan kaynaklı","Acımasızlık, adaletsizlik, aldatma, kıskançlık, savaş, soykırım, yalan, zulüm"],["**Metafiziksel** (Leibniz ekledi)","Yaratılmış olmak","Evrenin sonluluğu ve sınırlılığı"]]}]},{"h":"Kelam ekollerinin görüşleri","b":[{"k":"h","x":"Doğal kötülük"},{"k":"p","x":"**Ehl-i Sünnet** kelamcıları doğal kötülük olgusuna hikmet ve imtihan çerçevesinden bakarlar. Onlara göre Allah isteseydi hiçbir kötülüğün bulunmadığı bir dünya yaratabilirdi. Nitekim Cennet böyle bir yerdir. Ama O hikmeti gereği bu dünyayı bir imtihan alanı kılmış, bunun doğal bir sonucu olarak da orada birtakım kötülüklerin bulunmasına izin vermiştir."},{"k":"p","x":"**Mutezile** ise bunu “salah” kavramıyla açıklarlar. Dolayısıyla bize kötü gibi görünen şeyler -her ne kadar farkında olmasak da- aslında iyidir."},{"k":"tbl","r":[["","Ehl-i Sünnet","Mutezile"],["**Doğal kötülüğe bakış**","Hikmet ve imtihan","“Salah” kavramı"],["**Açıklama**","Allah kötülüksüz bir dünya (Cennet gibi) yaratabilirdi; dünyayı imtihan alanı kıldı","Bize kötü görünenler, farkında olmasak da aslında iyidir"]]},{"k":"h","x":"Ahlaki kötülük"},{"k":"p","x":"**Mutezile**'ye göre insan, hem iyi ve kötüyü, güzel ve çirkini, doğru ve yanlışı ayırt edebilecek bir temyiz melekesine sahiptir hem de o kendi fiillerinin yaratıcısı, yani doğrudan failidir. Bu yüzden tüm ahlaki kötülüklerin kaynağı, özgürce eyleme yönelen insanın kendisidir."},{"k":"p","x":"**Eşarîlere** göre iyi olsun kötü olsun tüm fiillerin yaratıcısı Allah'tır. Fakat kötü fiiller Allah'ın yaratması yönüyle değil, kulun kesbi nedeniyle kötülük vasfını kazanır. Yani halk-ı şer şer değil, kesb-i şer şerdir."},{"k":"p","x":"**Mâtürîdîlere** göre de iyi olsun kötü olsun tüm fiillerin yaratıcısı Allah'tır. Ancak onlar, Allah'ın fiilleri irade etmesini, sadece onları yaratmayı irade etmesi olarak anlarlar."},{"k":"not","x":"Her ikisinde de önce insan fiile yönelir, sonra Allah onun yöneldiği bu fiili irade eder ve yaratır."},{"k":"tbl","r":[["Ekol","Fiillerin yaratıcısı","Ahlaki kötülüğün kaynağı"],["**Mutezile**","İnsan (fiillerinin doğrudan faili)","Özgürce eyleme yönelen insanın kendisi"],["**Eş'arîler**","Allah","Kulun kesbi (halk-ı şer şer değil, kesb-i şer şerdir)"],["**Mâtürîdîler**","Allah","Allah yalnızca yaratmayı irade eder; önce insan fiile yönelir"]]}]}],"ht":[{"s":0,"x":"Kötülük: iyinin karşıtı; kınanan, hür iradenin reddettiği ve kurtulmaya çalıştığı her şey."},{"s":0,"x":"Kötülük problemi ateizmin temel argümanıdır: merhametli ve kadir bir tanrı kötülüğe izin vermez → kötülük varsa Tanrı yoktur."},{"s":1,"x":"Kötülük iki kısımdır: doğal/fiziksel (insandan bağımsız: deprem, kuraklık) ve ahlaki (insan kaynaklı: zulüm, savaş). Leibniz üçüncü olarak metafiziksel kötülüğü (evrenin sonluluğu ve sınırlılığı) ekledi."},{"s":2,"x":"Doğal kötülük: Ehl-i Sünnet → hikmet ve imtihan (Allah kötülüksüz dünya yaratabilirdi, Cennet gibi). Mutezile → \"salah\": kötü görünen aslında iyidir."},{"s":2,"x":"Ahlaki kötülük: Mutezile → insan fiillerinin yaratıcısıdır, kötülüğün kaynağı insandır. Eş'arî → yaratan Allah, kötülük kulun kesbinden: \"halk-ı şer şer değil, kesb-i şer şerdir.\""},{"s":2,"x":"Mâtürîdî → yaratan Allah; Allah'ın iradesi yaratmayı irade etmektir. Eş'arî ve Mâtürîdî'de önce insan fiile yönelir, sonra Allah irade edip yaratır."}]},{"t":"İntihar ve Ötanazi","intro":"İntiharın tanımı ve sebepleri; intiharı önlemede dinin rolü; intihar edenin eceli, ötanazi, kader ve sorumluluk; intihar saldırıları.","s":[{"h":"İntihar ve sebepleri","b":[{"k":"d","t":"İntihar","x":"Bir insanın, neticesinin ölüm olacağının bilincinde olarak, kendisinin ölümüne yol açacak bir eylem yapmasıdır."},{"k":"h","x":"Sebepleri"},{"k":"p","x":"İntihar vakaları incelendiğinde intiharın, başarısızlık, tatminsizlik, beklentilerin karşılanamaması gibi sebeplere dayalı olarak ortaya çıkabildiği gibi, yalnızlık, terk edilmişlik, aile içi veya aile dışı bireylerle yaşanan sorunlar ve duygusal bozuklukların da insanları bunalıma ittiği ve bazı durumlarda da intihara götürdüğü görülmektedir."},{"k":"not","x":"Aslında insanları intihara sürükleyen sebeplerin başında **depresyon/bunalım** gelmektedir. Çünkü sosyal tecritten, ailelerde yaşanan boşanma durumlarının oluşturduğu travmaların yol açtığı yalnızlık ve itilmişlik durumuna kadar pek çok vaka, insanları bunalıma götüren süreç içinde yer almaktadır."},{"k":"p","x":"Alkol ve uyuşturucunun oluşturduğu yalnızlık duygusu, aile içi ayrılıkların körüklediği ilgisizlik, evlilik sorunları, anne baba ile yaşanan sorunlar ve sevdiği biri tarafından terk edilme gibi durumlar, insanı boşluğa ve bunalıma götüren sebepler arasında ön sırada yer alır."}]},{"h":"İntiharı önlemede dinin rolü","b":[{"k":"n","n":1,"x":"İslâm dinine göre hayat kutsaldır. Buna göre intihar kesin bir şekilde yasaklanmıştır. Ve büyük günahlardandır."},{"k":"n","n":2,"x":"İntihar, çaresizliğin veya acının bir sonucudur. Ancak kendisinin imtihan için dünyaya gönderildiğine inanan kişi, inancı gereği daima Allah'a güvenir ve şartlar ne olursa olsun Allah'tan ümidini kesmez ve sabreder."},{"k":"n","n":3,"x":"Dinimiz, dünyada yaşanan sıkıntıların, varsa büyük küçük günahlarımıza kefaret olduğunu ve çekilen sıkıntıların mutlaka ahirette bir karşılığının olduğunu vurgulayarak insan hayatını anlamlandırmıştır."},{"k":"n","n":4,"x":"İnsanlara yaşama sevinci veren ve karşılaştığı zorluklarla başa çıkma gücü veren faktörlerden biri de kader inancıdır. Her türlü çabasına rağmen gücünün yetmediği durumlarda, bu durumunu arz edebileceği yüce bir yaratıcıya sığınmak ve onunla baş başa kalmak insana huzur verir ve sıkıntılarını unutturur."}]},{"h":"İntihar eden eceliyle mi ölmüştür?","b":[{"k":"p","x":"**Ehl-i sünnet** âlimlerine göre ölen herkes kendi eceliyle ölmüştür. Ölüm şeklinin intihar veya başka bir şekilde olması bunu değiştirmez."},{"k":"p","x":"**Mutezile**'ye göre ise eceliyle ölmemiştir. Kendini öldürmeseydi ölmeyecekti."},{"k":"tbl","r":[["","Ehl-i sünnet","Mutezile"],["**İntihar eden eceliyle mi öldü?**","Evet; ölen herkes kendi eceliyle ölür","Hayır; kendini öldürmeseydi ölmeyecekti"]]}]},{"h":"Ötanazi","b":[{"k":"d","t":"Aktif ötanazi","x":"Hastaya ölümcül bir doz enjekte edilmesidir."},{"k":"d","t":"Pasif ötanazi","x":"Hastanın hayatta kalmasını sağlayan müdahaleleri yapmamaktır."},{"k":"p","x":"Ötanazi, Türkçede çoğu kere “ölme hakkı” anlamında kısaltılarak kullanılmaktadır. Bu işlem, hastanın acılarına son vermek için enjeksiyon yaparak, yüksek dozda ilâç vererek veya yaşam destek ünitesine bağlı olarak yaşayan hastayı bundan ayırarak gerçekleştirilmektedir."},{"k":"dikkat","x":"Bu her iki türüyle de caiz değildir. Çünkü eğer hastanın rızasıyla olursa intihar, aksi hâlde de cinayet olur."},{"k":"tbl","r":[["Ötanazi","Hastanın rızasıyla","Rızası olmadan"],["**Hükmü**","İntihar","Cinayet"]]}]},{"h":"İntihar kaderde varsa intihar eden kişi niçin günahkâr oluyor?","b":[{"k":"p","x":"Çünkü intihar eden kişi, zaten kaderinde var olan ölüm fiilini (intiharı) icra ettiği için değil, aksine Allah'ın yasakladığı bir biçimde kendi ölümüne yol açtığı için sorumludur ve büyük günah işlemiş sayılır. Yani kul, kendi tercihi nedeniyle günahkâr sayılır."}]},{"h":"İntihar saldırıları câiz midir?","b":[{"k":"p","x":"Dinimize göre malını, canını, namusunu, vatanını, ülkesini ve bayrağını korumak için mücadele etmek meşru olmakla birlikte, meşru bir hedefe ulaştıran yolların da meşru olması gerekir. Bu gaye ile savaş meydanlarında yiğitçe mücadele edenler övülmüştür."},{"k":"dikkat","x":"Ancak üzerine bağladığı bombaları patlatmak suretiyle sivil-asker ayırımı gözetmeksizin gerçekleştirilen eylemler, Müslüman şahsiyetine yakışmayan bir mücadele yöntemidir ve dinimizin temel felsefesiyle bağdaşmamaktadır."}]}],"ht":[{"s":0,"x":"İntihar: neticesinin ölüm olacağını bilerek kendi ölümüne yol açacak bir eylem yapmak."},{"s":0,"x":"Sebepler: başarısızlık, tatminsizlik, yalnızlık, terk edilmişlik, aile sorunları, alkol ve uyuşturucu… Başta gelen sebep depresyon/bunalımdır."},{"s":1,"x":"Dinin rolü (4): hayat kutsaldır, intihar büyük günahtır · imtihan inancı Allah'a güven ve sabır verir · sıkıntılar günahlara kefaret ve ahirette karşılıklıdır · kader inancı yaşama sevinci ve huzur verir."},{"s":2,"x":"İntihar edenin eceli: Ehl-i sünnet → eceliyle ölmüştür (ölüm şekli değiştirmez). Mutezile → eceliyle ölmemiştir."},{"s":3,"x":"Ötanazi (\"ölme hakkı\"): aktif → ölümcül doz enjekte etmek; pasif → hayatta tutan müdahaleleri yapmamak. İki türü de caiz değildir: rızayla olursa intihar, rızasız olursa cinayettir."},{"s":4,"x":"İntihar eden, kaderdeki ölümü icra ettiği için değil, Allah'ın yasakladığı biçimde kendi ölümüne yol açtığı için sorumludur; kul kendi tercihi nedeniyle günahkârdır."},{"s":5,"x":"İntihar saldırıları: meşru hedefe ulaştıran yollar da meşru olmalıdır; sivil-asker ayırmadan bomba patlatmak Müslüman şahsiyetine yakışmaz, dinin temel felsefesiyle bağdaşmaz."}]},{"t":"Fetret Ehli","intro":"Fetret kavramı ve fetret ehli; ehl-i fetretin âhiretteki durumuna dair dört görüş; Gazzâlî'ye göre Peygamber'in davetini duymayanların üç sınıfı.","s":[{"h":"Fetret kavramı ve fetret ehli","b":[{"k":"d","t":"Fetret","x":"Geçerli herhangi bir dinî öğretinin veya davetin kendisine ulaşmadığı kimselerdir."},{"k":"p","x":"Özellikle Hz. İsa ve Hz. Muhammed arasında geçen zaman için kullanılır. Ancak Hz. Muhammed'den sonra bu durumda olan kimseleri de kapsamaktadır."}]},{"h":"Mezheplerin görüşleri","b":[{"k":"p","x":"Ehl-i fetretin durumu ile alakalı ulema genel olarak 4 görüşe gitmiştir:"},{"k":"n","n":1,"x":"Ahirette imtihana tâbi tutulup neticesine göre gidecekleri yer belli olacaktır. (**İbn Teymiyye**)"},{"k":"n","n":2,"x":"Onlar ehl-i necâttır (cennetliktir). (**Eş'arî**)"},{"k":"n","n":3,"x":"Akıllarını kullanıp tek olan yaratıcıyı bulurlarsa cennetlik, aksi hâlde cehennemliktir. (**Mâtürîdî**)"},{"k":"n","n":4,"x":"Ne cehenneme ne de cennete gideceklerdir. Kul hakları ödendikten sonra toprak olacaklardır. (**İmam Rabbânî**)"},{"k":"tbl","r":[["Görüş sahibi","Ehl-i fetretin durumu"],["**İbn Teymiyye**","Ahirette imtihan edilir, neticeye göre yeri belli olur."],["**Eş'arî**","Ehl-i necâttır (cennetliktir)."],["**Mâtürîdî**","Aklıyla tek yaratıcıyı bulursa cennetlik, bulmazsa cehennemlik."],["**İmam Rabbânî**","Ne cennet ne cehennem; kul hakları ödendikten sonra toprak olur."]]},{"k":"dikkat","x":"Eş'arî ile Mâtürîdî burada ayrılır: Eş'arî'ye göre fetret ehli doğrudan kurtuluşa erer; Mâtürîdî'ye göre aklını kullanıp tek yaratıcıyı bulmakla yükümlüdür."}]},{"h":"Gazzâlî'ye göre davetini duymayanlar","b":[{"k":"p","x":"Peygamberimizin (s.a.v.) gönderilmesinden sonra, davetini duymayanlarla ilgili olarak İmam **Gazzâlî**'nin insanları üç sınıfta incelediğini görmekteyiz:"},{"k":"n","n":1,"x":"Peygamberin (a.s.m.) davetini duymamış, kendisinden haberdar da olmamıştır. Bu sınıfa giren insanlar kesin olarak ehl-i necat olup Cennetliktir."},{"k":"n","n":2,"x":"Peygamberin (a.s.m.) davetini, gösterdiği mucizeleri ve güzel ahlâkını duymuş olmakla beraber îman etmemiştir. Bu sınıf kesin olarak azaba uğratılacaktır."},{"k":"n","n":3,"x":"Peygamberin (a.s.m.) ismini duydukları hâlde, aleyhinde yapılan menfî propagandalardan başka bir şey duymadıklarından, kimse onlara doğruyu söyleyip onları teşvik etmediğinden alâka duymamaktadırlar. Bunların da ehl-i necat olacaklarını, yani Cennete gireceklerini umarım."},{"k":"tbl","r":[["Sınıf","Durumu","Hükmü"],["**1**","Davetini duymamış, haberdar da olmamış","Kesin olarak ehl-i necat, cennetlik"],["**2**","Davetini, mucizelerini ve ahlâkını duymuş ama iman etmemiş","Kesin olarak azaba uğratılacak"],["**3**","Yalnızca ismini ve aleyhindeki menfî propagandayı duymuş","Ehl-i necat olmaları umulur"]]}]}],"ht":[{"s":0,"x":"Fetret ehli: geçerli bir dinî öğreti veya davetin ulaşmadığı kimseler. Özellikle Hz. İsa ile Hz. Muhammed arası; Hz. Muhammed'den sonra bu durumda olanları da kapsar."},{"s":1,"x":"Ehl-i fetret (4 görüş): İbn Teymiyye → ahirette imtihan; Eş'arî → ehl-i necât (cennetlik); Mâtürîdî → aklıyla yaratıcıyı bulursa cennetlik; İmam Rabbânî → kul hakları ödenip toprak olur."},{"s":2,"x":"Gazzâlî'nin üç sınıfı: hiç duymayan → kesin cennetlik; davet, mucize ve ahlâkını duyup iman etmeyen → kesin azap; yalnız ismini ve menfî propagandayı duyan → kurtuluşları umulur."}]},{"t":"Ruh, Cinler ve Reenkarnasyon","intro":"Ruh çağırma, astral seyahat, tayy-i zaman ve tayy-i mekân, telepati, telekinezi ve ruh eşi; cinlerin varlığı ve insanlarla ilişkisi; reenkarnasyon ve âhiret inancı.","s":[{"h":"Ruh","b":[{"k":"p","x":"Âlimlerin çoğunluğuna göre ruh yaratılmıştır ve görünmezdir."},{"k":"h","x":"Ruhları çağırmak mümkün müdür?"},{"k":"p","x":"İslâm dünyasında “ilmü istihzâri'l-ervâh” ve “ilmü'l-azâim” tabirleriyle dile getirilen ruh çağırma, Osmanlı literatüründe **huddâmcılık** olarak isimlendirilmiştir."},{"k":"dikkat","x":"Âyet ve hadislerden ve nakledilen bazı rivayetlerden peygamberlerin meleklerle ve bazı kâhinlerin de cinlerle teması olduğundan söz edilse de ölen insanların ruhlarıyla temas kurulduğu veya onların bazı yöntemlerle çağrıldığına ilişkin bir rivayet bulunmamaktadır."}]},{"h":"İslam'da astral seyahat var mı? Tayy-i zaman ve tayy-i mekân","b":[{"k":"d","t":"Astral seyahat","x":"Uyku hâlinde veya uyanıkken ruhun bedenden ayrılarak başka yerlere yolculuk etmesi."},{"k":"p","x":"Astral seyahat, büyü ve sihir yoluyla doğaya hâkim olma eğiliminde olan teosofik/okültist inançlardan biridir."},{"k":"p","x":"Astral seyahatin, İslâm Tasavvuf literatürü içinde yer alan “tayy-i zaman” ve “tayy-i mekân” kavramlarıyla ilişkili olabileceği ilk bakışta akla gelse de hakikatte bir ilgisi bulunmamaktadır."},{"k":"p","x":"Arapçada dürülmek anlamına gelen “tayy” kelimesinin zaman ve mekân kavramlarıyla oluşturduğu birer terkip olan bu kavramlar, bir anlamda zaman ve mekân sınırlarını aşmayı ifade eder."},{"k":"d","t":"Tayy-i zaman ve tayy-i mekân","x":"Allah'ın sevgili kullarına bahşettiği kerametlerden biri olup, Allah'ın onlara bir anlık bir zaman diliminde uzun mesafeler kat ettirmesi."},{"k":"not","x":"Buradaki eylem hem ruhen hem de bedenen gerçekleşir."},{"k":"p","x":"Kur'an'da tayy-i zaman ve tayy-i mekân kavramlarına dinî mesnet bulmak mümkün görünüyor."},{"k":"ornek","x":"Ashâb-ı Kehf ve Hz. Süleyman'ın yanındaki kişi."},{"k":"tbl","r":[["","Astral seyahat","Tayy-i zaman ve tayy-i mekân"],["**Kaynağı**","Teosofik / okültist inanç","Tasavvuf literatürü; Allah'ın sevgili kullarına kerameti"],["**Gerçekleşmesi**","Ruh bedenden ayrılarak yolculuk eder","Hem ruhen hem bedenen"],["**Dinî mesnet**","—","Kur'an'da var (Ashâb-ı Kehf, Hz. Süleyman'ın yanındaki kişi)"]]}]},{"h":"Telepati, telekinezi, ruh eşi","b":[{"k":"h","x":"Telepati"},{"k":"d","t":"Telepati","x":"Bir olayın önceden insanın içine doğması ve kişinin başkalarının hislerini sezebilmesi durumudur."},{"k":"p","x":"Ruhla ilgili parapsikolojik olaylardan olan telepati, Yunanca “uzaktan” anlamına gelen **tele** kelimesiyle “duygu” anlamına gelen **pathos** kelimelerinden türetilmiştir."},{"k":"dikkat","x":"İnsandaki bu hissin her zaman doğru olacağını var saymak, ona göre gündelik hayatını şekillendirmek doğru değildir. Çünkü insandaki bu ilham/önsezi, meleklerden olabileceği gibi şeytanın telkinlerinden de kaynaklanabilir. Her zaman doğru olabilmesinin bir garantisi yoktur. Bu sebeple bu tarz önsezilere mutlak olarak güvenmek ve onu bir inanç hâline dönüştürmek doğru değildir."},{"k":"h","x":"Telekinezi"},{"k":"d","t":"Telekinezi","x":"Düşünce gücüyle birtakım nesneleri hareket ettirebilme gücü."},{"k":"dikkat","x":"İslam'da böyle bir şey yoktur. En iyi niyetle dua ile yapılmıştır desek bile Allah (c.c.), duaları kabul etmek mecburiyetinde değildir."},{"k":"h","x":"Ruh eşi veya ruh ikizi"},{"k":"dikkat","x":"İslam'da böyle bir şey yoktur."}]},{"h":"Cinler","b":[{"k":"d","t":"Cin","x":"Duyularla idrak edilemeyen, insanlar gibi şuur ve iradesi bulunan, ilâhî emirlere muhatap, dolayısıyla kâfir ve müminleri bulunabilen ateşten yaratılmış bir varlık türü."},{"k":"p","x":"Sözlükte “örtmek, gizlemek, gizli kalmak” anlamlarına gelen ve duyu organları tarafından algılanamayan örtülü ve gizli şey anlamına gelen cin, bu varlık türünü isimlendirmek için kullanılan bir terimdir."},{"k":"dikkat","x":"Cinlerin varlığı, Kur'an, Sünnet ve İcmâ ile sabittir. Dolayısıyla hiçbir Müslüman'ın cinlerin varlığını inkâr etmesi câiz olmaz."},{"k":"sc","q":"Cinler insanlara zarar verebilirler mi?","x":"Cinlerin insanlara fiziksel anlamda zarar verdiği, onları hasta ettiği ve günlük kullanımdaki deyimiyle “insanları çarptığına” ilişkin açık bir anlatım bulunmamaktadır. Ancak Kur'an-ı Kerim, Nâs suresinde, insanların kalplerine vesvese veren şeytandan Allah'a sığınmamızı istemektedir."},{"k":"sc","q":"Cinler görülebilir mi?","x":"Ehl-i sünnete göre, cinler görülebilir. Çünkü görülebilmenin yegâne şartı “vücut” (var olmak)tır. Var olan her şey görülebilir. Cinler de var olduğuna göre görülebilmeleri mümkündür."},{"k":"sc","q":"Cinlere kendi cinsinden peygamber gelmiş midir?","x":"Allah-u Teâlâ cinler topluluğuna da insanlarda olduğu gibi kendi cinslerinden peygamberler göndermiştir. Hz. Peygamber (s.a.v.) hem insanların hem de cinlerin peygamberidir. Hatta bundan dolayı kendisine “resûlü's-sakaleyn” (cinlerin ve insanların peygamberi) unvanı verilmiştir. Bu, Hz. Peygambere (s.a.v.) özgü bir şeydir."},{"k":"d","t":"Resûlü's-sakaleyn","x":"Cinlerin ve insanların peygamberi; Hz. Peygamber'e (s.a.v.) özgü unvan."},{"k":"sc","q":"Cinlerden faydalanılır mı?","x":"Cinler, latif varlıklar olduğundan, onları aslî suretleriyle görmek ve iletişim kurabilmek mümkün değildir. İnsanların, cinlerin maddeye bürünen bu suretleriyle iletişim kurmaları ya da görüşebilmeleri mümkün görünmektedir. Hz. Süleyman dışında diğer peygamberlerin de cinleri hizmetinde çalıştırdığına ilişkin herhangi bir rivayet mevcut değildir."}]},{"h":"Reenkarnasyon","b":[{"k":"d","t":"Reenkarnasyon","x":"İnsanın öldükten sonra yeni bir bedenle dünyaya dönmesidir."},{"k":"p","x":"Tenâsüh veya ruh göçü de denmiştir. Kökü, Hint dinleridir. Bu düşüncenin temel nedeni, insanın ölümsüzlük arzusudur."},{"k":"dikkat","x":"Reenkarnasyon inancının kabulü, İslâm âhiret inancının inkârı anlamına gelmektedir. Çünkü reenkarnasyonda bütün süreç, bedende başlamakta ve yine bir başka bedende son bulmaktadır; insanın mükâfatı hak etmesi ya da cezaya mâruz kalması için bir âhirete gerek bulunmamaktadır."}]}],"ht":[{"s":0,"x":"Âlimlerin çoğuna göre ruh yaratılmıştır ve görünmezdir."},{"s":0,"x":"Ruh çağırma: İslâm dünyasında \"ilmü istihzâri'l-ervâh\" ve \"ilmü'l-azâim\", Osmanlı'da huddâmcılık. Ölülerin ruhlarının çağrıldığına dair rivayet yoktur."},{"s":1,"x":"Astral seyahat: ruhun bedenden ayrılıp yolculuk etmesi; teosofik/okültist bir inanç."},{"s":1,"x":"Tayy-i zaman ve tayy-i mekân (\"tayy\" = dürülmek): Allah'ın sevgili kullarına kerameti; bir anda uzun mesafe kat ettirmesi. Ruhen ve bedenen olur; Kur'an'da mesnedi var (Ashâb-ı Kehf, Hz. Süleyman'ın yanındaki kişi). Astral seyahatle ilgisi yoktur."},{"s":2,"x":"Telepati: \"tele\" (uzaktan) + \"pathos\" (duygu); önsezi. Melekten de şeytandan da olabilir; mutlak güvenilmez, inanç hâline getirilmez."},{"s":2,"x":"Telekinezi: düşünce gücüyle nesne hareket ettirmek. İslam'da yoktur; dua deseniz bile Allah duaları kabul etmek mecburiyetinde değildir."},{"s":2,"x":"Ruh eşi / ruh ikizi: İslam'da yoktur."},{"s":3,"x":"Cin: duyularla idrak edilemeyen, şuur ve iradesi olan, ilâhî emirlere muhatap, ateşten yaratılmış varlık. Varlığı Kur'an, Sünnet ve İcmâ ile sabittir; inkârı câiz olmaz."},{"s":3,"x":"Cinlerin insanları \"çarptığına\" dair açık anlatım yoktur; Nâs suresi vesveseden Allah'a sığınmayı emreder."},{"s":3,"x":"Ehl-i sünnete göre cinler görülebilir: görülmenin tek şartı var olmaktır."},{"s":3,"x":"Hz. Peygamber \"resûlü's-sakaleyn\"dir (cinlerin ve insanların peygamberi); bu ona özgüdür."},{"s":3,"x":"Cinlerle aslî suretlerinde iletişim mümkün değil; maddeye büründükleri suretle mümkün görünür. Cinleri hizmetinde çalıştıran yalnızca Hz. Süleyman'dır."},{"s":4,"x":"Reenkarnasyon (tenâsüh, ruh göçü): ölen insanın yeni bir bedenle dünyaya dönmesi. Kökü Hint dinleri; nedeni ölümsüzlük arzusu."},{"s":4,"x":"Reenkarnasyonu kabul âhireti inkâr demektir: mükâfat ve ceza bedenden bedene geçişte olur, âhirete gerek kalmaz."}]},{"t":"Okültist Eğilimler","intro":"Gizli saklı olanın bilgisi iddiası: falcılık, kehanet, medyumluk, astroloji ve burçlar, sihir ve büyü, yoga, reiki, aura-çakra ve şifacılık.","s":[{"h":"Okültizm","b":[{"k":"d","t":"Okültizm","x":"Genel olarak “gizli saklı olanın bilgisi” anlamındadır."},{"k":"tbl","r":[["Uygulama","Ne yapar?","Hükmü"],["**Falcılık**","Kâğıt, kahve telvesi gibi şeylerden gelecekten haber verir","İnanıp hayatını ona göre şekillendiren Hz. Peygamber'i inkâr etmiş sayılır"],["**Kehanet**","Gaybı ve geleceği bildiğini iddia eder","Kâhinlerin bilgileri çoğu kere aldatıcıdır"],["**Medyumluk**","Ölülerin ruhlarıyla aracılık iddiasıyla geçmişten haber verir","İnsan ruhu çağrılabilir bir varlık değildir"],["**Astroloji ve burçlar**","Gök cisimlerinden günlük hayat ve gelecek tahmini","Bir fal çeşididir (yıldız falı); yasaklanmıştır"],["**Sihir ve büyü**","Bir şeyi olduğundan farklı gösterip aldatır","Yasak; gerçekliği kelamcıların çoğuna göre var, bazılarına göre yok"]]}]},{"h":"Falcılık","b":[{"k":"d","t":"Falcılık","x":"Oyun kâğıtları, kahve telvesi gibi şeylere bakarak gelecekten haber verme veya anlam çıkarma, yorum yapma işidir."},{"k":"dikkat","x":"Fal vb. uygulamalara inanıp ona göre hayatını şekillendirenlerin Hz. Peygamber'i (s.a.v.) inkâr etmiş sayılacakları, namazlarının kabul edilmeyeceği hadislerde vurgulanmıştır."}]},{"h":"Kehanet ve kâhinlik","b":[{"k":"d","t":"Kâhin","x":"Gaybî meseleleri ve olayların iç yüzünü bildiğini iddia eden ve gelecekte olacak şeyleri haber veren kişi."},{"k":"d","t":"Kehanet","x":"Kâhinin yaptığı iş."},{"k":"not","x":"Kur'an'a göre kâhinlerin verdiği bilgiler çoğu kere hakikate uygun değil, aldatıcıdır."}]},{"h":"Medyumluk","b":[{"k":"p","x":"Medyum, Latincede “aracı” anlamındadır. Ölülerle diriler arasında bir nevi aracılık yaptıklarını iddia ettikleri için bu ismi almışlardır."},{"k":"d","t":"Medyum","x":"Ölülerle diriler arasında bir nevi aracılık yaptığını iddia eden kişi."},{"k":"p","x":"Günümüzde, kâhinlerin yerini medyumlar almıştır. Medyumlar geçmişten haber verirler. Haber kaynakları iddialarına göre ölen kişilerin ruhlarıdır."},{"k":"dikkat","x":"İnsan ruhu çağrılabilir ve istenildiği zaman iletişim kurulabilir nitelikte bir varlık değildir."},{"k":"tbl","r":[["","Kâhin","Medyum"],["**Haber verdiği**","Gelecek","Geçmiş"],["**İddia ettiği kaynak**","Gaybı ve olayların iç yüzünü bilmek","Ölen kişilerin ruhları"]]}]},{"h":"Astroloji ve burçlar","b":[{"k":"d","t":"Astroloji","x":"Gök cisimlerinin konumu ve hareketlerinden yola çıkarak insanların günlük yaşamı ve hatta geleceği hakkında tahminlerde bulunmaktır."},{"k":"p","x":"Aslında daha önce değindiğimiz fal türlerinden birisidir ve falın bu çeşidine **“yıldız falı”** adı verilmektedir."},{"k":"dikkat","x":"Bugün günümüz insanının burç diye takip ettiği ve gazete köşelerinden bulup gündelik hayatını ona göre düzenlediği şeyin de bir çeşit fal olduğunu söylemek mümkündür. Bu da dinimizce yasaklanmıştır."}]},{"h":"Sihir ve büyücülük","b":[{"k":"d","t":"Sihir ve büyü","x":"El çabukluğu, süslü sözler ve göz boyama teknikleriyle bir şeyi olduğundan farklı gösterip insanları aldatma."},{"k":"not","x":"Türkçede genellikle aynı anlamda kullanılan bu iki kelimeden aslında büyü, bir sihir türüdür. Dolayısıyla sihir büyüden daha genel bir kavramdır."},{"k":"p","x":"Kelam âlimlerinin çoğu sihir ve büyünün dinimizce yasaklanmış olsa da onun bir gerçekliğinin olduğunu kabul edip insanlar üzerinde etkisi olabileceğini ifade etmişlerdir."},{"k":"p","x":"Ancak bazı kelam âlimleri de sihir ve büyüye herhangi bir gerçeklik atfetmemekte, aksine onu göz boyama, yalan, aldatma ve hileden ibaret görmektedirler."},{"k":"tbl","r":[["","Kelamcıların çoğu","Bazı kelamcılar"],["**Sihrin gerçekliği**","Vardır, insanlar üzerinde etkisi olabilir","Yoktur; göz boyama, yalan, aldatma ve hiledir"],["**Hükmü**","Yasak","Yasak"]]}]},{"h":"Yoga","b":[{"k":"d","t":"Yoga","x":"Bedensel hareketlerin kontrolü ve meditasyon yardımıyla kurtuluşa erme yolu."},{"k":"p","x":"Bununla, bireyin olgunlaşması ve arınması hedeflenir."},{"k":"p","x":"Sanskrit dilinde yoga kelimesi pek çok anlama sahiptir; \"kontrol etmek\", \"boyunduruk altına almak\" veya \"birleştirmek\" anlamına gelen Sanskrit **\"yuj\"** kelimesinden türemiştir. \"Kavuşma\", \"bir araya gelme\", \"birlik\", \"karşılaşma\" ve \"yöntem\" olarak çevrilebilir. Yoga uygulayan veya yoga felsefesini takip eden kişiye **yogi** ya da **yogini** adı verilir. Yogini ifadesi \"yogi\" isminin dişil kullanımıdır."},{"k":"p","x":"Yoganın doğum tarihi tam olarak bilinmese de, doğum yeri Hindistan, babası olarak da **Patanjali** ismi zikredilir. Hinduizm'in altı büyük öğretisinden biri olarak bilinir."},{"k":"not","x":"Müslüman bireyin yoga ve benzeri çağdaş uygulamalarla bir başka dinin propagandasına alet olmadan da kendini eğitmesi, arındırması ve mutlak dinginliğe erişmesi mümkündür."},{"k":"p","x":"İslâm dininde bütün sonlu ufukların ötesinde olan yüce bir varlığa inanma yanında, öngörülen namaz, oruç, zekât, hac vb. ibadetlerin temel amacı da insanı eğitmek, olgunlaştırmak, dünya ve âhiret mutluluğunu kazandırmaktır. Karşılaşılan sıkıntılar ve musibetler karşısında, her şeyi yaratan ve her şeye gücü yeten Allah'a sığınmadan daha rahatlatıcı ne olabilir ki? Ayrıca yapılan istiğfarlar, gerçekleştirilen ibadetler ve duaların birey ve toplum huzuruna artı değer katacağı da gözden uzak tutulamaz."}]},{"h":"Reiki, aura-çakra uygulamaları ve şifacılık","b":[{"k":"d","t":"Reiki","x":"Enerji aktarımı ile ruhsal şifa vermeye dayalı olduğuna inanılan bir teknik."},{"k":"p","x":"Rei “her yerde var olan”, Ki “ruhsal yaşam enerjisi” anlamına gelmektedir. Kaynağının Tibet olduğu sanılan Reiki, 19. yüzyılda bir Japon Budist olan **Dr. Mikao Usui** tarafından ortaya çıkarılmış ve elleri kullanmak suretiyle bir şifa tekniği hâlinde sunulmuştur."},{"k":"d","t":"Aura","x":"Bir kişinin, canlının veya nesnenin etrafında olduğuna inanılan, genellikle görünmeyen ancak bazı kişiler tarafından hissedilebilen veya algılanabilen enerji alanı."},{"k":"d","t":"Çakra","x":"Bedendeki 7 önemli enerji merkezi."},{"k":"p","x":"İnsan vücudunda bu enerjiye açık çakralar (bedendeki 7 önemli enerji merkezleri) vardır. Reiki yöntemiyle kaybedilen enerji yeniden vücuda kazandırılmaktadır."},{"k":"dikkat","x":"Bunlar herhangi bir din, tarikat veya alternatif tıp değildir. Yukarıda da açıklandığı üzere Müslüman bireyin ruhsal şifası, enerji kaynağı bellidir, bu tür safsatalarla ilgilenmesine ihtiyacı yoktur."}]}],"ht":[{"s":0,"x":"Okültizm: \"gizli saklı olanın bilgisi\"."},{"s":1,"x":"Fala inanıp hayatını ona göre şekillendiren, hadislere göre Hz. Peygamber'i inkâr etmiş sayılır, namazı kabul edilmez."},{"s":2,"x":"Kâhin gaybı ve geleceği bildiğini iddia eder; Kur'an'a göre bilgileri çoğu kere aldatıcıdır."},{"s":3,"x":"Medyum (\"aracı\"): ölülerle diriler arasında aracılık iddiası; geçmişten haber verir. Günümüzde kâhinlerin yerini medyumlar almıştır. İnsan ruhu çağrılamaz."},{"s":4,"x":"Astroloji bir fal türüdür (yıldız falı); burç takip etmek de bir çeşit faldır ve yasaklanmıştır."},{"s":5,"x":"Sihir, büyüden geneldir (büyü bir sihir türüdür). Kelamcıların çoğuna göre sihrin gerçekliği ve etkisi vardır; bazılarına göre göz boyama ve hiledir. Her hâlükârda yasaktır."},{"s":6,"x":"Yoga: Sanskrit \"yuj\"dan (kontrol etmek, birleştirmek); beden kontrolü ve meditasyonla kurtuluş yolu. Doğum yeri Hindistan, babası Patanjali; Hinduizm'in altı büyük öğretisinden biri. Uygulayan: yogi / yogini."},{"s":6,"x":"Müslüman, başka dinin propagandasına alet olmadan namaz, oruç, zekât, hac, dua ve istiğfarla kendini eğitip arındırabilir."},{"s":7,"x":"Reiki: Rei \"her yerde var olan\" + Ki \"ruhsal yaşam enerjisi\"; enerji aktarımıyla şifa iddiası. Kaynağı Tibet sanılır; 19. yy'da Japon Budist Dr. Mikao Usui ortaya çıkardı."},{"s":7,"x":"Aura: etrafta olduğuna inanılan enerji alanı; çakra: bedendeki 7 enerji merkezi. Bunlar din, tarikat ya da alternatif tıp değil; Müslüman'ın şifa ve enerji kaynağı bellidir."}]},{"t":"Küreselleşme, Doğal Afetler ve Terör","intro":"Küreselleşen dünyada İslâm'ın katkıları; afetleri günaha bağlamak, musibetlerin nedenleri, kelamcıların görüşleri ve Diyanet hizmetleri; terör, İslâm'ın davet metodu ve neoselefilik.","s":[{"h":"Küreselleşen dünyada din","b":[{"k":"d","t":"Küreselleşme","x":"Maddi ve manevi değerlerin millî sınırları aşarak dünya çapında yayılmasıyla ülkeler ve milletler arasında ekonomik, siyasal, sosyal ve kültürel etki ve ilişkilerin giderek artmasıdır."},{"k":"h","x":"Küreselleşen dünyada İslâm dininin insanlığa sunacağı bazı katkılar"},{"k":"n","n":1,"x":"İslâm son hak din olması hasebiyle evrenseldir."},{"k":"n","n":2,"x":"Allah sadece müminlere değil, tüm kullara rızık verir."},{"k":"n","n":3,"x":"Kâinattaki bütün varlıklar emanettir, korunmalıdır."},{"k":"n","n":4,"x":"Bütün işlerde Allah adaleti emretmektedir."},{"k":"n","n":5,"x":"Mahlûkata şefkatle muamele asıldır."},{"k":"not","x":"Kâinatın mutlak yaratıcısı olan Allah (c.c.), evreni kendisine emanet ettiği insanlardan kâinatı korumasını, onun tabii ve ekolojik dengesini bozmamasını istemektedir."}]},{"h":"Doğal afetler ve din","b":[{"k":"h","x":"Afetleri günaha bağlamak doğru mudur?"},{"k":"p","x":"İslâm bilginleri kötülüğü temelde ikiye ayırmışlardır: 1. Doğal olan, 2. İradeye bağlı olan."},{"k":"p","x":"Deprem doğal bir afettir. Bu ve benzeri afet insanı aşan ve sorumluluk gerektirmeyen olaydır. İnsanın burada sorumlu tutulacağı nokta **tedbirdir**."},{"k":"p","x":"İnsan bütün tedbirlerini almasına rağmen yine de musibet olursa bu durumda insan sorumluluktan kurtulmuş olur. Ancak bu durumda **imtihan** devreye girmektedir. İnsan bu olaylar ile sınanmaktadır."},{"k":"not","x":"Bu sınanma sadece musibete maruz kalanlar için değil çevredekiler için de geçerlidir."}]},{"h":"Musibetlerin nedenleri","b":[{"k":"n","n":1,"x":"İnsanların kendi yaptığı günahların karşılığı olarak birtakım bela ve musibetlere maruz kalmaktır. Bu görüşün dayanağı, Kur'an'da günah işleyen kavimlerin bazı felaketlerle helak edilmesidir."},{"k":"dikkat","x":"Ancak meydana gelen her musibeti de Allah'ın bir cezası olarak değerlendirmek Kur'an'ın insanlığa vermek istediği mesajla tam olarak bağdaştırılamaz."},{"k":"n","n":2,"x":"Allah'ın fiilleriyle irtibatlı meydana gelen çeşitli doğal felaketlerdir. Bunların amacı insanları imtihan etmeye, deneme ve sınamaya yöneliktir. Hastalıklar ve doğal afetler gibi birçok çeşitli felaketlere maruz kalan insanlar bu musibetler aracılığıyla kendi acizliğinin ve güçsüzlüğünün farkına varır."}]},{"h":"Kelamcıların görüşleri","b":[{"k":"p","x":"**Mutezile kelamcıları:** Allah'ın yaratıklara, ister sorumlu varlıklar olsun isterse sorumlulukları olmasın, çeşitli musibetlerle acı ve ızdırap çektirmesini ibret ve imtihan vesilesi olarak görmüşlerdir. Bu acıların karşılığında ahirette sevap ve mükâfat almaları gerektiğini (vacib) söylemişlerdir."},{"k":"p","x":"**Ehl-i Sünnet kelamcıları:** Dünyada yaşanan acı ve ızdırapların birtakım ilahi hikmetlere binaen olduğunu söylerler. Bu hikmetleri, acı ve ızdıraplara sabredilmesi karşılığında Allah'ın günahlarını affetmesi, manevi derecelerini yükseltmesi ve nefislerini kötü duygu ve düşünceden temizlemek suretiyle ahlaklarını olgunlaştırması olarak vermişlerdir."},{"k":"dikkat","x":"Ancak Mutezile'den farklı olarak, bunları yapmak Allah (c.c.) için vacip olmayıp, caizdir."},{"k":"tbl","r":[["","Mutezile","Ehl-i Sünnet"],["**Acı ve ızdırap**","İbret ve imtihan vesilesi","İlahi hikmetlere binaen"],["**Karşılığı**","Ahirette sevap ve mükâfat","Günahların affı, derecelerin yükselmesi, ahlakın olgunlaşması"],["**Allah için**","Vacip","Caiz (vacip değil)"]]}]},{"h":"Musibetler ya da doğal afetler karşısında Diyanet hizmetleri","b":[{"k":"n","n":1,"x":"İslâm dininin asli kaynağı olan Kur'an'ın musibetlere yaklaşımını halkın anlayabileceği tarzda anlatmak."},{"k":"n","n":2,"x":"Din hizmetleri sunduğu insanları bireysel çevrelerine, bütün insanlara ve Allah'a karşı sorumluluklarını yerine getirmeleri konusunda uyarmak."},{"k":"n","n":3,"x":"Kur'an'da Allah'ın müminlere yardım edeceği ifadelerinin gerçekleşmesi için insanların üzerlerine düşeni yapmaları gerektiğini anlatmak."},{"k":"n","n":4,"x":"Doğal afetleri de içerecek biçimde her konuda tedbirli olmanın dinin emri olduğunu bildirmek."},{"k":"n","n":5,"x":"Afetlerden zarar gören, acı ve ızdıraplara maruz kalan bireylerin ruhsal sağlıklarını korumaları amacıyla bu acılara karşı günahlardan sıyrılıp Allah katında mükâfatlara nail olacakları telkinlerinde bulunmak."}]},{"h":"Terör ve İslâm'ın teröre bakışı","b":[{"k":"d","t":"Terör","x":"Sürekli ve sistemli şiddet hareketleri, cinayet, adam kaçırma, benzeri faaliyetlerle korku uyandırma, yıldırma."},{"k":"h","x":"İslâm'ın teröre bakışı"},{"k":"dikkat","x":"Terör ve terörist hareketleri İslâm'la bağdaştırmak İslâm gibi hür iradeye dayanan, sosyal barışı amaç edinen bir dine büyük bir iftiradan başka bir şey değildir."},{"k":"p","x":"İslâm kelimesinin anlamından da anlaşılacağı üzere dinin asıl doğasında cebir ve şiddete yer yoktur. Dini yaymak için teröre bulaşmak ancak İslâm'ın evrensel mesajını çarpıtmaktır."},{"k":"h","x":"İslâm'ın davet metodu"},{"k":"p","x":"İslâm'ın, diğer bir deyişle Kur'an'ın tebliğ ve davet metodu; **yumuşaklık, iyi öğüt ve güzel sözdür**. Yüce Allah Kur'an-ı Kerim'in çeşitli surelerinde peygamberlerinden insanlara yumuşaklıkla, güzel öğütle yaklaşmalarını istemektedir ve bu metotla ilgili birçok ayet ve hadis bulunmaktadır."}]},{"h":"Neoselefilik","b":[{"k":"p","x":"İngilizce “yeni, acemi, taze, modern ve keşfedilmemiş” gibi anlamlara gelen “neo” ön eki ile Arapça “Selefiyye” kelimelerinin birleşiminden oluşan Neo Selefilik kavramı, Türkçeye “Modern Selefilik” veya “Çağdaş Selefilik” olarak çevrilebilir."},{"k":"d","t":"Neoselefilik","x":"Her ne kadar son zamanlarda kendilerini selefe nispet etseler de daha çok Vahhabiliğin haricîliğe evrilmiş şekliyle özdeşleşen, sadece Kur'an'ı ve sünneti kabul eden, mezhepleri reddeden, fanatik, aşırıcı, dışlamacı, ötekileştirici, tekfir edici, kendilerinden olmayan Müslümanlara karşı düşmanca tavır takınan ve şiddeti tecviz edici akım."}]}],"ht":[{"s":0,"x":"Küreselleşme: maddi ve manevi değerlerin millî sınırları aşıp yayılmasıyla ülkeler arası etkileşimin artması."},{"s":0,"x":"İslâm'ın 5 katkısı: son hak din olarak evrensellik · Allah tüm kullara rızık verir · varlıklar emanettir · her işte adalet · mahlûkata şefkat."},{"s":1,"x":"Afetlerde insanın sorumluluğu tedbirdir; tedbire rağmen musibet olursa sorumluluk kalkar, imtihan devreye girer. İmtihan hem musibete uğrayanlar hem çevredekiler içindir."},{"s":2,"x":"Musibetlerin 2 nedeni: günahların karşılığı (dayanağı helak edilen kavimler; ama her musibeti ceza saymak Kur'an'ın mesajıyla bağdaşmaz) ve Allah'ın fiilleriyle irtibatlı imtihan (insan acizliğini fark eder)."},{"s":3,"x":"Mutezile: musibetler ibret ve imtihandır; ahirette karşılığını vermek Allah'a vaciptir. Ehl-i Sünnet: ilahi hikmetlere binaendir (günahların affı, derecelerin yükselmesi, ahlakın olgunlaşması); bunlar Allah için vacip değil, caizdir."},{"s":4,"x":"Diyanet hizmetleri (5): Kur'an'ın musibet yaklaşımını anlatmak · sorumlulukları hatırlatmak · Allah'ın yardımı için üzerine düşeni yapmayı anlatmak · tedbirin dinin emri olduğunu bildirmek · zarar görenlere günahlardan arınma ve mükâfat telkini."},{"s":5,"x":"Terör: sürekli ve sistemli şiddetle korku uyandırma, yıldırma. Terörü İslâm'la bağdaştırmak hür iradeye dayanan, sosyal barışı amaçlayan bir dine iftiradır."},{"s":5,"x":"İslâm'ın davet metodu: yumuşaklık, iyi öğüt ve güzel söz."},{"s":6,"x":"Neoselefilik: \"neo\" + \"Selefiyye\" → Modern / Çağdaş Selefilik. Vahhabiliğin haricîliğe evrilmiş şekli; mezhepleri reddeden, tekfirci ve şiddeti tecviz eden akım."}]},{"t":"Din–Bilim İlişkisi, Yapay Zekâ ve Transhümanizm","intro":"Din ile bilim çatışır mı, İslâm akıl dini mi, din sınırlıyor mu; yapay zekâ ve insan zekâsı, yapay zekâ ve din; transhümanizmin tanımı, amacı ve değerlendirmesi.","s":[{"h":"Din ile bilim çatışır mı?","b":[{"k":"p","x":"Din ve bilim birbirine karşı değildir. Din ile bilim arasında çatışma olmadığı, çatışmanın bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler arasında olduğu ortaya çıkmıştır."},{"k":"p","x":"Hâlbuki her ikisinin de hedefinde hakikat vardır, fakat bu hakikate farklı yöntemlerle ulaşırlar. Ayrıca günümüz modern dünyasında birçok alanda ispatlanmış, din ve bilimin uyuştuğu birçok husus vardır."}]},{"h":"İslâm akıl dini mi?","b":[{"k":"p","x":"Yüce Allah kurduğu sistemi ve yarattığı insanı çok iyi bildiği için peygamberlik görevini sisteme zarar vermeyecek ve insan aklını kısıtlamayacak şekilde belirlemiştir. İnsan dışarıdan bilgi almaya muhtaç olduğu için peygamber insanın bilmediği alanda birtakım bilgiler verir ve bu bilgileri nasıl kullanacağına dair fikir verir. İnsan bunun karşısında aklına müracaat eder ve kendine göre bir fayda-zarar envanteri çıkarır."},{"k":"dikkat","x":"Eğer bu envanterleri, peygambersiz, sadece zihinde olan bilgi ile yaparsa kendisini dar ve kısır bir alana hapsetmiş olur. Öyleyse insanın sadece akılla bir yere ulaşması ve bir sonuç elde etmesi mümkün değildir."},{"k":"p","x":"İslâm akla hitap eder ve aklın kavramasını önceler. İslâm'da aklın inkâr edilemez derecede önemi vardır."},{"k":"not","x":"“İslâm akıl dini” derken aklın ürettiği anlamında değil, aklın kavrayabileceği bir din demektir. Aklı tek yönlü bakışa ve sınırlı bir bilgiye mahkûm eden, aklı devre dışı bırakır."}]},{"h":"Din sınırlıyor mu?","b":[{"k":"p","x":"İnsanın hayatında sınırlayan olması gayet tabii ve gereklidir. Sınırsız bir hayatta olacaklar karmaşa ve çatışmadır. Çünkü sınırlar kurallardır, kuralsız bir hayat ve toplum olamaz."},{"k":"ornek","x":"Örneğin trafik kurallarının olmadığını düşünelim, neler olur? Kuralsız hayat kısa, kuralsız toplum kaostur."},{"k":"p","x":"Fakat sınırlar makûl ve hareket alanını yok etmeyecek şekilde olmalı. Din de tam olarak bunu yapıyor: İnsanın ve tabiatın doğallığını koruyan birtakım kurallar getiriyor."}]},{"h":"Yapay zekâ","b":[{"k":"d","t":"Yapay zekâ","x":"İnsan zekâsının karakteristik özelliklerini bilgisayara kazandıran algoritmalar geliştiren bir bilim dalıdır."},{"k":"h","x":"Yapay zekânın insan zekâsıyla karşılaştırılması"},{"k":"tbl","r":[["","İnsan zekâsı","Yapay zekâ"],["**Bilginin sürekliliği**","Bozulabilir (ölümcül)","Sürekli (ölümsüz)"],["**Bilginin transferi**","Zordur","Çok kolaydır"],["**Maliyet**","Pahalı","Ucuz"],["**Bilginin tutarlılığı**","Kararsız ve değişken","Kararlı ve tutarlı"],["**Yeniden kullanılabilirlik**","Dokümante edilmesi zor","Dokümante edilebilir"],["**Karar verme hızı**","Daha yavaş","Daha hızlı"],["**Yaratıcılık**","Bilinmeyeni ortaya çıkaran","İlham alamaz"],["**Kullanılan bilgi kaynağı**","Duyu organları","Sensörler"],["**Odaklanma**","Geniş içerik","Dar içerik"]]},{"k":"h","x":"Yapay zekâ ve din"},{"k":"p","x":"Yapay zekâ din biliminin değişik alanlarında da hizmet verecek sistemlerin geliştirilmesine imkân verecektir. Mesela dinî rehberlik, fetvalar, ayetleri tefsir etmek ve hadisleri anlamak gibi alanlarda kullanılacaktır."},{"k":"p","x":"Yapay zekâ sistemleri çok iyi tasarlanmış çıkarım mekanizmalarını kullanarak sahip oldukları dinî bilgileri kolaylıkla işleyebilirler, o bilgileri kullanarak muhakeme ve yorumlar yapabilirler."},{"k":"dikkat","x":"Ancak insanlarda olduğu gibi yapay zekânın da yorumlamalarında Kur'an ve sünnet çizgisinden çıkmaması esastır."}]},{"h":"Transhümanizm","b":[{"k":"d","t":"Transhümanizm","x":"Modern bilim ve teknolojik araçlar vasıtasıyla insanların evrimin getirdiği mevcut biyolojik durumlarından daha üstün olmalarına yardımcı olan, onların biyolojik, psikolojik ve bilişsel yeteneklerinin geliştirilmesi ve yetkinleştirilmesi amacını güden fikir ve uygulamalara inanan ve bunları hayata geçirmeye çalışan bir insan hareketi."},{"k":"h","x":"Amacı"},{"k":"p","x":"Transhümanist akımın öne çıkan temsilcilerinden olan **Bostrom** ve **David Pearce**, Dünya Transhümanist Derneği'ni kurarken, derneğin amacının şunlar olduğunu açıklarlar:"},{"k":"li","x":"İnsanoğlunun durumunu iyileştirmek,"},{"k":"li","x":"Bilim ve teknoloji ile insanın tüm fiziksel ve zihinsel hastalıklarını ortadan kaldırmak,"},{"k":"li","x":"İstem dışı acı çekmeyi sona erdirmek,"},{"k":"li","x":"Yaşlanmayı gidermek,"},{"k":"li","x":"Yaşam kalitesini arttırarak beden sağlığının en iyi duruma getirilmesini sağlamak,"},{"k":"li","x":"İnsanın ölümsüz bir varlığa dönüştürülmesi veya ölümün zorunlu olmaktan çok isteğe bağlı bir hâle getirilmesini sağlamak."},{"k":"p","x":"Temel dayanakları teknolojidir. Önerilen teknoloji kümelerini, genel olarak nanoteknoloji, biyoteknoloji, bilgi teknolojisi ve bilişsel bilim anlamına gelen **NBIC** gibi harf kombinasyonlarıyla kabul ederler."},{"k":"tbl","r":[["Harf","Teknoloji"],["**N**","Nanoteknoloji"],["**B**","Biyoteknoloji"],["**I**","Bilgi teknolojisi"],["**C**","Bilişsel bilim"]]},{"k":"h","x":"Değerlendirme"},{"k":"p","x":"Transhümanizm her ne kadar bir din olduğu iddiasında olsa da bunun bir karşılığı olmadığını görmekteyiz."},{"k":"dikkat","x":"Transhümanizmin kendine biçtiği rolde aslında tanrılık vardır. Çünkü yeni bir yaratmadan bahsetmektedir ve insana ölümsüzlük vaat etmektedir. Bu vesile ile Allah'ın yarattığı düzene müdahale etmek istemektedir."},{"k":"p","x":"Temel felsefesi ve hedeflerini göz önüne alarak düşündüğümüzde İslâm'ın temel prensiplerine aykırılıklar görmekteyiz. Sonuç olarak bu projede insanlığa faydalı bazı şeyler var gibi görünüyor olsa da insanlık için çok tehlikeli ve İslâm'ın temel ilkelerine de aykırıdır."}]}],"ht":[{"s":0,"x":"Din ile bilim çatışmaz; çatışma, bilimden din üretmeye kalkışanlarla dini bilim gibi görenler arasındadır. İkisi de hakikati hedefler, farklı yöntemlerle ulaşır."},{"s":1,"x":"İnsan dışarıdan bilgiye muhtaçtır; peygamber bilmediği alanda bilgi verir, insan aklıyla fayda-zarar envanteri çıkarır. Peygambersiz, yalnız akılla bir sonuca ulaşılamaz."},{"s":1,"x":"\"İslâm akıl dini\": aklın ürettiği değil, aklın kavrayabileceği din demektir."},{"s":2,"x":"Sınırlar kurallardır; kuralsız hayat kısa, kuralsız toplum kaostur (trafik örneği). Din, makûl ve insanın ve tabiatın doğallığını koruyan kurallar getirir."},{"s":3,"x":"Yapay zekâ: insan zekâsının özelliklerini bilgisayara kazandıran algoritmalar geliştiren bilim dalı."},{"s":3,"x":"İnsan zekâsı: bozulabilir, transferi zor, pahalı, kararsız, yavaş ama yaratıcı; duyu organlarıyla, geniş içerikli. Yapay zekâ: sürekli, kolay transfer, ucuz, tutarlı, hızlı ama ilham alamaz; sensörlerle, dar içerikli."},{"s":3,"x":"Yapay zekâ dinî rehberlik, fetva, tefsir ve hadiste kullanılacak; yorumlarında Kur'an ve sünnet çizgisinden çıkmaması esastır."},{"s":4,"x":"Transhümanizm: bilim ve teknolojiyle insanı mevcut biyolojik durumundan üstün kılmayı, yeteneklerini yetkinleştirmeyi amaçlayan hareket."},{"s":4,"x":"Dünya Transhümanist Derneği: Bostrom ve David Pearce. Amaç: hastalıkları kaldırmak, yaşlanmayı gidermek, ölümsüzlük ya da isteğe bağlı ölüm. Dayanak NBIC: nano, bio, bilgi, bilişsel."},{"s":4,"x":"Transhümanizmde tanrılık iddiası vardır (yeni yaratma, ölümsüzlük vaadi, Allah'ın düzenine müdahale); İslâm'ın temel ilkelerine aykırı ve insanlık için tehlikelidir."}]}];
+const SORULAR = [{"u":0,"q":"Ateizm kelimesi hangi kelimenin başına olumsuzluk eki \"a\" getirilerek oluşturulmuştur?","a":["theos","deus","gnostos","nihil"],"x":"Ateizm, Yunancada \"Tanrı\" anlamına gelen \"theos\" kelimesinin başına olumsuzluk eki \"a\" getirilerek oluşturulmuştur. \"Deus\" deizmin, \"gnostos\" agnostisizmin, \"nihil\" nihilizmin köküdür."},{"u":0,"q":"Ateizm hangi tutuma karşı tepkisel bir hareket olarak ortaya çıkmıştır?","a":["Kilisenin bilime ve bilim adamına yönelik baskıcı tutumuna","Pozitivizmin metafiziği reddetmesine","Satanist grupların Hristiyanlığa tepkisine","Reform hareketinin mezhepçiliğine"],"x":"Ateizm, Hristiyanlığın ve özellikle kilisenin bilime ve bilim adamına yönelik baskıcı tutumuna karşı tepkisel bir hareket olarak ortaya çıkmıştır; kökeni antik çağa dayanır."},{"u":0,"q":"\"Ateizm denilince akla gelen tür\" olarak nitelenen ve Tanrı'nın varlığının düşünerek, tartışarak, deliller üreterek inkâr edildiği ateizm çeşidi hangisidir?","a":["Teorik ateizm","Mutlak ateizm","Pratik / fiilî ateizm","İlgisizlerin ateizmi"],"x":"Teorik ateizm, Tanrı'nın varlığının bilinçli bir şekilde reddedilmesidir; ateizm denilince akla gelen türü budur."},{"u":0,"q":"\"Mutlu ve sağlıklı günlerinde Tanrı'yı inkâr eden bir ateistin dara düştüğünde Tanrı'ya sığınması\" hangi ateizm çeşidine karşı delil olarak gösterilir?","a":["Mutlak ateizm","Teorik ateizm","Pratik ateizm","İlgisizlerin ateizmi"],"x":"Mutlak ateizm insanda doğuştan Tanrı fikrinin olmadığını savunur. Halbuki her insanın derinliklerinde Tanrı fikri saklıdır; dara düşen ateistin Tanrı'ya sığınması bunun delilidir."},{"u":0,"q":"Materyalizme göre aşağıdakilerden hangisi doğrudur?","a":["Madde ezelî ve ebedîdir, var olan her şey maddeden ibarettir.","Madde yaratılmıştır ama âleme Tanrı karışmaz.","Tanrı'nın varlığı da yokluğu da bilinemez.","Bilginin kaynağı akıl, his ve haber-i sadıktır."],"x":"Materyalizm maddeyi ezelî ve ebedî kabul eder, her şeyin maddeden ibaret olduğunu ileri sürer ve metafiziği kabul etmez."},{"u":0,"q":"Materyalistlerin büyük patlama (big bang) konusunda cevaplamakta zorlandıkları soru hangisidir?","a":["Bu patlamaya neyin yol açtığı","Patlamanın ne zaman olduğu","Evrenin genişleyip genişlemediği","Termodinamik yasalarının geçerliliği"],"x":"Başlangıçtaki ilk ve yaratılmamış maddeyi büyük patlama ile izah etseler de bu patlamaya neyin yol açtığı sorusunu cevaplamakta bir hayli zorlanmışlardır."},{"u":0,"q":"İslâm düşünürlerindeki atom/cevher anlayışını materyalizmdekinden ayıran özellik nedir?","a":["Cevherin değişken ve dolayısıyla yaratılmış olması","Cevherin ezelî ve değişmeyen bir asıl olması","Cevherin maddenin temel yapıtaşı sayılmaması","Cevherin tesadüfen ortaya çıkması"],"x":"Atom/cevherin merkeze alınması İslâm düşünürlerinde de vardır; ancak buradaki cevher yaratılmamış ve değişmeyen bir asıl değil, maddenin tamamı gibi değişken ve dolayısıyla yaratılmıştır."},{"u":0,"q":"Pozitivizm terimini ilk kullanan ve onu sistematik hâle getiren kişiler sırasıyla kimlerdir?","a":["Saint Simon – August Comte","August Comte – Saint Simon","Huxley – Saint Simon","Friedrich Jacobi – Nietzsche"],"x":"Pozitivizm terimini ilk kullanan Saint Simon, sistematik hâle getiren ise August Comte'tur."},{"u":0,"q":"Comte'un 3 hal yasasına göre insanlığın gençlik/ergenlik dönemine denk gelen ve 1300-1800 yıllarını kapsayan aşama hangisidir?","a":["Metafizik aşama","Mitolojik / teolojik aşama","Pozitif / bilimsel aşama","Olgunluk aşaması"],"x":"Metafizik aşamada insan olguların nedeninin doğa gibi soyut güçler olduğuna inanır; insanlık gençlik/ergenlik dönemindedir; 1300-1800 yıllarını kapsar."},{"u":0,"q":"\"Yağmuru doğa yağdırdı\" ifadesi Comte'un hangi aşamasına örnektir?","a":["Metafizik","Mitolojik / teolojik","Pozitif / bilimsel","Olgusal"],"x":"1. aşama: yağmuru tanrı yağdırdı; 2. (metafizik) aşama: doğa yağdırdı; 3. aşama: su, buhar, bulut."},{"u":0,"q":"Pozitivizme göre insanlık 3. aşamaya ulaştığında \"vahyin\" yerini ne alacaktır?","a":["Akıl","Bilim","İlmî keşif","Üniversite"],"x":"Pozitivizme göre mitolojinin yerini bilim, vahyin yerini akıl, mucizenin yerini ilmî keşif, mabedin yerini üniversite alacaktır."},{"u":0,"q":"Pozitivizmin bilgi tanımının \"efradını câmi olmadığını\" göstermek için verilen örnek hangisidir?","a":["Varlığından emin olduğumuz hâlde tecrübe ile doğrulayamadığımız akıl","Bilim çağında dinlerin varlığını sürdürmesi","Din ile bilimin uyuştuğu hususlar","Büyük patlamanın sebebinin bilinmemesi"],"x":"Varlığından emin olduğumuz ancak tecrübe ile doğrulayamadığımız \"akıl\" gibi olgular vardır; bu yüzden pozitivizmin bilgi tanımı efradını câmi değildir."},{"u":1,"q":"Septisizm hangi anlama gelir?","a":["Kuşkuculuk","Bilinemezcilik","Hiççilik","Tanrıcılık"],"x":"Septisizm \"kuşkuculuk\" anlamına gelir; agnostisizm \"bilinemezci\", nihilizm \"hiççilik\", deizm \"tanrıcılık\" anlamındadır."},{"u":1,"q":"Septikler Tanrı'yı açıkça inkâr etmedikleri hâlde niçin ateist olarak görülebilirler?","a":["Kuşkudan kurtulamadıkları ve imanın netlik ve berraklığına erişemedikleri için","Kiliseye tepki olarak ortaya çıktıkları için","Maddeyi ezelî kabul ettikleri için","Şeytanı özgürlüğün sembolü saydıkları için"],"x":"Septikler kendilerini kuşku durumundan kurtaramadıkları ve imanın netlik ve berraklığına erişemedikleri için ateist olarak görülebilirler."},{"u":1,"q":"Septisizmin hangi yönü \"belli oranda olumlu\" görülebilir?","a":["İnce bir araştırma ve tahkike yol açması","Bütün bilgi kaynaklarından şüphe etmesi","Kuşkuyu sürekli kılması","Eşyanın hakikatini inkâr etmesi"],"x":"Septisizm tahkike yol açması noktasında belli oranda olumlu görülebilir; fakat kuşkuyu sürekli ve köklü hâle getirmesi gerçekle bağdaşmaz."},{"u":1,"q":"İslâm kelamcılarına göre eşyanın hakikatinin ve bilgisinin inkârı neye yol açar?","a":["Bütün yargı ve işlerimizden vazgeçmeye, dolayısıyla hayatın devamlılığını riske sokmaya","Daha derin bir araştırma ve tahkike","İmanın netlik ve berraklığına","Bilimin dinden ayrılmasına"],"x":"Eşyanın hakikatinin ve bilgisinin inkârı bizi bütün yargılarımızdan ve işlerimizden vazgeçmeye götürür; bu, insan hayatının devamlılığını riske sokar."},{"u":1,"q":"Şeytanı gerçek bir varlık olarak değil, özgürlük ve bireysel gelişimin sembolü olarak gören satanist grup hangisidir?","a":["Modern (LaVeyan) Satanistler","Geleneksel Satanistler","Eski Avrupa'daki marjinal gruplar","Kara büyü uygulayıcıları"],"x":"Modern Satanistler (LaVeyan Satanizm) şeytanı özgürlük ve bireysel gelişimin sembolü olarak görür; bireycilik, ateizm, doğacılık ve hazzın kabulü prensiplerini benimser."},{"u":1,"q":"LaVeyan Satanizm sisteminde yer aldığı belirtilen unsurlar hangisidir?","a":["9 İlke ve 9 Günah","7 İlke ve 7 Günah","3 Hal Yasası","9 Büyük Öğreti"],"x":"Modern Satanizmin içinde 9 İlke ve 9 Günah yer alır."},{"u":1,"q":"Agnostisizm terimini ilk defa kullanan kimdir?","a":["İngiliz filozof Huxley","August Comte","Friedrich Jacobi","Protagoras"],"x":"Agnostisizm (\"bilinemezci\") ilk defa İngiliz filozof Huxley tarafından kendi öğretisini isimlendirmek için kullanılmıştır."},{"u":1,"q":"Agnostiklere göre aşağıdakilerden hangisi doğrudur?","a":["Ne Tanrı'nın varlığını ne de yokluğunu bilmek mümkündür.","Tanrı vardır ama âleme karışmaz.","Tanrı'nın yokluğu bilimsel olarak kanıtlanmıştır.","Tanrı fikri insanda doğuştan yoktur."],"x":"Agnostiklere göre Tanrı ve metafizik dünya bilginin sınırları içinde değildir; bu yüzden Tanrı'nın ne varlığını ne de yokluğunu bilmek mümkündür."},{"u":1,"q":"İslâm düşünce tarihinde indiyye, inâdiyye ve lâ edriyye gibi akımların toplandığı genel başlık hangisidir?","a":["Sûfestâiyye","Sümeniyye","Berâhime","Huddâmcılık"],"x":"Agnostik türden akımlara indiyye, inâdiyye ve lâ edriyye denmiştir; bunların tamamı sûfestâiyye başlığı altında toplanır. Sümeniyye ve Berâhime uzak doğudaki akımlardır."},{"u":1,"q":"Nihilizm kavramını popüler hâle getiren roman karakteri ve yazarı hangisidir?","a":["Bazarov – Ivan Turgenev","Zerdüşt – Nietzsche","Bazarov – Friedrich Jacobi","Üstün insan – Ivan Turgenev"],"x":"Rus yazar Ivan Turgenev, romanında (1862) nihilist karakter Bazarov'u kullanmasıyla kavramı popüler hâle getirmiştir."},{"u":1,"q":"Pek çok dinî ve ahlaki değeri yok sayıp yerine \"üstün insan\"ı getiren düşünür kimdir?","a":["Nietzsche","Friedrich Jacobi","Ivan Turgenev","Huxley"],"x":"Nihilizmi anlaşılır ve belirli bir mantık çerçevesine oturtulabilir hâle getirmeye çalışan Nietzsche, dinî ve ahlaki değerleri yok sayıp yerine \"üstün insan\"ı getirmiştir."},{"u":2,"q":"Evrimcilik hangi yönüyle materyalizmle aynı kabul edilmiştir?","a":["İlk varlığın tesadüfen ortaya çıktığını kabul etmesi","Tanrı'nın âleme karışmadığını söylemesi","Bilginin kaynağını deneyle sınırlaması","Türler arası geçişi reddetmesi"],"x":"Evrimcilikteki ortak ata tesadüfen var olmuştur; materyalizme göre de ezelî ve ebedî ilk varlık tesadüfen ortaya çıkmıştır. Bu yönüyle iki akım aynıdır."},{"u":2,"q":"\"Canlıların dış yapı farklılıklarından ötürü hayatta kalma şansının ve üreme başarısının değişkenlik göstermesi\" neyin tanımıdır?","a":["Doğal seçilim","Ortak ata","Tekâmül","Kademeli değişim"],"x":"Bu ifade doğal seçilimin tanımıdır."},{"u":2,"q":"Evrim teorisini 19. yüzyılın ortalarında geliştirip sistemleştiren kimdir?","a":["Darwin","Leibniz","Huxley","August Comte"],"x":"Evrimcilik Darwin tarafından 19. yy.'ın ortalarında geliştirilip sistemleştirilmiştir."},{"u":2,"q":"İslâm düşünürlerinin \"tekâmül\" kavramı için aşağıdakilerden hangisi doğrudur?","a":["Canlının kendi iç bünyesinde kemale ilerlemesidir; türler arası geçiş söz konusu değildir.","Türlerin doğal seçilimle birbirine dönüşmesidir.","Ortak atadan milyonlarca yılda kademeli değişimdir.","Maddenin tesadüfen canlılığa geçmesidir."],"x":"Tekâmül, bir canlının kendi iç bünyesinde kemale doğru ilerlemesidir; her varlığın kendine özgü yaratılış biçimi vardır ve türler arası geçiş asla söz konusu değildir."},{"u":2,"q":"Aşağıdakilerden hangisi tekâmüle örnek olarak verilmiştir?","a":["İncir çekirdeğinin incir ağacına dönüşmesi","Bir türün başka bir türe dönüşmesi","İnsanın çeşitli aşamalardan geçerek insana dönüşmesi","Ortak atanın farklı türlere ayrılması"],"x":"Bir incir çekirdeğinin incir ağacına dönüşmesi ve bir kromozomun belli şartlarda insana dönüşmesi tekâmüldür, asla evrim değildir."},{"u":2,"q":"Evrim iddiasına karşı \"somut misal\" itirazı neyi ifade eder?","a":["Bir canlının diğerinin evrimiyle meydana geldiğine dair hiçbir araştırmada örneğe rastlanmamış olmasını","Fosillerin tarihlendirilemediğini","Doğal seçilimin hiç gözlenmediğini","Büyük patlamanın sebebinin bilinmediğini"],"x":"Bir canlının diğer canlının evrimi sonucu meydana geldiğini iddia edebilmek için somut bir misal gerekir; yapılan hiçbir araştırmada böyle bir örneğe rastlanmamıştır."},{"u":2,"q":"Deizmin Türkçe karşılıkları hangileridir?","a":["İlahiyye / ilahçılık","Lâ edriyye / bilinemezcilik","Tenâsüh / ruh göçü","Sûfestâiyye / kuşkuculuk"],"x":"Deizm (ilahiyye/ilahçılık) Latince \"deus\"tan türetilmiş, ateizme karşı tanrıcılık anlamında kullanılmıştır."},{"u":2,"q":"Deizme göre aşağıdakilerden hangisi doğrudur?","a":["Allah âlemi yaratıp düzenlemiş, harekete geçirmiş, fakat artık âleme karışmamaktadır.","Tanrı'nın varlığı da yokluğu da bilinemez.","Tanrı fikri insanda doğuştan yoktur.","Tanrı'ya ancak vahiy ve peygamber aracılığıyla inanılır."],"x":"Deizm, Allah'ın âlemin mimarı olduğunu, onu düzenleyip harekete geçirdiğini, fakat artık âleme karışmadığını tasavvur eder; Tanrı'ya din, peygamber veya vahiy aracı olmaksızın inanılır."},{"u":2,"q":"Deiste göre Tanrı'nın varlığına hangi yollarla inanılır?","a":["Akıl, gözlem ve sezgi","Vahiy ve peygamber","Deney ve tecrübe","Keşif ve ilham"],"x":"Deizm din, peygamber veya vahiy aracı olmaksızın bireyin akıl, gözlem, sezgi gibi yollarla Tanrı'nın varlığına inanmasına dayanır."},{"u":3,"q":"Kötülük problemi hangi akımın temel argümanlarından biridir?","a":["Ateizm","Deizm","Pozitivizm","Septisizm"],"x":"Kötülük problemi ateizmin temel argümanlarından biridir: kötülük varsa merhametli ve her şeye gücü yeten Tanrı yoktur."},{"u":3,"q":"Depremler, kuraklıklar ve hastalık yapan bakteriler hangi kötülük türüne girer?","a":["Doğal / fiziksel kötülük","Ahlaki kötülük","Metafiziksel kötülük","İradî kötülük"],"x":"İnsan eylemlerinden bağımsız olarak meydana gelen deprem, fırtına, kuraklık, bakteri gibi kötülükler doğal/fiziksel kötülüktür."},{"u":3,"q":"Leibniz'in eklediği metafiziksel kötülük neyi ifade eder?","a":["Yaratılmış evrenin sonluluğu ve sınırlılığı","İnsan kaynaklı zulüm ve haksızlıklar","İnsandan bağımsız doğal felaketler","Kulun kesbiyle kazanılan kötülük"],"x":"Leibniz doğal ve ahlaki kötülüğe \"yaratılmış evrenin sonluluğu ve sınırlılığı\" olan metafiziksel kötülüğü eklemiştir."},{"u":3,"q":"Ehl-i Sünnet kelamcıları doğal kötülüğe hangi çerçeveden bakarlar?","a":["Hikmet ve imtihan","Salah","Kesb","Tesadüf ve zorunluluk"],"x":"Ehl-i Sünnet'e göre Allah kötülüksüz bir dünya yaratabilirdi (Cennet gibi); ama hikmeti gereği dünyayı imtihan alanı kılmıştır."},{"u":3,"q":"Mutezile doğal kötülüğü hangi kavramla açıklar?","a":["Salah","Kesb","Tekâmül","Fetret"],"x":"Mutezile doğal kötülüğü \"salah\" kavramıyla açıklar: bize kötü görünen şeyler, farkında olmasak da aslında iyidir."},{"u":3,"q":"\"Halk-ı şer şer değil, kesb-i şer şerdir\" ilkesi hangi ekole aittir?","a":["Eş'arîler","Mutezile","Mâtürîdîler","Selefiyye"],"x":"Eş'arîlere göre bütün fiillerin yaratıcısı Allah'tır; kötü fiiller Allah'ın yaratması yönüyle değil, kulun kesbi nedeniyle kötülük vasfını kazanır."},{"u":3,"q":"Ahlaki kötülükte insanı kendi fiillerinin yaratıcısı (doğrudan faili) kabul eden ekol hangisidir?","a":["Mutezile","Eş'arîler","Mâtürîdîler","Ehl-i Sünnet"],"x":"Mutezile'ye göre insan temyiz melekesine sahiptir ve kendi fiillerinin yaratıcısıdır; ahlaki kötülüklerin kaynağı özgürce eyleme yönelen insanın kendisidir."},{"u":3,"q":"Mâtürîdîler Allah'ın fiilleri irade etmesini nasıl anlarlar?","a":["Sadece onları yaratmayı irade etmesi olarak","Onlara rıza göstermesi olarak","Onları emretmesi olarak","Onlara kulun kesbini eklemesi olarak"],"x":"Mâtürîdîlere göre de bütün fiillerin yaratıcısı Allah'tır; ancak Allah'ın fiilleri irade etmesi, sadece onları yaratmayı irade etmesidir."},{"u":3,"q":"Eş'arî ve Mâtürîdî anlayışında fiilin oluşum sırası nasıldır?","a":["Önce insan fiile yönelir, sonra Allah o fiili irade eder ve yaratır.","Önce Allah fiili yaratır, sonra insan ona yönelir.","İnsan fiili yaratır, Allah ona izin verir.","Allah fiili irade eder, insan onu kendi gücüyle yaratır."],"x":"Her iki ekolde de önce insan fiile yönelir, sonra Allah onun yöneldiği bu fiili irade eder ve yaratır."},{"u":4,"q":"İnsanları intihara sürükleyen sebeplerin başında hangisi gelmektedir?","a":["Depresyon / bunalım","Başarısızlık","Ekonomik sıkıntı","Kader inancı"],"x":"İntihara sürükleyen sebeplerin başında depresyon/bunalım gelir; sosyal tecritten boşanma travmalarına kadar pek çok vaka bunalıma götüren süreçte yer alır."},{"u":4,"q":"Aşağıdakilerden hangisi \"intiharı önlemede dinin rolü\" başlığında sayılmamıştır?","a":["İntihar edenin eceliyle ölmediğinin bildirilmesi","Hayatın kutsal ve intiharın büyük günah olması","Sıkıntıların günahlara kefaret ve ahirette karşılıklı olması","Kader inancının yaşama sevinci ve huzur vermesi"],"x":"Dinin rolü dört maddede sayılır: hayatın kutsallığı, imtihan inancıyla Allah'a güven, sıkıntıların kefaret ve karşılığı, kader inancı. Eceliyle ölmediğini söylemek Mutezile'nin görüşüdür."},{"u":4,"q":"Ehl-i sünnete göre intihar eden kişi eceliyle mi ölmüştür?","a":["Evet; ölen herkes kendi eceliyle ölür, ölüm şekli bunu değiştirmez.","Hayır; kendini öldürmeseydi ölmeyecekti.","Hayır; eceli intiharla öne alınmıştır.","Bu konuda görüş bildirmemişlerdir."],"x":"Ehl-i sünnet âlimlerine göre ölen herkes kendi eceliyle ölmüştür. Mutezile'ye göre ise intihar eden eceliyle ölmemiştir."},{"u":4,"q":"\"Kendini öldürmeseydi ölmeyecekti\" diyerek intihar edenin eceliyle ölmediğini savunan ekol hangisidir?","a":["Mutezile","Eş'arîler","Mâtürîdîler","Ehl-i sünnet"],"x":"Mutezile'ye göre intihar eden eceliyle ölmemiştir; kendini öldürmeseydi ölmeyecekti."},{"u":4,"q":"Hastanın hayatta kalmasını sağlayan müdahalelerin yapılmaması ötanazinin hangi türüdür?","a":["Pasif ötanazi","Aktif ötanazi","Gönüllü ötanazi","Dolaylı ötanazi"],"x":"Aktif ötanazi hastaya ölümcül doz enjekte edilmesi, pasif ötanazi ise hayatta kalmasını sağlayan müdahalelerin yapılmamasıdır."},{"u":4,"q":"Ötanazi hastanın rızasıyla yapılırsa hükmü nedir?","a":["İntihar","Cinayet","Caiz","Mekruh"],"x":"Ötanazi her iki türüyle de caiz değildir: hastanın rızasıyla olursa intihar, aksi hâlde cinayet olur."},{"u":4,"q":"İntihar kaderde varsa intihar eden niçin günahkâr olur?","a":["Allah'ın yasakladığı bir biçimde kendi ölümüne yol açtığı, yani kendi tercihi için","Kaderindeki ölüm fiilini icra ettiği için","Ecelini değiştirdiği için","Kader inancını inkâr ettiği için"],"x":"İntihar eden, kaderindeki ölüm fiilini icra ettiği için değil, Allah'ın yasakladığı bir biçimde kendi ölümüne yol açtığı için sorumludur; kul kendi tercihi nedeniyle günahkârdır."},{"u":4,"q":"İntihar saldırıları değerlendirilirken esas alınan ilke hangisidir?","a":["Meşru bir hedefe ulaştıran yolların da meşru olması gerekir.","Hedef meşruysa her yol mubahtır.","Savaşta sivil-asker ayrımı yapılmaz.","Vatan savunmasında can feda etmek her şekilde övülür."],"x":"Mal, can, namus ve vatanı korumak meşrudur; ancak meşru hedefe ulaştıran yolların da meşru olması gerekir. Sivil-asker ayırmadan bomba patlatmak Müslüman şahsiyetine yakışmaz."},{"u":5,"q":"Fetret kavramı özellikle hangi zaman aralığı için kullanılır?","a":["Hz. İsa ile Hz. Muhammed arası","Hz. Musa ile Hz. İsa arası","Hz. Âdem ile Hz. Nuh arası","Hz. Muhammed'den kıyamete kadar"],"x":"Fetret özellikle Hz. İsa ile Hz. Muhammed arasında geçen zaman için kullanılır; ancak Hz. Muhammed'den sonra bu durumda olanları da kapsar."},{"u":5,"q":"\"Ehl-i fetret ahirette imtihana tâbi tutulur, neticesine göre gidecekleri yer belli olur\" görüşü kime aittir?","a":["İbn Teymiyye","Eş'arî","Mâtürîdî","İmam Rabbânî"],"x":"Bu görüş İbn Teymiyye'ye aittir."},{"u":5,"q":"Ehl-i fetretin ehl-i necât (cennetlik) olduğunu söyleyen kimdir?","a":["Eş'arî","Mâtürîdî","İbn Teymiyye","İmam Rabbânî"],"x":"Eş'arî'ye göre fetret ehli ehl-i necâttır, yani cennetliktir."},{"u":5,"q":"\"Akıllarını kullanıp tek olan yaratıcıyı bulurlarsa cennetlik, aksi hâlde cehennemliktir\" görüşü kime aittir?","a":["Mâtürîdî","Eş'arî","Gazzâlî","İbn Teymiyye"],"x":"Mâtürîdî'ye göre fetret ehli aklını kullanıp tek yaratıcıyı bulursa cennetlik, bulmazsa cehennemliktir."},{"u":5,"q":"İmam Rabbânî'ye göre ehl-i fetretin âkıbeti nedir?","a":["Ne cennete ne cehenneme giderler; kul hakları ödendikten sonra toprak olurlar.","Ahirette imtihan edilirler.","Kesin olarak cennetliktirler.","Akıllarıyla Allah'ı bulamazlarsa cehennemliktirler."],"x":"İmam Rabbânî'ye göre ehl-i fetret ne cennete ne cehenneme gider; kul hakları ödendikten sonra toprak olurlar."},{"u":5,"q":"Gazzâlî'nin sınıflandırmasında kesin olarak azaba uğratılacak olanlar kimlerdir?","a":["Peygamber'in davetini, mucizelerini ve güzel ahlâkını duyduğu hâlde iman etmeyenler","Peygamber'in davetini hiç duymayanlar","Yalnızca ismini ve aleyhindeki menfî propagandayı duyanlar","Fetret döneminde yaşayanlar"],"x":"Gazzâlî'ye göre davetini, mucizelerini ve güzel ahlâkını duyup iman etmeyen sınıf kesin olarak azaba uğratılacaktır."},{"u":5,"q":"Gazzâlî, Peygamber'in yalnızca ismini ve aleyhindeki menfî propagandayı duyanlar hakkında ne der?","a":["Ehl-i necat olacaklarını umarım.","Kesin olarak cennetliktirler.","Kesin olarak azaba uğratılacaklardır.","Ahirette imtihan edileceklerdir."],"x":"Gazzâlî üçüncü sınıf için \"Bunların da ehl-i necat olacaklarını, yani Cennete gireceklerini umarım\" der."},{"u":6,"q":"Ruh çağırma Osmanlı literatüründe hangi isimle anılmıştır?","a":["Huddâmcılık","İlmü'l-azâim","Tayy-i mekân","Tenâsüh"],"x":"İslâm dünyasında \"ilmü istihzâri'l-ervâh\" ve \"ilmü'l-azâim\" tabirleriyle dile getirilen ruh çağırma, Osmanlı literatüründe huddâmcılık olarak isimlendirilmiştir."},{"u":6,"q":"Ruh çağırma hakkında aşağıdakilerden hangisi doğrudur?","a":["Ölen insanların ruhlarıyla temas kurulduğuna veya çağrıldığına dair bir rivayet yoktur.","Peygamberlerin ölülerin ruhlarıyla temas kurduğu rivayet edilmiştir.","Kâhinlerin ölülerin ruhlarını çağırdığı Kur'an'da bildirilmiştir.","Ruh çağırma tasavvufta keramet sayılmıştır."],"x":"Peygamberlerin meleklerle, bazı kâhinlerin cinlerle teması olduğundan söz edilse de ölen insanların ruhlarıyla temas kurulduğuna veya çağrıldığına ilişkin bir rivayet yoktur."},{"u":6,"q":"Tayy-i zaman ve tayy-i mekân için aşağıdakilerden hangisi doğrudur?","a":["Allah'ın sevgili kullarına bahşettiği bir keramettir ve hem ruhen hem bedenen gerçekleşir.","Ruhun uykuda bedenden ayrılarak yolculuk etmesidir.","Teosofik/okültist bir inançtır.","Astral seyahatin tasavvuftaki adıdır."],"x":"Tayy-i zaman ve tayy-i mekân, Allah'ın sevgili kullarına bir anda uzun mesafeler kat ettirmesi kerametidir; hem ruhen hem bedenen gerçekleşir ve astral seyahatle ilgisi yoktur."},{"u":6,"q":"Tayy-i zaman ve tayy-i mekânın Kur'an'daki dinî mesnedi olarak hangi örnekler verilmiştir?","a":["Ashâb-ı Kehf ve Hz. Süleyman'ın yanındaki kişi","Hz. Musa ve Hızır","Hz. Yunus ve balık","Hz. İbrahim ve ateş"],"x":"Kur'an'da bu kavramlara dinî mesnet bulmak mümkündür: Ashâb-ı Kehf ve Hz. Süleyman'ın yanındaki kişi."},{"u":6,"q":"Telepati gibi önsezilere mutlak olarak güvenilmemesinin sebebi nedir?","a":["Bu ilham meleklerden olabileceği gibi şeytanın telkinlerinden de kaynaklanabilir.","Kur'an'da telepati yasaklanmıştır.","Telepati yalnızca kâhinlerde görülür.","Telepati bilimsel olarak ispatlanmamıştır."],"x":"İnsandaki önsezi meleklerden de şeytanın telkinlerinden de kaynaklanabilir; her zaman doğru olacağının garantisi yoktur."},{"u":6,"q":"Hz. Peygamber'e (s.a.v.) özgü \"resûlü's-sakaleyn\" unvanı ne anlama gelir?","a":["Cinlerin ve insanların peygamberi","İki âlemin efendisi","Son peygamber","Meleklerin ve insanların elçisi"],"x":"Hz. Peygamber hem insanların hem cinlerin peygamberi olduğu için kendisine \"resûlü's-sakaleyn\" unvanı verilmiştir; bu ona özgüdür."},{"u":6,"q":"Ehl-i sünnete göre cinler görülebilir mi?","a":["Evet; görülebilmenin yegâne şartı var olmaktır.","Hayır; latif varlıklar hiçbir şekilde görülemez.","Yalnızca peygamberler görebilir.","Yalnızca rüyada görülebilir."],"x":"Ehl-i sünnete göre görülebilmenin yegâne şartı \"vücut\" (var olmak)tır; cinler de var olduğuna göre görülebilmeleri mümkündür."},{"u":6,"q":"Cinlerin varlığı hangi delillerle sabittir?","a":["Kur'an, Sünnet ve İcmâ","Yalnızca Kur'an","Kıyas ve akıl","Keşif ve ilham"],"x":"Cinlerin varlığı Kur'an, Sünnet ve İcmâ ile sabittir; hiçbir Müslüman'ın cinlerin varlığını inkâr etmesi câiz olmaz."},{"u":6,"q":"Cinleri hizmetinde çalıştırdığı rivayet edilen tek peygamber kimdir?","a":["Hz. Süleyman","Hz. Davud","Hz. Musa","Hz. Muhammed (s.a.v.)"],"x":"Hz. Süleyman dışında diğer peygamberlerin cinleri hizmetinde çalıştırdığına dair bir rivayet yoktur."},{"u":6,"q":"Reenkarnasyon inancının kabulü niçin âhiret inancının inkârı anlamına gelir?","a":["Mükâfat ve ceza bedenden bedene geçişte gerçekleştiği için âhirete gerek kalmaz.","Ruhun yaratılmadığını kabul ettiği için","Cinlerin varlığını reddettiği için","Hint dinlerinden geldiği için"],"x":"Reenkarnasyonda süreç bedende başlar ve başka bir bedende biter; mükâfat ve ceza için bir âhirete gerek kalmaz."},{"u":7,"q":"Okültizm genel olarak ne anlama gelir?","a":["Gizli saklı olanın bilgisi","Ruhun bedenden ayrılması","Gök cisimlerinin bilgisi","Enerji aktarımıyla şifa"],"x":"Okültizm genel olarak \"gizli saklı olanın bilgisi\" anlamındadır."},{"u":7,"q":"Hadislerde fala inanıp hayatını ona göre şekillendirenler için ne vurgulanmıştır?","a":["Hz. Peygamber'i inkâr etmiş sayılacakları ve namazlarının kabul edilmeyeceği","Fal bakmanın mekruh olduğu","Falın bazen doğru çıkabileceği","Kahve falının caiz olduğu"],"x":"Fal vb. uygulamalara inanıp hayatını ona göre şekillendirenlerin Hz. Peygamber'i inkâr etmiş sayılacakları ve namazlarının kabul edilmeyeceği hadislerde vurgulanmıştır."},{"u":7,"q":"Kâhin ile medyum arasındaki fark hangisidir?","a":["Kâhin gelecekten, medyum ise ölülerin ruhlarını kaynak göstererek geçmişten haber verir.","Kâhin geçmişten, medyum gelecekten haber verir.","Kâhin yıldızlara, medyum kahve telvesine bakar.","İkisi arasında fark yoktur."],"x":"Kâhin gaybı bildiğini iddia edip gelecekten haber verir; medyum ise ölülerin ruhlarını kaynak göstererek geçmişten haber verir. Günümüzde kâhinlerin yerini medyumlar almıştır."},{"u":7,"q":"Astroloji hangi fal türü olarak adlandırılır?","a":["Yıldız falı","Kahve falı","Kâğıt falı","El falı"],"x":"Astroloji fal türlerinden birisidir ve falın bu çeşidine \"yıldız falı\" denir; burç takibi de bir çeşit faldır ve yasaklanmıştır."},{"u":7,"q":"Sihir ve büyü kavramları arasındaki ilişki nasıldır?","a":["Sihir büyüden daha genel bir kavramdır; büyü bir sihir türüdür.","Büyü sihirden daha genel bir kavramdır.","İkisi tamamen farklı şeylerdir.","Sihir helal, büyü haramdır."],"x":"Türkçede aynı anlamda kullanılsalar da aslında büyü bir sihir türüdür; dolayısıyla sihir büyüden daha geneldir."},{"u":7,"q":"Kelam âlimlerinin çoğunluğunun sihir hakkındaki görüşü nedir?","a":["Yasaklanmış olsa da bir gerçekliği ve insanlar üzerinde etkisi olabilir.","Hiçbir gerçekliği yoktur, sadece göz boyamadır.","Gerçekliği vardır ve caizdir.","Yalnızca cinlerin yardımıyla yapılırsa gerçektir."],"x":"Kelam âlimlerinin çoğu sihrin yasak olmakla birlikte bir gerçekliği ve etkisi olabileceğini kabul eder; bazıları ise onu göz boyama, yalan ve hileden ibaret görür."},{"u":7,"q":"Yoganın babası olarak zikredilen kişi ve yoganın doğum yeri hangisidir?","a":["Patanjali – Hindistan","Mikao Usui – Japonya","Patanjali – Tibet","Mikao Usui – Hindistan"],"x":"Yoganın doğum yeri Hindistan, babası olarak Patanjali zikredilir; Hinduizm'in altı büyük öğretisinden biridir."},{"u":7,"q":"\"Yoga\" kelimesinin türediği Sanskrit kök hangisidir?","a":["Yuj","Rei","Ki","Nihil"],"x":"Yoga, \"kontrol etmek\", \"boyunduruk altına almak\" veya \"birleştirmek\" anlamına gelen Sanskrit \"yuj\" kelimesinden türemiştir."},{"u":7,"q":"Reiki kelimesindeki \"Ki\" ne anlama gelir?","a":["Ruhsal yaşam enerjisi","Her yerde var olan","Enerji merkezi","Kurtuluş yolu"],"x":"Rei \"her yerde var olan\", Ki \"ruhsal yaşam enerjisi\" anlamına gelir."},{"u":7,"q":"Reiki'yi 19. yüzyılda ortaya çıkaran kişi kimdir?","a":["Japon Budist Dr. Mikao Usui","Patanjali","Huxley","Tibetli bir lama"],"x":"Kaynağının Tibet olduğu sanılan Reiki, 19. yüzyılda Japon Budist Dr. Mikao Usui tarafından ortaya çıkarılmıştır."},{"u":7,"q":"Bedendeki 7 önemli enerji merkezine ne ad verilir?","a":["Çakra","Aura","Reiki","Yogi"],"x":"İnsan vücudunda enerjiye açık çakralar (bedendeki 7 önemli enerji merkezi) olduğuna inanılır; aura ise etraftaki enerji alanıdır."},{"u":8,"q":"Aşağıdakilerden hangisi küreselleşen dünyada İslâm'ın insanlığa sunacağı katkılar arasında sayılmamıştır?","a":["Bilimin dinden üstün tutulması","İslâm'ın evrenselliği","Kâinattaki bütün varlıkların emanet olması","Mahlûkata şefkatle muamele"],"x":"Sayılan katkılar: evrensellik, Allah'ın tüm kullara rızık vermesi, varlıkların emanet olması, her işte adalet ve mahlûkata şefkattir."},{"u":8,"q":"Deprem gibi doğal afetlerde insanın sorumlu tutulacağı nokta nedir?","a":["Tedbir","Günah","Dua","Kader"],"x":"Deprem insanı aşan ve sorumluluk gerektirmeyen bir olaydır; insanın sorumlu olduğu nokta tedbirdir. Tedbire rağmen musibet olursa sorumluluk kalkar, imtihan devreye girer."},{"u":8,"q":"Musibetleri günahların karşılığı sayan görüşün Kur'an'daki dayanağı nedir?","a":["Günah işleyen kavimlerin bazı felaketlerle helak edilmesi","Allah'ın tüm kullara rızık vermesi","Ashâb-ı Kehf kıssası","Nâs suresi"],"x":"Bu görüşün dayanağı Kur'an'da günah işleyen kavimlerin felaketlerle helak edilmesidir; ancak her musibeti Allah'ın cezası saymak Kur'an'ın mesajıyla tam bağdaşmaz."},{"u":8,"q":"Musibetlerin karşılığında ahirette sevap ve mükâfat verilmesini Allah için \"vacip\" gören ekol hangisidir?","a":["Mutezile","Ehl-i Sünnet","Eş'arîler","Mâtürîdîler"],"x":"Mutezile, musibetlerin karşılığında ahirette sevap ve mükâfat verilmesini vacip görür; Ehl-i Sünnet'e göre bu Allah için vacip değil, caizdir."},{"u":8,"q":"Ehl-i Sünnet kelamcılarına göre musibetlerdeki ilahi hikmetler arasında hangisi sayılmaz?","a":["Allah'ın musibetin karşılığını vermek zorunda olması","Sabır karşılığında günahların affedilmesi","Manevi derecelerin yükselmesi","Nefsin temizlenip ahlakın olgunlaşması"],"x":"Ehl-i Sünnet'e göre hikmetler günahların affı, derecelerin yükselmesi ve ahlakın olgunlaşmasıdır; bunlar Allah için vacip değil caizdir."},{"u":8,"q":"Kur'an'ın tebliğ ve davet metodu nedir?","a":["Yumuşaklık, iyi öğüt ve güzel söz","Cebir ve zorlama","Tekfir ve dışlama","Yalnızca kılıçla cihad"],"x":"İslâm'ın davet metodu yumuşaklık, iyi öğüt ve güzel sözdür; dinin asıl doğasında cebir ve şiddete yer yoktur."},{"u":8,"q":"Neoselefilik hangi akımın haricîliğe evrilmiş şekliyle özdeşleştirilmiştir?","a":["Vahhabilik","Mutezile","Eş'arîlik","Satanizm"],"x":"Neoselefilik daha çok Vahhabiliğin haricîliğe evrilmiş şekliyle özdeşleşen; mezhepleri reddeden, tekfirci ve şiddeti tecviz eden bir akımdır."},{"u":8,"q":"Diyanet'in afetler karşısındaki hizmetlerinden biri hangisidir?","a":["Her konuda tedbirli olmanın dinin emri olduğunu bildirmek","Her afetin Allah'ın cezası olduğunu ilan etmek","Afetzedelere fetva vermemek","Afetleri yalnızca günahlarla açıklamak"],"x":"Diyanet hizmetlerinden biri, doğal afetleri de içerecek biçimde her konuda tedbirli olmanın dinin emri olduğunu bildirmektir."},{"u":9,"q":"Din ile bilim arasındaki çatışmanın asıl tarafları kimlerdir?","a":["Bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler","Kelamcılar ile filozoflar","Pozitivistler ile materyalistler","Din ile bilimin kendisi"],"x":"Din ile bilim arasında çatışma yoktur; çatışma bilimden din üretmeye kalkışanlar ile dini bilim gibi görenler arasındadır."},{"u":9,"q":"\"İslâm akıl dinidir\" ifadesi ne anlama gelir?","a":["Aklın kavrayabileceği bir din","Aklın ürettiği bir din","Vahye ihtiyaç duymayan bir din","Yalnızca akılla ulaşılan bir din"],"x":"\"İslâm akıl dini\" derken aklın ürettiği değil, aklın kavrayabileceği bir din kastedilir."},{"u":9,"q":"Peygambersiz, yalnız zihindeki bilgiyle fayda-zarar envanteri çıkaran insan için ne söylenmiştir?","a":["Kendisini dar ve kısır bir alana hapsetmiş olur.","Hakikate daha hızlı ulaşır.","Dinin sınırlarından kurtulur.","Aklını tam olarak kullanmış olur."],"x":"Bu envanteri peygambersiz yapan kişi kendisini dar ve kısır bir alana hapseder; insanın sadece akılla bir sonuca ulaşması mümkün değildir."},{"u":9,"q":"\"Din sınırlıyor mu?\" sorusuna verilen cevapta kullanılan örnek hangisidir?","a":["Trafik kuralları","Satranç kuralları","Futbol kuralları","Okul kuralları"],"x":"Trafik kurallarının olmadığı düşünülürse kuralsız hayatın kısa, kuralsız toplumun kaos olacağı görülür; din de makûl sınırlar getirir."},{"u":9,"q":"İnsan zekâsı ile yapay zekâ karşılaştırmasında \"yaratıcılık\" satırına göre yapay zekâ için ne denmiştir?","a":["İlham alamaz","Bilinmeyeni ortaya çıkarır","Daha yaratıcıdır","Dokümente edilebilir"],"x":"Yaratıcılıkta insan zekâsı bilinmeyeni ortaya çıkarır; yapay zekâ ise ilham alamaz."},{"u":9,"q":"Karşılaştırma tablosuna göre aşağıdakilerden hangisi insan zekâsının özelliğidir?","a":["Bilgisi bozulabilir (ölümcül), transferi zordur.","Bilgisi sürekli (ölümsüz), transferi kolaydır.","Ucuz ve daha hızlıdır.","Sensörleri kullanır ve dar içeriğe odaklanır."],"x":"İnsan zekâsında bilgi bozulabilir ve transferi zordur; yapay zekâda bilgi süreklidir ve transferi çok kolaydır."},{"u":9,"q":"Karşılaştırma tablosuna göre insan zekâsı ile yapay zekânın kullandığı bilgi kaynakları sırasıyla nelerdir?","a":["Duyu organları – sensörler","Sensörler – duyu organları","Akıl – algoritmalar","Vahiy – veri tabanları"],"x":"İnsan zekâsı duyu organlarını, yapay zekâ sensörleri kullanır."},{"u":9,"q":"Yapay zekânın dinî alanlarda kullanımında esas olan şart nedir?","a":["Yorumlamalarında Kur'an ve sünnet çizgisinden çıkmaması","Fetva vermemesi","Yalnızca tefsirde kullanılması","İnsan denetimi olmadan çalışması"],"x":"Yapay zekâ dinî rehberlik, fetva, tefsir ve hadis alanlarında kullanılacaktır; insanlarda olduğu gibi yorumlarında Kur'an ve sünnet çizgisinden çıkmaması esastır."},{"u":9,"q":"Dünya Transhümanist Derneği'ni kuran temsilciler kimlerdir?","a":["Bostrom ve David Pearce","Darwin ve Huxley","Saint Simon ve Comte","Jacobi ve Nietzsche"],"x":"Transhümanist akımın öne çıkan temsilcileri Bostrom ve David Pearce Dünya Transhümanist Derneği'ni kurmuştur."},{"u":9,"q":"Transhümanizmin dayandığı NBIC teknoloji kümesindeki \"C\" harfi neyi ifade eder?","a":["Bilişsel bilim","Bilgi teknolojisi","Biyoteknoloji","Nanoteknoloji"],"x":"NBIC: nanoteknoloji, biyoteknoloji, bilgi teknolojisi ve bilişsel bilim."},{"u":9,"q":"Transhümanizmin kendine biçtiği rolde \"tanrılık\" bulunduğunun gerekçesi nedir?","a":["Yeni bir yaratmadan bahsetmesi ve insana ölümsüzlük vaat etmesi","Kendini bir din olarak ilan etmemesi","Hastalıkları tedavi etmeyi amaçlaması","Yapay zekâyı reddetmesi"],"x":"Transhümanizm yeni bir yaratmadan bahseder ve insana ölümsüzlük vaat eder; böylece Allah'ın yarattığı düzene müdahale etmek ister."}];
+const SINAV = [];
+const ESER_T = [{"u":0,"s":2,"e":"Pozitivizm terimini ilk kullanan","m":"Saint Simon","not":""},{"u":0,"s":2,"e":"Pozitivizmi sistematik hâle getiren ve 3 hal yasasını ortaya koyan","m":"August Comte","not":""},{"u":1,"s":0,"e":"Septisizmin ilk temsilcileri","m":"Pyrrhon ve Protagoras","not":""},{"u":1,"s":2,"e":"Agnostisizm terimini ilk defa kullanan İngiliz filozof","m":"Huxley","not":""},{"u":1,"s":3,"e":"Nihilizm kavramını ilk defa 19. yy başlarında kullanan","m":"Friedrich Jacobi","not":""},{"u":1,"s":3,"e":"Nihilist karakter Bazarov'la nihilizmi popüler hâle getiren Rus yazar","m":"Ivan Turgenev","not":""},{"u":1,"s":3,"e":"Nihilizmi mantık çerçevesine oturtup yerine “üstün insan”ı getiren","m":"Nietzsche","not":""},{"u":2,"s":0,"e":"Evrimciliği 19. yy ortasında geliştirip sistemleştiren","m":"Darwin","not":""},{"u":3,"s":1,"e":"Kötülüğe metafiziksel kötülüğü ekleyen","m":"Leibniz","not":""},{"u":5,"s":1,"e":"Ehl-i fetretin âhirette imtihana tâbi tutulacağını söyleyen","m":"İbn Teymiyye","not":""},{"u":5,"s":1,"e":"Ehl-i fetretin ehl-i necât (cennetlik) olduğunu söyleyen","m":"Eş'arî","not":""},{"u":5,"s":1,"e":"Ehl-i fetret aklıyla tek yaratıcıyı bulursa cennetlik olur diyen","m":"Mâtürîdî","not":""},{"u":5,"s":1,"e":"Ehl-i fetretin kul hakları ödendikten sonra toprak olacağını söyleyen","m":"İmam Rabbânî","not":""},{"u":5,"s":2,"e":"Peygamber'in davetini duymayanları üç sınıfta inceleyen","m":"Gazzâlî","not":""},{"u":7,"s":6,"e":"Yoganın babası olarak zikredilen","m":"Patanjali","not":""},{"u":7,"s":7,"e":"Reiki'yi 19. yüzyılda ortaya çıkaran Japon Budist","m":"Dr. Mikao Usui","not":""},{"u":9,"s":4,"e":"Dünya Transhümanist Derneği'ni kuran transhümanist temsilciler","m":"Bostrom ve David Pearce","not":""}];
+</script>
+<script>
+/* ---------- yardımcılar ---------- */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = s => String(s).toLocaleLowerCase('tr').normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/[’'ʿʾ‘`"]/g, '').replace(/ı/g, 'i').replace(/[^a-z0-9؀-ۿ ]/g, ' ').replace(/\s+/g, ' ').trim();
+const strip = h => String(h).replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+const plain = s => String(s).replace(/\*\*/g, '').replace(/[«»]/g, '').replace(/\[\[|\]\]/g, '');
+// Metin biçimi: **kalın**, «Arapça»
+function fmt(s) {
+  return esc(s)
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+    .replace(/«([^»]+)»/g, (m, a) => /[؀-ۿ]/.test(a) ? `<span class="ar" dir="rtl" lang="ar">${a}</span>` : `«${a}»`)
+    .replace(/\[\[(.+?)\]\]/g, '<span class="ek" title="Ek · onay bekliyor">$1</span>');
+}
+
+/* ---------- kalıcı durum (tarayıcıda, ön ek: gi_) ---------- */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem('gi_' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem('gi_' + k, JSON.stringify(v)); } catch (e) {} }
+};
+let stats = store.get('stats', {});   // anahtar -> {ok, bad}
+let boxes = store.get('boxes', {});   // tanım id -> kutu 1..5
+let oral  = store.get('oral', {});    // bölüm anahtarı -> 1/0
+let uStat = store.get('units', {});   // ünite -> en iyi mini test (0-5)
+function record(key, ok) { const s = stats[key] || {ok: 0, bad: 0}; ok ? s.ok++ : s.bad++; stats[key] = s; store.set('stats', stats); ozet(true); }
+/* ---------- Giray Akademi özeti (alt çubuk · Karnem) ---------- */
+const YAD = {home: 'Ana sayfa', study: 'Üniteler', quiz: 'Test', match: 'Kişi eşleştirme', flash: 'Kavram kartları', oralView: 'Konu tekrarı', review: 'Hızlı tekrar', exam: 'Geçmiş sınav soruları', browse: 'Sözlük', progress: 'İlerlemem'};
+function yer() {
+  const v = curView, a = curArg;
+  if (v === 'unitView') return {ad: (a + 1) + '. ünite', url: '/guncel_inanc/#unitView-' + a};
+  if (v === 'quiz' && a && a.unit !== undefined && a.unit !== null) return {ad: (a.unit + 1) + '. ünite testi', url: '/guncel_inanc/#unitView-' + a.unit};
+  if (v === 'quiz' || v === 'home') return {ad: YAD[v], url: '/guncel_inanc/'};
+  return {ad: YAD[v] || 'Ana sayfa', url: '/guncel_inanc/#' + v};
+}
+function ozet(aktif) {
+  if (typeof gaOzet !== 'function') return;
+  const tot = Object.values(stats).reduce((a, s) => ({ok: a.ok + s.ok, bad: a.bad + s.bad}), {ok: 0, bad: 0});
+  const n = UNITELER.filter((u, i) => (uStat[i] || 0) >= GECME).length;
+  gaOzet({bitti: n / UNITELER.length, etiket: n + '/' + UNITELER.length + ' ünite', d: tot.ok, y: tot.bad, kart: Object.values(boxes).filter(b => b >= 4).length, yer: yer(), aktif: !!aktif});
+}
+function alt(b) { if (typeof gaAltGizle === 'function') gaAltGizle(b); }
+
+/* ---------- veri hazırlığı ---------- */
+const TANIM = [], BOLUM = [];
+UNITELER.forEach((u, ui) => u.s.forEach((s, si) => {
+  BOLUM.push({u: ui, s: si, h: s.h});
+  s.b.forEach(b => {
+    if (b.k === 'd') TANIM.push({id: TANIM.length, u: ui, s: si, t: b.t, x: b.x});
+    // İki sütunlu "… | Tanım/Anlamı" tabloları da kavram kartı olur
+    if (b.k === 'tbl' && b.r[0].length === 2 && /^(Tanım|Anlamı)$/.test(b.r[0][1])) b.r.slice(1).forEach(r => TANIM.push({id: TANIM.length, u: ui, s: si, t: r[0].replace(/\*\*/g, '').replace(/^\d+\.\s*/, ''), x: r[1]}));
+  });
+}));
+const ESER = ESER_T;
+// Aynı adla birden çok müellife bağlanan eserler (el-Burhân, Mebâhis, Tefsir Usûlü…) ve bir müellifin birden çok eseri tek sorudan fazla üretilmez
+const eserSay = {}; ESER.forEach(r => { const k = norm(r.e); (eserSay[k] ||= new Set()).add(norm(r.m)); });
+const ESER_Q = ESER.filter(r => eserSay[norm(r.e)].size === 1 && !/[,;]/.test(r.e)).filter((r, i, a) => a.findIndex(x => norm(x.e) === norm(r.e)) === i);
+ESER_Q.forEach((r, i) => r.id = i);
+const GECME = 4;
+const uDone = () => UNITELER.filter((u, i) => (uStat[i] || 0) >= GECME).length;
+
+/* ---------- soru üretici ---------- */
+// Havuz öğesi: {key, u, make()}
+const maskTerm = (x, t) => {
+  let out = x;
+  t.replace(/\(.*?\)/g, '').split(/[\s\-–]+/).filter(w => w.length > 3 && !/^(kur'an|kuran|ayet|âyet)$/i.test(w)).forEach(w => {
+    out = out.replace(new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '…');
+  });
+  return out;
+};
+function pickDistinct(cands, n, keyFn, exclude) {
+  const seen = new Set(exclude.map(keyFn)), out = [];
+  for (const c of cands) { const k = keyFn(c); if (!seen.has(k)) { seen.add(k); out.push(c); if (out.length === n) break; } }
+  return out;
+}
+const nearFirst = (list, u) => [...shuffle(list.filter(x => x.u === u)), ...shuffle(list.filter(x => Math.abs(x.u - u) <= 2 && x.u !== u)), ...shuffle(list.filter(x => Math.abs(x.u - u) > 2))];
+function qTanim(d) {
+  const tersi = Math.random() < 0.65;
+  const fk = x => norm(x.t);
+  if (tersi) {   // tanımı göster, kavramı sor
+    const metin = maskTerm(d.x, d.t);
+    const cands = nearFirst(TANIM.filter(x => x.id !== d.id && !norm(d.x).includes(norm(x.t))), d.u);
+    const dis = pickDistinct(cands, 3, fk, [d]);
+    return {key: 'd:' + d.id, u: d.u, s: d.s, long: true, soru: `<small>Aşağıdaki tanım hangi kavrama aittir?</small>${fmt(metin)}`, dogru: d.t, sec: shuffle([d.t, ...dis.map(x => x.t)]), aciklama: `<b>${fmt(d.t)}:</b> ${fmt(d.x)}`};
+  }
+  const cands = nearFirst(TANIM.filter(x => x.id !== d.id && norm(x.x) !== norm(d.x)), d.u);
+  const dis = pickDistinct(cands, 3, x => norm(x.x).slice(0, 60), [d]);
+  const kisalt = x => plain(maskTerm(x.x, x.t));
+  return {key: 'd:' + d.id, u: d.u, s: d.s, soru: `<small>Hangisi bu kavramın tanımıdır?</small><em>${fmt(d.t)}</em>`, dogru: kisalt(d), sec: shuffle([kisalt(d), ...dis.map(kisalt)]), aciklama: `<b>${fmt(d.t)}:</b> ${fmt(d.x)}`};
+}
+function qEser(r) {
+  const cands = nearFirst(ESER.filter(x => norm(x.m) !== norm(r.m)), r.u);
+  const dis = pickDistinct(cands, 3, x => norm(x.m), [r]);
+  return {key: 'e:' + r.id, u: r.u, s: r.s, soru: `<em>${fmt(r.e)}</em> kimdir?`, dogru: r.m, sec: shuffle([r.m, ...dis.map(x => x.m)]), aciklama: `<b>${fmt(r.e)}</b> → ${fmt(r.m)}`};
+}
+function qEl(i) {
+  const q = SORULAR[i];
+  return {key: 'q:' + i, u: q.u, soru: fmt(q.q), dogru: q.a[0], sec: shuffle(q.a), aciklama: fmt(q.x)};
+}
+const HAVUZ = [
+  ...SORULAR.map((q, i) => ({key: 'q:' + i, u: q.u, make: () => qEl(i)})),
+  ...TANIM.map(d => ({key: 'd:' + d.id, u: d.u, make: () => qTanim(d)})),
+  ...ESER_Q.map(r => ({key: 'e:' + r.id, u: r.u, make: () => qEser(r)}))
+];
+function weightedPick(list, n) {
+  const w = list.map(x => { const s = stats[x.key]; return s ? 1 + s.bad * 2 - s.ok * .5 : 1.5; });
+  const out = [], used = new Set();
+  while (out.length < Math.min(n, list.length)) {
+    let tot = 0; list.forEach((x, i) => { if (!used.has(i)) tot += Math.max(w[i], .2); });
+    let rnd = Math.random() * tot;
+    for (let i = 0; i < list.length; i++) { if (used.has(i)) continue; rnd -= Math.max(w[i], .2); if (rnd <= 0) { used.add(i); out.push(list[i]); break; } }
+  }
+  return out;
+}
+
+/* ---------- yönlendirme ---------- */
+const VIEWS = () => ({home, quiz, match, flash, oralView, review, browse, progress, study, unitView, exam});
+let curView = 'home', curArg = null;
+const navStack = [{view: 'home', arg: null}];
+let pendingFocus = null;
+function render(view, arg) {
+  curView = view; curArg = arg ?? null;
+  window.scrollTo(0, 0);
+  VIEWS()[view](arg ?? undefined);
+  ozet(false); alt(view === 'quiz' && !!(typeof Q !== 'undefined' && Q && Q.list && Q.list.length));
+  if (pendingFocus) { const f = pendingFocus; pendingFocus = null; setTimeout(() => focusHit(f), 30); }
+}
+function go(view, arg) {
+  const d = (history.state && history.state.d) || 0;
+  const st = {view, arg: arg === undefined ? null : arg};
+  if (curView === 'quiz' && view !== 'quiz') { st.d = d; navStack[d] = st; try { history.replaceState(st, ''); } catch (e) {} }
+  else { st.d = d + 1; navStack.length = d + 1; navStack.push(st); try { history.pushState(st, ''); } catch (e) {} }
+  render(view, arg);
+}
+function goUp(view, arg = null) {
+  const d = (history.state && history.state.d) || 0, key = JSON.stringify(arg);
+  for (let k = d - 1; k >= 0; k--) {
+    const e = navStack[k];
+    if (e && e.view === view && JSON.stringify(e.arg ?? null) === key) { try { history.go(k - d); return; } catch (er) { break; } }
+  }
+  go(view, arg ?? undefined);
+}
+function goBack() {
+  if (curView === 'unitView') goUp('study');
+  else if (curView === 'quiz' && curArg && curArg.unit !== undefined) goUp('unitView', curArg.unit);
+  else goUp('home');
+}
+window.addEventListener('popstate', e => {
+  if ($('#sov').classList.contains('open')) { closeSearch(true); return; }
+  const st = e.state || {view: 'home', arg: null};
+  if (st.search) { try { history.back(); } catch (er) {} return; }
+  render(st.view, st.arg);
+});
+
+/* ---------- ana sayfa ---------- */
+const modeCard = (v, i, t, d) => `<button class="mode" onclick="go('${v}')"><div class="ico">${i}</div><h3>${t}</h3><p>${d}</p></button>`;
+function home() {
+  const tot = Object.values(stats).reduce((a, s) => ({ok: a.ok + s.ok, bad: a.bad + s.bad}), {ok: 0, bad: 0});
+  const oran = tot.ok + tot.bad ? '%' + Math.round(100 * tot.ok / (tot.ok + tot.bad)) : '—';
+  $('#app').innerHTML = `
+  <section class="hero">
+    <h1>Güncel İnanç Problemleri</h1>
+    <div class="arn"><span lang="ar" dir="rtl">قضايا عقدية</span></div>
+    <p class="lead">Ateizm, deizm ve modern akımlardan kötülük problemine, intihar ve fetret ehlinden ruh, cin ve okültist eğilimlere, afetler, terör, yapay zekâ ve transhümanizme kadar ünite ünite konu anlatımı, tablolar, kavram kartları ve açıklamalı testler.</p>
+    <div class="stats">
+      <div class="stat"><b>${UNITELER.length}</b><span>ünite</span></div>
+      <div class="stat"><b>${TANIM.length}</b><span>kavram</span></div>
+      <div class="stat"><b>${HAVUZ.length}</b><span>soru</span></div>
+      <div class="stat"><b>${oran}</b><span>başarı oranın</span></div>
+    </div>
+  </section>
+  <details class="how" ${store.get('howClosed', false) ? '' : 'open'} ontoggle="store.set('howClosed', !this.open)">
+    <summary>Nasıl çalışır?</summary>
+    <ol class="steps">
+      <li><b>Önce “Çalış” ile öğren.</b> Yeşil düğmeden üniteleri sırayla aç. Tablolar karşılaştırmayı, renkli kutular önemli noktaları gösterir. Ünitenin sonundaki <i>Hızlı tekrar</i> kutusunu oku, sonra 5 soruluk mini testi çöz. 4 doğru yaparsan ünite ✓ alır.</li>
+      <li><b>Kavramları ezberle.</b> <i>Kavram kartları</i>'nda kartın önünde kavram, arkasında tanımı var. Bilemediğin kartlar sonraki destelerde daha sık gelir.</li>
+      <li><b>Pekiştir.</b> <i>Test</i> bütün ünitelerden karışık sorular sorar; her cevaptan sonra açıklama gelir. <i>Kişi eşleştirme</i>'de akımları ve görüşleri ilgili kişilerle eşleştirirsin.</li>
+      <li><b>Sınava hazırlan.</b> <i>Hızlı tekrar</i> bütün ünitelerin özünü tek sayfada verir. <i>Konu tekrarı</i> bir bölüm başlığı gösterir; önce kendin anlat, sonra içeriği aç.${SINAV.length ? " <i>Geçmiş sınav soruları</i>'nda önce kendin cevapla, sonra <b>Cevabı göster</b>'e dokun." : ''}</li>
+      <li><b>Takip et.</b> <i>İlerlemem</i> ünite bazında başarını ve en çok karıştırdıklarını gösterir. Üstteki <b>🔍</b> bütün konu anlatımlarında arar.</li>
+    </ol>
+    <div class="legend"><span class="lgt">Kutuların anlamı:</span><span class="lg-d">Tanım</span><span class="lg-n">Not</span><span class="lg-k">Dikkat</span><span class="lg-o">Örnek</span><span class="lg-s">Soru–cevap</span></div>
+    <p class="hownote">İlerlemen yalnızca bu cihazda, bu tarayıcıda saklanır. Bir hata görürsen yanındaki <b>⚑ Bildir</b>'e dokun.</p>
+  </details>
+  <button class="study-cta" onclick="go('study')"><div class="ico">❖</div><div><h3>Çalış · ünite ünite öğren</h3><p>${uDone()} / ${UNITELER.length} ünite tamamlandı. Önce oku, sonra mini testle pekiştir.</p></div></button>
+  <div class="section-title">Çalışma modları</div>
+  <div class="modes">
+    ${modeCard('quiz', '✎', 'Test', 'Bütün ünitelerden 10 soruluk karışık test. Her cevaptan sonra açıklama.')}
+    ${modeCard('flash', '❐', 'Kavram kartları', 'Önde kavram, arkada tanım. Bilemediklerin daha sık gelir.')}
+    ${modeCard('review', '☑', 'Hızlı tekrar', 'Her ünitenin en önemli maddeleri tek sayfada. Sınavdan önce bir bakış.')}
+    ${modeCard('match', '⇄', 'Kişi eşleştirme', 'Beş görüşü ya da akımı ilgili kişiyle eşleştir.')}
+    ${modeCard('oralView', '☊', 'Konu tekrarı', 'Bölüm başlığını gör, kendin anlat, sonra içeriği açıp kontrol et.')}
+    ${SINAV.length ? modeCard('exam', '✦', 'Geçmiş sınav soruları', 'Önce kendin cevapla, sonra cevabı ve ilgili bölümleri aç.') : ''}
+    ${modeCard('browse', '⌕', 'Kavram ve kişi sözlüğü', 'Bütün tanımları ve kişi listesini ara.')}
+    ${modeCard('progress', '▤', 'İlerlemem', 'Ünite bazında başarın ve en çok karıştırdıkların.')}
+  </div>
+  <p class="foot">İlerlemen yalnızca bu cihazda, tarayıcında saklanır.</p>`;
+}
+
+/* ---------- çalış ---------- */
+function unitItems(i) { return HAVUZ.filter(x => x.u === i); }
+function study() {
+  const ilkEksik = UNITELER.findIndex((u, i) => (uStat[i] || 0) < GECME);
+  $('#app').innerHTML = `
+  <h2 style="margin-top:22px">Çalış</h2>
+  <p class="lead">Her ünitede önce konu anlatımını oku, sonra ${GECME}/5 ile geçilen mini testi çöz. Geçtiğin üniteler ✓ alır.</p>
+  ${ilkEksik >= 0 ? `<div class="actions" style="justify-content:flex-start"><button class="btn" onclick="go('unitView',${ilkEksik})">Kaldığım yerden devam et →</button></div>` : ''}
+  <div class="ulist" style="margin-top:16px">${UNITELER.map((u, i) => { const ok = (uStat[i] || 0) >= GECME;
+    const nT = TANIM.filter(d => d.u === i).length;
+    return `<button class="unit ${ok ? 'done' : i === ilkEksik ? 'next' : ''}" onclick="go('unitView',${i})"><span class="st">${ok ? '✓' : i + 1}</span><span class="ut"><b>${esc(u.t)}</b><small>${u.s.length} bölüm · ${nT} kavram · ${unitItems(i).length} soru${uStat[i] !== undefined ? ` · en iyi: ${uStat[i]}/5` : ''}</small></span><span style="color:var(--muted)">›</span></button>`; }).join('')}</div>`;
+}
+function tblHTML(r) {
+  const bos = r[0][0] === '';
+  const st = r[0].length >= 3, lb = i => esc(plain(r[0][i] || ''));
+  return `<div class="tw${st ? ' tws' : ''}"><table class="tbl${bos ? ' cmp' : ''}${st ? ' st' : ''}"><thead><tr>${r[0].map(c => `<th>${fmt(c)}</th>`).join('')}</tr></thead><tbody>${r.slice(1).map(row => `<tr>${row.map((c, i) => i === 0 ? `<th scope="row">${fmt(c)}</th>` : `<td${st && r[0][i] ? ` data-l="${lb(i)}"` : ''}${c === '' || c === '—' ? ' class="bos"' : ''}>${fmt(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function blockHTML(b) {
+  if (b.k === 'h') return `<h4>${fmt(b.x)}</h4>`;
+  if (b.k === 'h5') return `<h5>${fmt(b.x)}</h5>`;
+  if (b.k === 'not') return `<div class="box bn"><b class="lb">Not</b>${fmt(b.x)}</div>`;
+  if (b.k === 'dikkat') return `<div class="box bk"><b class="lb">Dikkat</b>${fmt(b.x)}</div>`;
+  if (b.k === 'ek') return `<div class="box bek"><b class="lb">Ek · onay bekliyor</b>${fmt(b.x)}</div>`;
+  if (b.k === 'ornek') return `<div class="box bo"><b class="lb">Örnek</b>${fmt(b.x)}</div>`;
+  if (b.k === 'sc') return `<div class="box bs"><b class="lb">Soru</b><p class="sq">${fmt(b.q)}</p><p class="sa"><b>Cevap:</b> ${fmt(b.x)}</p></div>`;
+  if (b.k === 'ar') return `<div class="arb"><span class="ayet" lang="ar" dir="rtl">${esc(b.a).replace(/\[\[(.+?)\]\]/g, '<span class="ek">$1</span>')}</span>${b.x ? `<span class="meal">${fmt(b.x)}</span>` : ''}</div>`;
+  if (b.k === 'tbl') return tblHTML(b.r);
+  if (b.k === 'steps') return `<ol class="stp">${b.x.map(x => `<li>${fmt(x)}</li>`).join('')}</ol>`;
+  if (b.k === 'd') return `<dl class="def"><dt>${fmt(b.t)}</dt><dd>${fmt(b.x)}</dd></dl>`;
+  if (b.k === 'n') return `<p class="num"><span class="nn">${b.n}.</span>${fmt(b.x)}</p>`;
+  if (b.k === 'p') return `<p>${fmt(b.x)}</p>`;
+  return `<p class="li">${fmt(b.x)}</p>`;
+}
+function htHTML(i, acik) {
+  const u = UNITELER[i];
+  if (!u.ht.length) return '';
+  return `<details class="ht" ${acik ? 'open' : ''}><summary><span class="hti">☑</span>Hızlı tekrar<small>${u.ht.length} madde · sınavdan önce bir bakış</small></summary><ul>${u.ht.map(h => `<li>${fmt(h.x)}${h.s >= 0 ? ` <button class="htl" onclick="toSection(${i},${h.s})" title="Bölüme git">›</button>` : ''}</li>`).join('')}</ul></details>`;
+}
+function unitView(i) {
+  const u = UNITELER[i], ok = (uStat[i] || 0) >= GECME;
+  const kelime = u.s.reduce((t, s) => t + s.b.reduce((a, b) => a + bTxt(b).split(/\s+/).length, 0), 0) + u.ht.length * 15;
+  $('#app').innerHTML = `
+  <button class="backlink" onclick="goUp('study')">‹ Ünitelere dön</button>
+  <div class="bar" style="margin-top:6px"><span class="count">Ünite ${i + 1}/${UNITELER.length} · yaklaşık ${Math.max(2, Math.round(kelime / 180))} dk okuma</span><div class="spacer"></div>${ok ? '<span class="tag" style="margin:0;background:var(--green-soft);color:var(--green)">✓ Tamamlandı</span>' : ''}</div>
+  <h2>${esc(u.t)}</h2>
+  <p class="intro">${esc(u.intro)}</p>
+  ${u.s.length > 3 ? `<div class="toc">${u.s.map((s, k) => `<button onclick="jump('ls-${i}-${k}')">${esc(s.h)}</button>`).join('')}</div>` : ''}
+  <div class="lesson">
+    ${u.s.map((s, k) => `<section class="ls" id="ls-${i}-${k}"><h3><span class="no">${k + 1}</span>${fmt(s.h)}${bldButton('b:' + i + '-' + k, 'Ünite ' + (i + 1) + ' · ' + u.t, s.h)}</h3>${s.b.map(blockHTML).join('')}</section>`).join('')}
+  </div>
+  ${htHTML(i, true)}
+  <div class="actions" style="justify-content:space-between;margin-top:10px">
+    ${i > 0 ? `<button class="btn sec" onclick="go('unitView',${i - 1})">‹ Önceki ünite</button>` : '<span></span>'}
+    ${i + 1 < UNITELER.length ? `<button class="btn sec" onclick="go('unitView',${i + 1})">Sonraki ünite ›</button>` : ''}
+  </div>
+  <div class="sticky-go"><button class="btn" onclick="go('quiz',{unit:${i}})">Okudum, mini teste geç →</button></div>`;
+}
+function jump(id) { const el = document.getElementById(id); if (el) { el.scrollIntoView({behavior: 'smooth', block: 'start'}); el.classList.remove('flash-target'); void el.offsetWidth; el.classList.add('flash-target'); } }
+
+/* ---------- test ---------- */
+let Q = null;
+function quiz(opts = {}) {
+  opts = opts || {};
+  let kaynak = HAVUZ, adet = opts.adet || 10;
+  let ek = [];
+  if (opts.unit !== undefined && opts.unit !== null) {
+    kaynak = unitItems(opts.unit); adet = 5;
+  }
+  if (opts.keys) { kaynak = HAVUZ.filter(x => opts.keys.includes(x.key)); adet = opts.keys.length; }
+  Q = {list: shuffle([...ek, ...weightedPick(kaynak, adet)]).map(x => x.make()), i: 0, dogru: 0, yanlis: [], unit: opts.unit};
+  if (!Q.list.length) { $('#app').innerHTML = '<p class="empty">Bu seçimde soru yok.</p>'; return; }
+  renderQ();
+}
+function renderQ() {
+  const q = Q.list[Q.i];
+  $('#app').innerHTML = `
+  <div class="bar"><div class="progress"><i style="width:${100 * Q.i / Q.list.length}%"></i></div><span class="count">${Q.i + 1} / ${Q.list.length}</span></div>
+  <div class="card">
+    <div class="cardhead"><span class="tag">Ünite ${q.u + 1} · ${esc(UNITELER[q.u].t)}</span>${bldButton(q.key, 'Test · Ünite ' + (q.u + 1) + ' · ' + UNITELER[q.u].t, strip(q.soru) + ' | Doğru cevap: ' + plain(q.dogru))}</div>
+    <div class="q${q.long ? ' long' : ''}">${q.soru}</div>
+    <div class="opts">${q.sec.map((s, i) => `<button class="opt" data-i="${i}" onclick="answer(this)"><span class="k">${'ABCD'[i]}</span><span>${fmt(s)}</span></button>`).join('')}</div>
+    <div class="explain" id="exp"></div>
+    <div class="actions"><button class="btn" id="next" disabled onclick="nextQ()">${Q.i + 1 < Q.list.length ? 'Sonraki →' : 'Sonucu gör'}</button></div>
+  </div>`;
+}
+function answer(el) {
+  const q = Q.list[Q.i], secilen = q.sec[+el.dataset.i], ok = secilen === q.dogru;
+  document.querySelectorAll('.opt').forEach(b => { b.disabled = true; if (q.sec[+b.dataset.i] === q.dogru) b.classList.add('ok'); });
+  if (!ok) el.classList.add('bad');
+  ok ? Q.dogru++ : Q.yanlis.push(q);
+  record(q.key, ok);
+  const yer = q.s !== undefined ? `<span class="src">Ünite ${q.u + 1} · ${esc(UNITELER[q.u].s[q.s].h)}</span>` : `<span class="src">Ünite ${q.u + 1} · ${esc(UNITELER[q.u].t)}</span>`;
+  $('#exp').innerHTML = `<b>${ok ? 'Doğru.' : 'Yanlış.'}</b> ${q.aciklama}${yer}`;
+  $('#exp').classList.add('show');
+  $('#next').disabled = false; $('#next').focus();
+}
+function nextQ() { Q.i++; Q.i < Q.list.length ? renderQ() : quizEnd(); }
+function wrongList() {
+  const satir = q => q.key[0] === 'q'
+    ? `<div class="row"><div class="n" style="color:var(--muted)">${q.soru}</div><div class="n"><b>Doğru cevap:</b> ${fmt(q.dogru)}</div><div class="w">${q.aciklama}</div></div>`
+    : `<div class="row"><div class="n">${q.aciklama}</div></div>`;
+  return Q.yanlis.length ? `<div class="section-title" style="text-align:left">Yanlış yaptıkların</div><div class="list" style="text-align:left">${Q.yanlis.map(satir).join('')}</div>` : '';
+}
+function quizEnd() {
+  alt(false);
+  const n = Q.list.length, p = Math.round(100 * Q.dogru / n);
+  if (Q.unit !== undefined && Q.unit !== null) {
+    const i = Q.unit, gecti = Q.dogru >= GECME;
+    uStat[i] = Math.max(uStat[i] || 0, Q.dogru); store.set('units', uStat);
+    const sonraki = i + 1 < UNITELER.length ? i + 1 : null;
+    $('#app').innerHTML = `
+    <div class="card result" style="margin-top:24px">
+      <div class="big">${Q.dogru}/${n}</div>
+      <p class="lead">${gecti ? '✓ Üniteyi tamamladın.' : `Geçmek için en az ${GECME} doğru gerekiyor. Üniteyi bir kez daha okuyup tekrar dene.`}</p>
+      ${wrongList()}
+      <div class="actions" style="justify-content:center">
+        <button class="btn sec" onclick="go('study')">Ünite listesi</button>
+        <button class="btn sec" onclick="go('unitView',${i})">Üniteye dön</button>
+        ${gecti && sonraki !== null ? `<button class="btn" onclick="go('unitView',${sonraki})">Sonraki ünite →</button>` : `<button class="btn" onclick="quiz({unit:${i}})">Tekrar dene</button>`}
+      </div>
+    </div>`;
+    return;
+  }
+  const keys = Q.yanlis.map(q => q.key);
+  $('#app').innerHTML = `
+  <div class="card result" style="margin-top:24px">
+    <div class="big">${Q.dogru}/${n}</div>
+    <p class="lead">%${p} başarı · ${p >= 80 ? 'Çok iyi gidiyorsun.' : p >= 50 ? 'Fena değil, yanlışları tekrar et.' : 'Bu konulara biraz daha çalışmak gerekiyor.'}</p>
+    ${wrongList()}
+    <div class="actions" style="justify-content:center">
+      ${keys.length ? `<button class="btn sec" onclick='quiz({keys:${JSON.stringify(keys)}})'>Yanlışları tekrar et</button>` : ''}
+      <button class="btn" onclick="quiz()">Yeni test</button>
+    </div>
+  </div>`;
+}
+
+/* ---------- eşleştirme ---------- */
+let M = null;
+function match() {
+  const list = [], mu = new Set();
+  for (const r of shuffle(ESER_Q)) { const k = norm(r.m); if (!mu.has(k)) { mu.add(k); list.push(r); } if (list.length === 5) break; }
+  M = {list, left: shuffle(list), right: shuffle(list), sel: null, done: new Set(), hata: 0, t0: Date.now()};
+  renderM();
+}
+function renderM() {
+  $('#app').innerHTML = `
+  <div class="bar"><div class="progress"><i style="width:${100 * M.done.size / M.list.length}%"></i></div><span class="count">${M.done.size} / ${M.list.length} · ${M.hata} hata</span></div>
+  <p class="lead" style="margin-bottom:12px">Soldan bir ifade seç, sonra sağdan ilgili kişiye dokun.</p>
+  <div class="match">
+    <div class="col"><h4>Görüş / akım</h4>${M.left.map(r => `<button class="tile ${M.done.has(r.id) ? 'done' : M.sel === r.id ? 'sel' : ''}" ${M.done.has(r.id) ? 'disabled' : ''} onclick="mSel(${r.id})">${fmt(r.e)}</button>`).join('')}</div>
+    <div class="col"><h4>Kişi</h4>${M.right.map(r => `<button class="tile ${M.done.has(r.id) ? 'done' : ''}" id="mr-${r.id}" ${M.done.has(r.id) ? 'disabled' : ''} onclick="mPick(${r.id})">${fmt(r.m)}</button>`).join('')}</div>
+  </div>`;
+}
+function mSel(id) { M.sel = id; renderM(); }
+function mPick(id) {
+  if (M.sel === null) return;
+  if (M.sel === id) { M.done.add(id); record('e:' + id, true); M.sel = null; renderM(); if (M.done.size === M.list.length) mEnd(); }
+  else { M.hata++; record('e:' + M.sel, false); const el = $('#mr-' + id); el.classList.add('wrong'); setTimeout(() => { el.classList.remove('wrong'); $('#app .bar .count').textContent = `${M.done.size} / ${M.list.length} · ${M.hata} hata`; }, 320); }
+}
+function mEnd() {
+  const sn = Math.round((Date.now() - M.t0) / 1000);
+  $('#app').innerHTML = `<div class="card result" style="margin-top:24px"><div class="big">✓</div><p class="lead">${sn} saniyede, ${M.hata} hatayla bitirdin.</p>
+  <div class="list" style="text-align:left;margin-top:18px">${M.list.map(r => `<div class="row"><div class="e">${fmt(r.e)}</div><div class="n">${fmt(r.m)} · <span style="color:var(--muted)">Ünite ${r.u + 1}</span></div></div>`).join('')}</div>
+  <div class="actions" style="justify-content:center"><button class="btn" onclick="match()">Yeni tur</button></div></div>`;
+}
+
+/* ---------- kavram kartları (Leitner) ---------- */
+let F = null;
+function flash(u) {
+  const fu = (u === undefined || u === null) ? store.get('flashU', -1) : u;
+  store.set('flashU', fu);
+  const list = fu >= 0 ? TANIM.filter(d => d.u === fu) : TANIM;
+  const sirali = shuffle(list).sort((a, b) => (boxes[a.id] || 0) - (boxes[b.id] || 0)).slice(0, 20);
+  F = {list: shuffle(sirali), i: 0, bildim: 0, u: fu};
+  renderF();
+}
+function unitSelect(cur, fn) {
+  return `<select class="select" onchange="${fn}(+this.value)"><option value="-1">Bütün üniteler</option>${UNITELER.map((u, i) => `<option value="${i}" ${cur === i ? 'selected' : ''}>${i + 1}. ${esc(u.t)}</option>`).join('')}</select>`;
+}
+function renderF() {
+  const d = F.list[F.i], kutu = boxes[d.id] || 0;
+  $('#app').innerHTML = `
+  <div class="rowctl">${unitSelect(F.u, 'flash')}</div>
+  <div class="bar"><div class="progress"><i style="width:${100 * F.i / F.list.length}%"></i></div><span class="count">${F.i + 1} / ${F.list.length}</span></div>
+  <div class="flash" onclick="this.classList.toggle('flip')"><div class="flash-in">
+    <div class="face"><span class="tag">Ünite ${d.u + 1}</span><div class="t">${fmt(d.t)}</div><div class="s" style="color:var(--muted)">Tanımı nedir?</div><div class="hint">Çevirmek için dokun · kutu ${kutu}/5</div></div>
+    <div class="face back"><div class="t" style="font-size:1.15rem">${fmt(d.t)}</div><div class="s">${fmt(d.x)}</div></div>
+  </div></div>
+  <div class="actions" style="justify-content:center">
+    <button class="btn red" onclick="fAns(false)">Bilemedim</button>
+    <button class="btn" onclick="fAns(true)">Bildim</button>
+  </div>
+  <div style="text-align:center;margin-top:10px">${bldButton('d:' + d.id, 'Kavram kartı · Ünite ' + (d.u + 1) + ' · ' + UNITELER[d.u].s[d.s].h, plain(d.t) + ': ' + plain(d.x))}</div>`;
+}
+function fAns(ok) {
+  const d = F.list[F.i];
+  boxes[d.id] = ok ? Math.min((boxes[d.id] || 0) + 1, 5) : 1; store.set('boxes', boxes); ozet(true);
+  record('d:' + d.id, ok); if (ok) F.bildim++;
+  F.i++;
+  if (F.i < F.list.length) renderF();
+  else $('#app').innerHTML = `<div class="card result" style="margin-top:24px"><div class="big">${F.bildim}/${F.list.length}</div><p class="lead">Deste bitti. Bilemediklerin bir sonraki destede önce gelecek.</p><div class="actions" style="justify-content:center"><button class="btn" onclick="flash()">Yeni deste</button></div></div>`;
+}
+
+/* ---------- konu tekrarı ---------- */
+let O = null;
+const bKey = b => b.u + '-' + b.s;
+function oralView(u) {
+  const fu = (u === undefined || u === null) ? store.get('oralU', -1) : u;
+  store.set('oralU', fu);
+  const list = BOLUM.filter(b => (fu < 0 || b.u === fu) && UNITELER[b.u].s[b.s].b.length >= 2);
+  const sirali = shuffle(list).sort((a, b) => (oral[bKey(a)] ?? -1) - (oral[bKey(b)] ?? -1));
+  O = {list: sirali.slice(0, 10), i: 0, u: fu};
+  renderO();
+}
+function renderO() {
+  const b = O.list[O.i], d = oral[bKey(b)], s = UNITELER[b.u].s[b.s];
+  $('#app').innerHTML = `
+  <div class="rowctl">${unitSelect(O.u, 'oralView')}</div>
+  <div class="bar"><div class="progress"><i style="width:${100 * O.i / O.list.length}%"></i></div><span class="count">${O.i + 1} / ${O.list.length}</span></div>
+  <div class="card">
+    <div class="cardhead"><span class="tag">Ünite ${b.u + 1} · ${esc(UNITELER[b.u].t)}${d === 1 ? ' · daha önce bildin' : d === 0 ? ' · daha önce bilemedin' : ''}</span>${bldButton('b:' + b.u + '-' + b.s, 'Konu tekrarı · Ünite ' + (b.u + 1) + ' · ' + UNITELER[b.u].t, s.h)}</div>
+    <div class="q">${fmt(s.h)}</div>
+    <p class="lead" id="think" style="font-size:.9rem">Bu bölümde neler olduğunu önce kendin anlat (tanım, maddeler, kişiler), sonra içeriği aç.</p>
+    <div class="answer lesson" id="ans">${s.b.map(blockHTML).join('')}</div>
+    <div class="actions" id="oa"><button class="btn" onclick="showAns()">İçeriği göster</button></div>
+  </div>`;
+}
+function showAns() {
+  $('#ans').classList.add('show'); $('#think').classList.add('hide');
+  $('#oa').innerHTML = `<button class="btn red" onclick="oAns(0)">Bilemedim</button><button class="btn" onclick="oAns(1)">Bildim</button>`;
+}
+function oAns(v) {
+  oral[bKey(O.list[O.i])] = v; store.set('oral', oral); O.i++;
+  if (O.i < O.list.length) renderO();
+  else $('#app').innerHTML = `<div class="card result" style="margin-top:24px"><div class="big">✓</div><p class="lead">Bu turdaki ${O.list.length} bölümü bitirdin.</p><div class="actions" style="justify-content:center"><button class="btn" onclick="oralView()">Yeni tur</button></div></div>`;
+}
+
+/* ---------- hızlı tekrar ---------- */
+function review(u) {
+  const fu = (u === undefined || u === null) ? store.get('reviewU', -1) : u;
+  store.set('reviewU', fu);
+  const list = UNITELER.map((x, i) => i).filter(i => fu < 0 || i === fu);
+  $('#app').innerHTML = `
+  <h2 style="margin-top:22px">Hızlı tekrar</h2>
+  <p class="lead">Her ünitenin en önemli maddeleri. Bir maddenin yanındaki › ile o bölüme gidebilirsin.</p>
+  <div class="rowctl">${unitSelect(fu, 'review')}</div>
+  ${list.map(i => `<div class="htu"><div class="htt"><span class="no">${i + 1}</span>${esc(UNITELER[i].t)}</div>${htHTML(i, true)}</div>`).join('')}`;
+}
+
+/* ---------- geçmiş sınav soruları ---------- */
+function exam() {
+  let k = 0;
+  $('#app').innerHTML = `
+  <h2 style="margin-top:22px">Geçmiş sınav soruları</h2>
+  <p class="lead">Önce kendin cevapla, sonra <b>Cevabı göster</b>'e dokun. Cevaplar ünitelerdeki bilgilere dayanır; altındaki bağlantılar ilgili bölümü açar.</p>
+  ${SINAV.map((g, gi) => `<div class="section-title">${esc(g.t)}</div>${g.q.map((q, qi) => { k++; const id = 'x' + gi + '-' + qi; return `<div class="exq"><div class="qq"><span class="no">${qi + 1}</span><span>${fmt(q.q)}</span>${bldButton('x:' + (gi + 1) + '-' + (qi + 1), 'Geçmiş sınav soruları · ' + g.t, plain(q.q))}</div>
+    <div class="actions" style="justify-content:flex-start;margin-top:10px" id="${id}b"><button class="btn sec" onclick="exShow('${id}')">Cevabı göster</button></div>
+    <div class="exa hide" id="${id}"><div class="exl">Cevap</div>${q.x.map(x => `<p>${fmt(x)}</p>`).join('')}${q.n ? `<div class="box bk" style="margin-top:8px"><b class="lb">Not</b>${fmt(q.n)}</div>` : ''}
+    ${q.r.length ? `<div class="links">${q.r.map(([u, s]) => `<button onclick="toSection(${u},${s})">Ü${u + 1} · ${esc(UNITELER[u].s[s].h)}</button>`).join('')}</div>` : ''}</div></div>`; }).join('')}`).join('')}`;
+}
+function exShow(id) { $('#' + id).classList.remove('hide'); $('#' + id + 'b').classList.add('hide'); }
+function toSection(u, s) { pendingFocus = {id: `ls-${u}-${s}`}; go('unitView', u); }
+
+/* ---------- sözlük ---------- */
+let bTab = 'kavram';
+function browse() {
+  $('#app').innerHTML = `
+  <h2 style="margin-top:22px">Kavram ve kişi sözlüğü</h2>
+  <div class="rowctl" style="margin:12px 0 10px">
+    <button class="btn ${bTab === 'kavram' ? '' : 'sec'}" onclick="bTab='kavram';browse()">Kavramlar (${TANIM.length})</button>
+    <button class="btn ${bTab === 'eser' ? '' : 'sec'}" onclick="bTab='eser';browse()">Kişiler (${ESER.length})</button>
+  </div>
+  <input class="search" id="bq" type="search" placeholder="${bTab === 'kavram' ? 'Kavram ya da tanımda ara…' : 'Kişi ya da görüş ara…'}" oninput="doBrowse()">
+  <div class="list" id="bl"></div>`;
+  doBrowse();
+}
+function doBrowse() {
+  const t = norm($('#bq').value || '');
+  const src = bTab === 'kavram' ? TANIM : ESER;
+  const hits = src.filter(r => !t || norm(bTab === 'kavram' ? r.t + ' ' + r.x : r.e + ' ' + r.m).includes(t));
+  $('#bl').innerHTML = hits.length ? hits.map(r => bTab === 'kavram'
+    ? `<button class="row" onclick="toSection(${r.u},${r.s})"><div class="e">${fmt(r.t)}</div><div class="n">${fmt(r.x)}</div><div class="w">Ünite ${r.u + 1} · ${esc(UNITELER[r.u].s[r.s].h)}</div></button>`
+    : `<button class="row" onclick="toSection(${r.u},${r.s})"><div class="e">${fmt(r.e)}</div><div class="n">${fmt(r.m)}${r.not ? ` <span style="color:var(--muted)">(${fmt(r.not)})</span>` : ''}</div><div class="w">Ünite ${r.u + 1} · ${esc(UNITELER[r.u].s[r.s].h)}</div></button>`).join('')
+    : '<p class="empty">Sonuç yok.</p>';
+}
+
+/* ---------- ilerleme ---------- */
+function progress() {
+  const satir = UNITELER.map((u, i) => {
+    let ok = 0, bad = 0; unitItems(i).forEach(x => { const s = stats[x.key]; if (s) { ok += s.ok; bad += s.bad; } });
+    const p = ok + bad ? Math.round(100 * ok / (ok + bad)) : null;
+    return `<div class="meter"><span title="${esc(u.t)}">${i + 1}. ${esc(u.t)}</span><div class="progress"><i style="width:${p ?? 0}%;background:${p === null ? 'transparent' : p >= 70 ? 'var(--green-2)' : p >= 45 ? 'var(--gold)' : 'var(--red)'}"></i></div><span class="count">${p === null ? '—' : '%' + p}</span></div>`;
+  }).join('');
+  const byKey = {}; HAVUZ.forEach(x => byKey[x.key] = x);
+  const zayif = Object.entries(stats).filter(([k, s]) => s.bad > 0 && byKey[k]).sort((a, b) => (b[1].bad - b[1].ok * .5) - (a[1].bad - a[1].ok * .5)).slice(0, 12).map(([k]) => k);
+  const etiket = k => { const [t, id] = k.split(':');
+    if (t === 'd') return `<b>${fmt(TANIM[id].t)}</b>: ${fmt(TANIM[id].x)}`;
+    if (t === 'e') return `<b>${fmt(ESER_Q[id].e)}</b> → ${fmt(ESER_Q[id].m)}`;
+    return `${fmt(SORULAR[id].q)} <b>${fmt(SORULAR[id].a[0])}</b>`; };
+  const oralN = Object.keys(oral).length, oralOk = Object.values(oral).filter(v => v === 1).length;
+  $('#app').innerHTML = `
+  <h2 style="margin-top:22px">İlerlemem</h2>
+  <div class="card" style="margin-top:14px">${satir}
+    <p class="lead" style="font-size:.88rem;margin-top:12px">Çalış bölümü: ${uDone()} / ${UNITELER.length} ünite tamamlandı.<br>Konu tekrarı: ${oralN} bölüm çalışıldı, ${oralOk} tanesini bildin.</p></div>
+  <div class="section-title">En çok karıştırdıkların</div>
+  ${zayif.length ? `<div class="list">${zayif.map(k => `<div class="row"><div class="n">${etiket(k)}</div></div>`).join('')}</div>
+    <div class="actions"><button class="btn" onclick='quiz({keys:${JSON.stringify(zayif)}})'>Bunlarla test çöz</button></div>` : '<p class="empty">Henüz yanlış yok. Biraz test çözünce burada görünecek.</p>'}
+  <div class="actions" style="margin-top:30px"><button class="btn sec" onclick="sifirla()">İlerlemeyi sıfırla</button></div>`;
+}
+function sifirla() {
+  if (!confirm('Bütün ilerleme kaydın silinsin mi?')) return;
+  stats = {}; boxes = {}; oral = {}; uStat = {};
+  store.set('stats', stats); store.set('boxes', boxes); store.set('oral', oral); store.set('units', uStat); progress();
+}
+
+/* ---------- genel arama ---------- */
+let SIDX = null;
+function bTxt(b) {
+  if (b.k === 'tbl') return b.r.map(r => r.filter(Boolean).map(plain).join(' – ')).join(' · ');
+  if (b.k === 'steps') return b.x.map(plain).join(' · ');
+  if (b.k === 'ar') return plain(b.x || '');
+  if (b.k === 'sc') return plain(b.q + ' ' + b.x);
+  return plain((b.t ? b.t + ': ' : '') + b.x);
+}
+function buildIndex() {
+  SIDX = [];
+  UNITELER.forEach((u, ui) => u.s.forEach((s, si) => {
+    SIDX.push({u: ui, s: si, kind: 'b', t: s.h, x: s.b.map(bTxt).join(' · ')});
+  }));
+}
+function openSearch() {
+  if (!SIDX) buildIndex();
+  $('#sov').classList.add('open');
+  try { history.pushState(Object.assign({}, history.state, {search: true}), ''); } catch (e) {}
+  $('#sq').value = ''; doGlobalSearch(); setTimeout(() => $('#sq').focus(), 30);
+}
+function closeSearch(viaPop) {
+  $('#sov').classList.remove('open');
+  if (!viaPop && history.state && history.state.search) { try { history.back(); } catch (e) {} }
+}
+function markText(text, t) {
+  const n = norm(text); const i = n.indexOf(t);
+  if (!t || i < 0) return esc(text.slice(0, 160)) + (text.length > 160 ? '…' : '');
+  // norm uzunluğu yaklaşık korunduğundan konuma yakın bir pencere al
+  const a = Math.max(0, i - 60), b = Math.min(text.length, i + t.length + 100);
+  return (a ? '…' : '') + esc(text.slice(a, b)) + (b < text.length ? '…' : '');
+}
+function doGlobalSearch() {
+  const t = norm($('#sq').value || '');
+  if (t.length < 2) { $('#sres').innerHTML = '<p class="empty">En az iki harf yaz.</p>'; return; }
+  const kav = TANIM.filter(d => norm(d.t).includes(t)).slice(0, 12);
+  const bol = SIDX.filter(r => norm(r.t + ' ' + r.x).includes(t)).slice(0, 30);
+  $('#sres').innerHTML = (kav.length ? `<div class="sgrp">Kavramlar</div>${kav.map(d => `<button class="sitem" onclick="hit(${d.u},${d.s})"><div class="w">Ünite ${d.u + 1}</div><div class="t">${fmt(d.t)}</div><div class="x">${esc(plain(d.x).slice(0, 140))}</div></button>`).join('')}` : '')
+    + (bol.length ? `<div class="sgrp">Konu anlatımları</div>${bol.map(r => `<button class="sitem" onclick="hit(${r.u},${r.s})"><div class="w">Ünite ${r.u + 1} · ${esc(UNITELER[r.u].t)}</div><div class="t">${esc(r.t)}</div><div class="x">${markText(r.x, t)}</div></button>`).join('')}` : '')
+    || '<p class="empty">Sonuç yok.</p>';
+}
+function hit(u, s) { $('#sov').classList.remove('open'); pendingFocus = {id: `ls-${u}-${s}`}; if (history.state && history.state.search) { try { history.replaceState({view: curView, arg: curArg, d: (history.state.d || 0)}, ''); } catch (e) {} } go('unitView', u); }
+function focusHit(f) { jump(f.id); }
+
+/* ---------- başlat ---------- */
+const ilkHash = (location.hash || '').slice(1);
+try { history.replaceState({view: 'home', arg: null, d: 0}, '', location.pathname + location.search); } catch (e) {}
+render('home');
+// Alt çubuktaki "Devam et" / "Dersler" bağlantısıyla gelindiyse kaldığı yere aç (ör. #unitView-7)
+(function () {
+  const h = ilkHash; if (!h) return;
+  const m = h.match(/^(\w+?)(?:-(\d+))?$/); if (!m) return;
+  const v = m[1], a = m[2] === undefined ? undefined : +m[2];
+  if (!['study', 'unitView', 'match', 'flash', 'oralView', 'review', 'exam', 'browse', 'progress'].includes(v)) return;
+  if (v === 'unitView' && !(a >= 0 && a < UNITELER.length)) return;
+  if (v === 'unitView') { go('study'); go('unitView', a); } else go(v);
+})();
+</script>
+</body>
+</html>
